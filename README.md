@@ -1,3 +1,6 @@
 # foo
 
-line 1
+Redis Cluster
+http://redis.io/presentation/Redis_Cluster.pdf
+
+
