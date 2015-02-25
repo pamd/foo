@@ -10,4 +10,6 @@ Redis Doc: Partitioning
 Big Data in Real time
 <br>ftp://ftp.cubrid.org/CUBRID_Docs/Tutorials/big-data-in-real-time-at-twitter.pdf
 
+Finagle
+<br>https://twitter.github.io/finagle/
 
