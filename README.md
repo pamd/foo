@@ -3,6 +3,9 @@
 Redis Cluster
 http://redis.io/presentation/Redis_Cluster.pdf
 
-line2
+Redis Doc: Partitioning
+http://redis.io/topics/partitioning
+
+
 
 
