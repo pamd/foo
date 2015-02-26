@@ -1,4 +1,8 @@
 
+Java const:
+<br>http://stackoverflow.com/questions/502430/passing-const-variable-to-method-in-java
+<br>http://www.javamex.com/java_equivalents/const_java.shtml
+
 Gizzard: retired
 <p>Finagle slides: http://monkey.org/~marius/talks/twittersystems/#1
 
