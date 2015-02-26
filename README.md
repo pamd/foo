@@ -1,5 +1,6 @@
 
 Gizzard: retired
+Finagle slides: http://monkey.org/~marius/talks/twittersystems/#1
 
 Apache Mesos:
 <br>http://en.wikipedia.org/wiki/Apache_Mesos
