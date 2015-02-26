@@ -2,6 +2,8 @@
 Gizzard: retired
 <p>Finagle slides: http://monkey.org/~marius/talks/twittersystems/#1
 
+<p> Twitter Stack: http://blog.oskarsson.nu/post/40196324612/the-twitter-stack
+
 Apache Mesos:
 <br>http://en.wikipedia.org/wiki/Apache_Mesos
 
