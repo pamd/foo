@@ -7,7 +7,10 @@ Trending Topics
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
 
-How to Rock a Systems Design Interview
+Video: Scala at Twitter (Nick Kallen, 18 min, 2011)
+<br>http://www.infoq.com/interviews/kallen-scala-twitter
+
+Palantir: How to Rock a Systems Design
 <br>
 Numbers Everyone Should Know
 <br>
