@@ -17,7 +17,8 @@ Introduction to Architecting Systems for Scale
 <br>
 Transactions Across Datacenters
 <br>A Plain English Introduction to CAP Theorem
-The CAP FAQ: 
+
+<p>The CAP FAQ: 
 <br>https://github.com/henryr/cap-faq 
 
 Consistent Hashing
