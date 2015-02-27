@@ -3,8 +3,6 @@ Java const:
 <br>http://stackoverflow.com/questions/502430/passing-const-variable-to-method-in-java
 <br>http://www.javamex.com/java_equivalents/const_java.shtml
 
-Apache Mesos:
-<br>http://en.wikipedia.org/wiki/Apache_Mesos
 
 Trending Topics
 <br>American Scientist: The Britney Spears Problem
