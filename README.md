@@ -3,11 +3,6 @@ Java const:
 <br>http://stackoverflow.com/questions/502430/passing-const-variable-to-method-in-java
 <br>http://www.javamex.com/java_equivalents/const_java.shtml
 
-Gizzard: retired
-<p>Finagle slides: http://monkey.org/~marius/talks/twittersystems/#1
-
-<p> Twitter Stack: http://blog.oskarsson.nu/post/40196324612/the-twitter-stack
-
 Apache Mesos:
 <br>http://en.wikipedia.org/wiki/Apache_Mesos
 
@@ -15,9 +10,6 @@ Trending Topics
 <br>American Scientist: The Britney Spears Problem
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
-
-Video: Scala at Twitter (Nick Kallen, 18 min, 2011)
-<br>http://www.infoq.com/interviews/kallen-scala-twitter
 
 Palantir: How to Rock a Systems Design
 <br>
