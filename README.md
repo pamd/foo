@@ -1,7 +1,7 @@
 # 19 Topics:
 
 Modern Distributed Messaging and RPC
-<br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc
+<br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc (39 slides)
 
 1. Google Architecture
 <br>http://highscalability.com/google-architecture
