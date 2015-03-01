@@ -37,6 +37,7 @@
 12. Scalability, Availability & Stability Patterns (slideshare, 196 slides)
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
 
+<HR>
 
 13. TripAdvisor: 
 Pay special attention to the breakdown of functional services. This is a powerful pattern. (06/27/2011)
