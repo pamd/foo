@@ -10,6 +10,8 @@
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>(2) http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
 
+<HR>
+
 4. Palantir Systems Design 
 <br>http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
 
