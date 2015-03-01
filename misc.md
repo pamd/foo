@@ -2,7 +2,7 @@
 <br>http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelational-data-stores 
 
 2. Implement second/minute/hour/day counters:
-http://www.mitbbs.com/article_t/JobHunting/32458451.html 
+<br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
 
 3. Implement tinyurl（以及distribute across multiple servers) 
 <br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
