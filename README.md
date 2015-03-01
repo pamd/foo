@@ -6,9 +6,9 @@
 <br>HS: http://highscalability.com/youtube-architecture (03/12/2008)
 
 3. Trending Topics
-<br>American Scientist: The Britney Spears Problem
+<br>(1) American Scientist: The Britney Spears Problem
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
-<br>http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
+<br>(2) http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
 
 4. Palantir Systems Design 
 <br>http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
