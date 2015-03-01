@@ -11,6 +11,33 @@ Trending Topics
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
 
+Palantir Systems Design 
+<br>http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
+
+Numbers Everyone Should Know
+<br>https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
+
+Scalable System Design Patterns
+<br>http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
+
+Introduction to Architecting Systems for Scale
+<br>http://lethain.com/introduction-to-architecting-systems-for-scale/
+
+Transactions Across Datacenters
+<br>http://snarfed.org/transactions_across_datacenters_io.html
+
+The CAP FAQ: 
+<br>https://github.com/henryr/cap-faq 
+
+Consistent Hashing
+<br>http://www.tom-e-white.com/2007/11/consistent-hashing.html
+
+NOSQL Patterns
+<br>http://horicky.blogspot.com/2009/11/nosql-patterns.html
+
+Scalability, Availability & Stability Patterns (slideshare, 196 slides)
+<br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
+
 
 5. TripAdvisor: 
 Pay special attention to the breakdown of functional services. This is a powerful pattern. (06/27/2011)
