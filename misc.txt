@@ -1,0 +1,15 @@
+1. 任给一个手机的位置信号(经纬度)，返回附近5mile 的POI.
+(FB@NYC)
+http://www.mitbbs.ca/article0/JobHunting/32476139_0.html (invalid)
+http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelational-data-stores 
+
+2. Implement second/minute/hour/day counters:
+http://www.mitbbs.com/article_t/JobHunting/32458451.html 
+
+3. Implement tinyurl（以及distribute across multiple servers) http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
+http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html 
+http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
+http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
+
+4. Other hot startups
+http://www.quora.com/What-are-the-top-startup-engineering-blogs 
