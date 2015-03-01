@@ -12,6 +12,7 @@ Modern Distributed Messaging and RPC
 <br>Video: https://www.youtube.com/watch?v=w5WVu624fY8 (52 min, 2007)
 <br>HS: http://highscalability.com/youtube-architecture (03/12/2008)
 <br>GoogleTalk: http://highscalability.com/googletalk-architecture
+<br>Web hosting: http://www.webhostingsearch.com/managed-web-hosting.php
 
 3. Trending Topics
 <br>(1) American Scientist: The Britney Spears Problem
