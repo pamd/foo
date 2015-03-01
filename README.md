@@ -3,6 +3,8 @@
 Modern Distributed Messaging and RPC
 <br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc (39 slides)
 
+<HR>
+
 1. Google Architecture
 <br>http://highscalability.com/google-architecture
 
