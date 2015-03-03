@@ -3,10 +3,10 @@
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
 <br>http://dimacs.rutgers.edu/Workshops/Green/Slides/lee.pdf (slides)
 
-HS: Google: Taming the long latency tail (03/12/2012)
+1. HS: Google: Taming the long latency tail (03/12/2012)
 <br>http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html
 
-Video: Achieving Rapid Response Times in Large Online Services
+1. Video: Achieving Rapid Response Times in Large Online Services
 <br>Jeff Dean, Velocity 2014
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
 
