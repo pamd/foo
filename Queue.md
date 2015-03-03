@@ -1,5 +1,10 @@
+<hr>
+
 Building Large Systems at Google (2006)
-https://www.youtube.com/watch?v=_cltA0W-ehQ
+<br>https://www.youtube.com/watch?v=_cltA0W-ehQ
+
+Jeff Dean: Software Engineering Advice from Building Large-Scale Distributed Systems
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf
 
 Jeff Dean: Challenges in Building Large-Scale Information Retrieval Systems (2009)
 http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
