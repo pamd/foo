@@ -1,6 +1,6 @@
 <hr>
 
-Building Large Systems at Google (2006)
+Video: Building Large Systems at Google (2006, 60 min)
 <br>https://www.youtube.com/watch?v=_cltA0W-ehQ
 
 Jeff Dean: Software Engineering Advice from Building Large-Scale Distributed Systems
