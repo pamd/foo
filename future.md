@@ -16,7 +16,7 @@ Video: Achieving Rapid Response Times in Large Online Services
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
 
 Video: Building Software at Google Scale
-https://www.youtube.com/watch?v=2qv3fcXW1mg (70 min)
+<br>https://www.youtube.com/watch?v=2qv3fcXW1mg (70 min)
 
 Video: C* Summit 2013: Cassandra at Instagram (25 min)
 <br>https://www.youtube.com/watch?v=xDtclzE4ydA
