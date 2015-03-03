@@ -1,3 +1,6 @@
+Building Large Systems at Google (2006)
+https://www.youtube.com/watch?v=_cltA0W-ehQ
+
 Jeff Dean: Challenges in Building Large-Scale Information Retrieval Systems (2009)
 http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
 
