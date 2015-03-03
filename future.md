@@ -1,9 +1,4 @@
-Book: The Architecture of Open Source Applications (3 volumes)
-<br>http://www.aosabook.org/en/
-
-Book: 大数据日知录
-<br>https://book.douban.com/subject/25984046/
-
+<hr>
 Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
 <br>http://dimacs.rutgers.edu/Workshops/Green/Slides/lee.pdf (slides)
@@ -23,3 +18,11 @@ Video: C* Summit 2013: Cassandra at Instagram (25 min)
 
 Video: Instagram: Apache Cassandra at Instagram 2014 (45 min)
 <br>https://www.youtube.com/watch?v=_gc94ITUitY
+
+<hr>
+
+Book: The Architecture of Open Source Applications (3 volumes)
+<br>http://www.aosabook.org/en/
+
+Book: 大数据日知录
+<br>https://book.douban.com/subject/25984046/
