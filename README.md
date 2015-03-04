@@ -1,24 +1,18 @@
 # Misc
-
-Modern Distributed Messaging and RPC
-<br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc (39 slides)
-
-Jeff Dean: Software Engineering Advice from Building Large-Scale Distributed Systems
-<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf
-
-Jeff Dean: Challenges in Building Large-Scale Information Retrieval Systems (2009)
-http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
-
-Building Software at Google Scale (2012, 70 min)
+4. Building Software at Google Scale (2012, 70 min)
 <br>https://www.youtube.com/watch?v=2qv3fcXW1mg
 
-Operations at Twitter: Scaling Beyond 100 Million Users (2010, 63 min)
-<br>https://www.youtube.com/watch?v=z8LU0Cj6BOU
+5. Video: C* Summit 2013: Cassandra at Instagram (25 min)
+<br>https://www.youtube.com/watch?v=xDtclzE4ydA
+
+6. Video: Instagram: Apache Cassandra at Instagram 2014 (45 min)
+<br>https://www.youtube.com/watch?v=_gc94ITUitY
+
 <HR>
 
 1. Google Architecture
-* Review: http://highscalability.com/google-architecture
-* Video: Building Large Systems at Google (2006, 60 min)
+<br>(1) Review: http://highscalability.com/google-architecture
+<br>(2) Video: Building Large Systems at Google (2006, 60 min)
 <br>https://www.youtube.com/watch?v=_cltA0W-ehQ
 
 3. Trending Topics
