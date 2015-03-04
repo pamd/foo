@@ -1,10 +1,11 @@
 <hr>
 
-
 1. Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
 <br>http://dimacs.rutgers.edu/Workshops/Green/Slides/lee.pdf (slides)
 
+<hr>
+1. Blog: http://www.fgdsb.com/
 
 <hr>
 
