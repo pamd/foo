@@ -1,8 +1,5 @@
 # H2O
 
-* Video: Lessons of Scale at Facebook
-<br>https://www.youtube.com/watch?v=QCHiNEw73AU (64 min)
-<br>https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
 
 # O2H
 
