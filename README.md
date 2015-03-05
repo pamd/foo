@@ -29,10 +29,6 @@ http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
 
 <HR>
 
-1. Google Architecture
-<br>(1) Review: http://highscalability.com/google-architecture
-<br>(2) Video: Building Large Systems at Google (2006, 60 min)
-<br>https://www.youtube.com/watch?v=_cltA0W-ehQ
 
 3. Trending Topics
 <br>(1) American Scientist: The Britney Spears Problem
