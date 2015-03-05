@@ -1,3 +1,4 @@
+
 HS: Colossus (GFS2): Successor to GFS (2012)
 <br>http://www.highlyscalablesystems.com/3202/colossus-successor-to-google-file-system-gfs/
 <br>replaces original GFS, solved single-master problem, etc
@@ -10,4 +11,10 @@ http://highscalability.com/blog/2010/9/9/how-did-google-instant-become-faster-wi
 
 HS: The Three ages of Google: Batch, Warehouse, Instant (08/29/2011)
 <br>http://highscalability.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html
+
+<HR>
+
+Video: Lessons of Scale at Facebook
+https://www.youtube.com/watch?v=QCHiNEw73AU (64 min)
+https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
 
