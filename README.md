@@ -165,7 +165,6 @@ http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
 <br>http://www.slideshare.net/oemebamo/introduction-to-memcached (77 slides)
 
 # H_InTech
-<HR>
 
 13. TripAdvisor: 
 Pay special attention to the breakdown of functional services. This is a powerful pattern. (06/27/2011)
