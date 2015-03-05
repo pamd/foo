@@ -11,8 +11,8 @@
 2. Slides: Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
-3. Slides and Video: Challenges in Building Large-Scale Information Retrieval Systems ( Jeff Dean, 2009)
-http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
+3. Slides and Video: Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
+<br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 
 3. Video: Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
