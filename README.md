@@ -2,7 +2,7 @@
 1. Slides: Modern Distributed Messaging and RPC
 <br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc (39 slides)
 
-4. Video: Building Software at Google Scale (2012, 70 min)
+4. Video: Building Software at Google Scale (Google@NYC, 2012, 70 min)
 <br>https://www.youtube.com/watch?v=2qv3fcXW1mg
 
 5. Video: Building Software Systems At Google and Lessons Learned (11/10/2010)
