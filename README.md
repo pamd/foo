@@ -29,6 +29,7 @@ http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
 
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010, 63 min)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU
+<br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (slides)
 
 <HR>
 
