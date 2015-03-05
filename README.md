@@ -164,8 +164,6 @@
 <br>http://www.slideshare.net/oemebamo/introduction-to-memcached (77 slides)
 
 # H_InTech
-<br>http://www.hiredintech.com/system-design/sample-architectures
-<p>
 
 1. TripAdvisor: 
 Pay special attention to the breakdown of functional services. This is a powerful pattern. (06/27/2011)
