@@ -23,3 +23,7 @@ HS: The Three ages of Google: Batch, Warehouse, Instant (08/29/2011)
 
 * Moving Network Server Latency Off the Disk Speed Curve
 <br>http://nsg.cs.princeton.edu/publication/latency_sigm_04_update.pdf
+
+* Video: Jeff Dean Stanford Presentation
+<br>http://highscalability.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html
+<br>http://stanford-online.stanford.edu/courses/ee380/101110-ee380-300.asx
