@@ -18,8 +18,7 @@
 <hr>
 
 1. Blog: http://www.fgdsb.com/
-2. Startups
-<br>http://www.quora.com/What-are-the-top-startup-engineering-blogs 
+2. Startups: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
 <HR>
 
