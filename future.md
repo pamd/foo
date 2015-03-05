@@ -18,8 +18,10 @@
 <hr>
 
 1. Blog: http://www.fgdsb.com/
+2. Startups
+<br>http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
-<hr>
+<HR>
 
 1. Book: The Architecture of Open Source Applications (3 volumes)
 <br>http://www.aosabook.org/en/
