@@ -5,6 +5,9 @@
 4. Building Software at Google Scale (2012, 70 min)
 <br>https://www.youtube.com/watch?v=2qv3fcXW1mg
 
+5. Video: Building Software Systems At Google and Lessons Learned (11/10/2010)
+<br>https://www.youtube.com/watch?v=modXC5IWTJI (Jeff Dean, 82 min)
+
 2. Jeff Dean: Software Engineering Advice from Building Large-Scale Distributed Systems
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf
 
@@ -28,7 +31,6 @@ http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU
 
 <HR>
-
 
 3. Trending Topics
 <br>(1) American Scientist: The Britney Spears Problem
