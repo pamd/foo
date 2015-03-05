@@ -51,7 +51,6 @@ http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
 <br>http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
 # Evernotes
-<HR>
 
 4. Palantir Systems Design 
 <br>http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
