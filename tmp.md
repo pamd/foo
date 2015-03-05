@@ -1,7 +1,4 @@
-
-
-
-<HR>
+# H2O
 
 * Video: Lessons of Scale at Facebook
 <br>https://www.youtube.com/watch?v=QCHiNEw73AU (64 min)
@@ -16,3 +13,5 @@
 * Google Strategy: Tree Distribution Of Requests And Responses
 <br>http://highscalability.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html
 <br>http://stanford-online.stanford.edu/courses/ee380/101110-ee380-300.asx (Video: Jeff Dean Stanford Presentation)
+
+# O2H
