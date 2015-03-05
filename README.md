@@ -44,8 +44,7 @@
 <br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
 <br>http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
 
-4. Startups
-<br>http://www.quora.com/What-are-the-top-startup-engineering-blogs 
+
 
 # Evernotes
 
