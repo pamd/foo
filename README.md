@@ -164,7 +164,7 @@ http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 <br>http://www.slideshare.net/oemebamo/introduction-to-memcached (77 slides)
 
 # H_InTech
-
+http://www.hiredintech.com/system-design/sample-architectures
 13. TripAdvisor: 
 Pay special attention to the breakdown of functional services. This is a powerful pattern. (06/27/2011)
 <br>http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html 
