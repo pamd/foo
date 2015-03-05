@@ -1,24 +1,20 @@
 # Misc
-1. Modern Distributed Messaging and RPC
+1. Slides: Modern Distributed Messaging and RPC
 <br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc (39 slides)
 
-4. Building Software at Google Scale (2012, 70 min)
+4. Video: Building Software at Google Scale (2012, 70 min)
 <br>https://www.youtube.com/watch?v=2qv3fcXW1mg
 
 5. Video: Building Software Systems At Google and Lessons Learned (11/10/2010)
 <br>https://www.youtube.com/watch?v=modXC5IWTJI (Jeff Dean, 82 min)
 
-2. Jeff Dean: Software Engineering Advice from Building Large-Scale Distributed Systems
-<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf
+2. Slides: Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
-3. Jeff Dean: Challenges in Building Large-Scale Information Retrieval Systems (2009)
-http://research.google.com/people/jeff/WSDM2009-keynote.html (slides and video)
+3. Slides and Video: Challenges in Building Large-Scale Information Retrieval Systems ( Jeff Dean, 2009)
+http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 
-2. HS: Google: Taming the long latency tail (03/12/2012)
-<br>http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html
-
-3. Video: Achieving Rapid Response Times in Large Online Services
-<br>Jeff Dean, Velocity 2014
+3. Video: Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
 
 5. Video: C* Summit 2013: Cassandra at Instagram (25 min)
