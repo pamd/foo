@@ -13,7 +13,8 @@
 4. What CDN Would You Recommend? (2009)
 <br>http://highscalability.com/what-cdn-would-you-recommend-0
 
-
+5. Paper review: warehouse-scale computing: entering the teenage decade (2011)
+<br>http://www.umbrant.com/blog/2011/warehouse_scale_computing_summary.html
 
 <hr>
 
