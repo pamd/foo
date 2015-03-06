@@ -11,6 +11,8 @@
 <br>R\*-tree: http://en.wikipedia.org/wiki/R*_tree
 <br>How To Analyze Geolocation Data with Hive and Hadoop:
 <br>http://www.slideshare.net/hortonworks/hive-meetup-spatial-1
+<br>boost::geometry::index::rtree
+<br>http://www.boost.org/doc/libs/1_57_0/libs/geometry/doc/html/geometry/reference/spatial_indexes/boost__geometry__index__rtree.html
 
 2. Implement second/minute/hour/day counters:
 <br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
