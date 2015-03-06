@@ -9,7 +9,7 @@
 <br>http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelational-data-stores 
 <br>R-tree: http://en.wikipedia.org/wiki/R-tree
 <br>R*-tree: http://en.wikipedia.org/wiki/R*_tree
-<br>How To Analyze Geolocation Data with Hive and Hadoop
+<br>How To Analyze Geolocation Data with Hive and Hadoop:
 <br>http://www.slideshare.net/hortonworks/hive-meetup-spatial-1
 
 2. Implement second/minute/hour/day counters:
