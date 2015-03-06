@@ -9,7 +9,5 @@
 
 * The Three Ages Of Google - Batch, Warehouse, Instant
 <br>http://highscalability.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html
-* MySQL Cluster and Memcache
-<br>http://www.clusterdb.com/mysql-cluster/scalabale-persistent-ha-nosql-memcache-storage-using-mysql-cluster
-<br>http://www.clusterdb.com/mysql-cluster/mysql-cluster-7-4-is-ga-200-million-qps-and-active-active-geor
+
 
