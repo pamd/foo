@@ -1,4 +1,4 @@
-<hr>
+# History
 
 * Slides: Modern Distributed Messaging and RPC
 <br>http://www.slideshare.net/MaxAlexejev/modern-distributed-messaging-and-rpc (39 slides)
