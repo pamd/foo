@@ -8,7 +8,7 @@
 1. 任给一个手机的位置信号(经纬度)，返回附近5mile 的POI.
 <br>http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelational-data-stores 
 <br>R-tree: http://en.wikipedia.org/wiki/R-tree
-<br>R*-tree: http://en.wikipedia.org/wiki/R*_tree
+<br>R\*-tree: http://en.wikipedia.org/wiki/R*_tree
 <br>How To Analyze Geolocation Data with Hive and Hadoop:
 <br>http://www.slideshare.net/hortonworks/hive-meetup-spatial-1
 
