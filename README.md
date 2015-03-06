@@ -25,7 +25,7 @@
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
 <br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
 
-7. Lessons of Scale at Facebook
+7. Video: Lessons of Scale at Facebook (2010, 64 min, slides not found)
 <br>https://www.youtube.com/watch?v=QCHiNEw73AU
 <br>https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
 
