@@ -7,8 +7,8 @@
 2. Latency Is Everywhere And It Costs You Sales - How To Crush It (2009)
 <br>http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it
 
-3. Google: Taming The Long Latency Tail - When More Machines Equals Worse Results
-<br>http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html (2012)
+3. Google: Taming The Long Latency Tail - When More Machines Equals Worse Results (2012)
+<br>http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html
 
 4. What CDN Would You Recommend? (2009)
 <br>http://highscalability.com/what-cdn-would-you-recommend-0
