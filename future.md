@@ -1,4 +1,4 @@
-<hr>
+# Future
 
 1. Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
