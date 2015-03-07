@@ -5,14 +5,6 @@
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>(2) http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
 
-1. 任给一个手机的位置信号(经纬度)，返回附近5mile 的POI.
-<br>http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelational-data-stores 
-<br>R-tree: http://en.wikipedia.org/wiki/R-tree
-<br>R\*-tree: http://en.wikipedia.org/wiki/R*_tree
-<br>How To Analyze Geolocation Data with Hive and Hadoop:
-<br>http://www.slideshare.net/hortonworks/hive-meetup-spatial-1
-<br>boost::geometry::index::rtree
-<br>http://www.boost.org/doc/libs/1_57_0/libs/geometry/doc/html/geometry/reference/spatial_indexes/boost__geometry__index__rtree.html
 
 2. Implement second/minute/hour/day counters:
 <br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
@@ -48,11 +40,13 @@
 10. Consistent Hashing
 <br>http://www.tom-e-white.com/2007/11/consistent-hashing.html
 
-11. NOSQL Patterns
+11. NoSQL Patterns
 <br>http://horicky.blogspot.com/2009/11/nosql-patterns.html
 
 12. Scalability, Availability & Stability Patterns (slideshare, 196 slides)
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
+
+<HR>
 
 1. Globally Distributed Content Delivery.
 <br>http://www.akamai.com/dl/technical_publications/GloballyDistributedContentDelivery.pdf
@@ -68,9 +62,6 @@
 <br>https://blog.twitter.com/2010/announcing-snowflake
 <br>(2) snowflake
 <br>https://github.com/twitter/snowflake/
-
-4. Introduction to Redis
-<br>http://www.slideshare.net/dvirsky/introduction-to-redis (24 slides)
 
 5. Design a function to return the top k requests during past time interval
 <br>(1) Efficient Computation of Frequent and Top-k Elements in Data Streams
@@ -90,15 +81,6 @@
 <br>(5) Real Time Multiplayer in HTML5
 <br>http://buildnewgames.com/real-time-multiplayer/
 
-7. Design a graph search function
-<br>(1) Building out the infrastructure for Graph Search
-<br>https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920
-<br>(2) Indexing and ranking in Graph Search
-<br>https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920
-<br>(3) The natural language interface of Graph Search
-<br>https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920
-<br>(4) Erlang at Facebook
-<br>http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf (40 slides)
 
 8. Design a picture sharing system
 <br>(1) Flickr Architecture
