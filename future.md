@@ -16,10 +16,10 @@
 5. Paper review: warehouse-scale computing: entering the teenage decade (2011)
 <br>http://www.umbrant.com/blog/2011/warehouse_scale_computing_summary.html
 
-<hr>
+<HR>
 
 1. Blog: http://www.fgdsb.com/
-2. Startups: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
+2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
 <HR>
 
