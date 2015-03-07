@@ -5,12 +5,10 @@
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>(2) http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
 
-
 2. Implement second/minute/hour/day counters:
 <br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
 
 3. Implement tinyurl（以及distribute across multiple servers) 
-<br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
 <br>http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html 
 <br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
 <br>http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
