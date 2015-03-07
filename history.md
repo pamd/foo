@@ -1,5 +1,8 @@
 # History
 
+1. Into the REST
+<br>https://www.youtube.com/watch?v=YCcAE2SCQ6k (14 min)
+
 1. Video: C* Summit 2013: Cassandra at Instagram (25 min)
 <br>https://www.youtube.com/watch?v=xDtclzE4ydA
 <br>http://www.slideshare.net/rbranson/cassandra-at-instagram-aug-2013 (70 slides)
