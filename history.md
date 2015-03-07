@@ -1,5 +1,8 @@
 # History
 
+1. Introduction to Redis
+<br>http://www.slideshare.net/dvirsky/introduction-to-redis (24 slides)
+
 1. 任给一个手机的位置信号(经纬度)，返回附近5mile 的POI.
 <br>http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelational-data-stores 
 <br>R-tree: http://en.wikipedia.org/wiki/R-tree
