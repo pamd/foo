@@ -1,5 +1,15 @@
 # History
 
+7. Design a graph search function
+<br>(1) Building out the infrastructure for Graph Search
+<br>https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920
+<br>(2) Indexing and ranking in Graph Search
+<br>https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920
+<br>(3) The natural language interface of Graph Search
+<br>https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920
+<br>(4) Erlang at Facebook
+<br>http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf (40 slides)
+
 1. Introduction to Redis
 <br>http://www.slideshare.net/dvirsky/introduction-to-redis (24 slides)
 
