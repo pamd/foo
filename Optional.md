@@ -15,12 +15,6 @@
 3. Video: Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
 
-5. Video: C* Summit 2013: Cassandra at Instagram (25 min)
-<br>https://www.youtube.com/watch?v=xDtclzE4ydA
-
-6. Video: Instagram: Apache Cassandra at Instagram 2014 (45 min)
-<br>https://www.youtube.com/watch?v=_gc94ITUitY
-
 5. Video: Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
 <br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
@@ -29,3 +23,9 @@
 <br>https://www.youtube.com/watch?v=QCHiNEw73AU
 <br>https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
 
+8. Video: Introduction To Apache Cassandra (01/17/2014)
+<br>https://www.youtube.com/watch?v=B_HTdrTgGNs (75 min)
+<br>http://www.slideshare.net/patrickmcfadin/introduction-to-cassandra-2014 (52 slides)
+
+9. Introduction to NoSQL by Martin Fowler (02/19/2013)
+<br>https://www.youtube.com/watch?v=qI_g07C_Q5I (55 min)
