@@ -6,8 +6,8 @@
 3. Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 
-5. Building Software Systems At Google and Lessons Learned (11/10/2010)
-<br>https://www.youtube.com/watch?v=modXC5IWTJI (Jeff Dean, 82 min)
+5. Building Software Systems At Google and Lessons Learned (Jeff Dean, 11/10/2010)
+<br>https://www.youtube.com/watch?v=modXC5IWTJI (82 min)
 
 3. Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
