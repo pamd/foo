@@ -16,7 +16,6 @@
 <br>http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
 
 
-
 # Evernotes
 
 4. Palantir Systems Design 
@@ -47,9 +46,6 @@
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
 
 <HR>
-
-1. Globally Distributed Content Delivery.
-<br>http://www.akamai.com/dl/technical_publications/GloballyDistributedContentDelivery.pdf
 
 2. Google document system
 <br>(1) google-mobwrite
