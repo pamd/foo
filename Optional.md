@@ -27,6 +27,9 @@
 9. Introduction to NoSQL by Martin Fowler (02/19/2013)
 <br>https://www.youtube.com/watch?v=qI_g07C_Q5I (55 min)
 
+10. Google I/O 2012 - SQL vs NoSQL: Battle of the Backends
+<br>https://www.youtube.com/watch?v=rRoy6I4gKWU (43 min)
+
 # Slides:
 
 1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
