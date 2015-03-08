@@ -35,4 +35,5 @@
 1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
-
+2. The NoSQL Ecosystem
+<br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem (69 slides, by the author of "NoSQL Ecosystem" chapter)
