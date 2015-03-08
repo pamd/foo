@@ -1,4 +1,6 @@
 # History
+1. Dizzying but invisible depth
+https://plus.google.com/+JeanBaptisteQueru/posts/dfydM2Cnepe
 
 2. Implement second/minute/hour/day counters (vague, no agreement)
 <br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
