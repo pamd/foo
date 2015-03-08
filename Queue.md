@@ -41,6 +41,9 @@
 1. Jeff Dean Talks (Geeking with Greg)
 <br>http://glinden.blogspot.com/search?q=jeff+dean
 
+2. Ricky Ho: BigTable Model with Cassandra and HBase (2010)
+http://horicky.blogspot.com/2010/10/bigtable-model-with-cassandra-and-hbase.html
+
 1. Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
 <br>http://dimacs.rutgers.edu/Workshops/Green/Slides/lee.pdf (slides)
