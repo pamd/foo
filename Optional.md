@@ -9,9 +9,6 @@
 5. Building Software Systems At Google and Lessons Learned (Jeff Dean, 11/10/2010)
 <br>https://www.youtube.com/watch?v=modXC5IWTJI (82 min)
 
-3. Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
-<br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
-
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
 <br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
