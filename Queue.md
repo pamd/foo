@@ -37,6 +37,9 @@
 
 # Future
 
+1. Jeff Dean Talks (Geeking with Greg)
+<br>http://glinden.blogspot.com/search?q=jeff+dean
+
 1. Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
 <br>http://dimacs.rutgers.edu/Workshops/Green/Slides/lee.pdf (slides)
