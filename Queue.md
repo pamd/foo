@@ -60,7 +60,7 @@
 <HR>
 
 1. Blog: http://www.fgdsb.com/ (algorithms)
-2. Blog: Pragmatic Programming Techniques (Ricky Ho on big data)
+2. Ricky Ho Blog on Big Data: Pragmatic Programming Techniques
 <br>http://horicky.blogspot.com/
 2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
