@@ -1,5 +1,8 @@
 # History
 
+2. Implement second/minute/hour/day counters (vague, no agreement)
+<br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
+
 3. Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
 <br>http://www.slideshare.net/yarapavan/achieving-rapid-response-times-in-large-online-services
