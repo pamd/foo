@@ -1,5 +1,9 @@
 # History
 
+3. Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
+<br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
+<br>http://www.slideshare.net/yarapavan/achieving-rapid-response-times-in-large-online-services
+
 1. Video: Into the REST
 <br>https://www.youtube.com/watch?v=YCcAE2SCQ6k (14 min)
 
