@@ -16,9 +16,7 @@
 <br>Disadvantages of Redis; How Instagram uses Cassandra; Young GC (Garbage Collection) in java.
 <br>http://www.slideshare.net/planetcassandra/cassandra-summit-2014-cassandra-at-instagram-2014 (69 slides)
 
-
-
-1. Introduction to Redis
+1. Slides: Introduction to Redis
 <br>http://www.slideshare.net/dvirsky/introduction-to-redis (24 slides)
 
 1. 任给一个手机的位置信号(经纬度)，返回附近5mile 的POI.
