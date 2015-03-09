@@ -1,9 +1,13 @@
 # History
-1. Dizzying but invisible depth
-https://plus.google.com/+JeanBaptisteQueru/posts/dfydM2Cnepe
 
-2. Implement second/minute/hour/day counters (vague, no agreement)
-<br>http://www.mitbbs.com/article_t/JobHunting/32458451.html 
+5. Numbers Everyone Should Know
+<br>https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
+
+6. Scalable System Design Patterns
+<br>http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
+
+1. Dizzying but invisible depth
+<br>https://plus.google.com/+JeanBaptisteQueru/posts/dfydM2Cnepe
 
 3. Achieving Rapid Response Times in Large Online Services (Jeff Dean, Velocity 2014)
 <br>https://www.youtube.com/watch?v=1-3Ahy7Fxsc (28 min)
