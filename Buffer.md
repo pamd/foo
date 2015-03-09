@@ -1,9 +1,10 @@
 # H2B
 http://horicky.blogspot.com/2009/11/nosql-patterns.html
+<br>Database Scalability: http://horicky.blogspot.com/2008/03/database-scalability.html
+<br>Website Scalability: http://horicky.blogspot.com/2008/03/web-site-scalability.html
 
 # B2H
-Introduction to redis - version 2
-<br>http://www.slideshare.net/dvirsky/introduction-to-redis-version-2
+
 
 
 
