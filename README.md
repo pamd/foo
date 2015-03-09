@@ -13,8 +13,6 @@
 
 # Evernotes
 
-
-
 7. Introduction to Architecting Systems for Scale
 <br>http://lethain.com/introduction-to-architecting-systems-for-scale/
 
@@ -26,9 +24,6 @@
 
 10. Consistent Hashing
 <br>http://www.tom-e-white.com/2007/11/consistent-hashing.html
-
-11. NoSQL Patterns
-<br>http://horicky.blogspot.com/2009/11/nosql-patterns.html
 
 12. Scalability, Availability & Stability Patterns (slideshare, 196 slides)
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
