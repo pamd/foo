@@ -46,6 +46,9 @@
 1. Jeff Dean Talks (Geeking with Greg)
 <br>http://glinden.blogspot.com/search?q=jeff+dean
 
+2. University of Washington CSE 490H: http://courses.cs.washington.edu/courses/cse490h/
+<br>Autumn 2010: http://courses.cs.washington.edu/courses/cse490h/11wi/ (covered Megastore in Week #7)
+
 2. Ricky Ho: BigTable Model with Cassandra and HBase (2010)
 <br>http://horicky.blogspot.com/2010/10/bigtable-model-with-cassandra-and-hbase.html
 
