@@ -60,9 +60,9 @@
 
 6. Will Larson: Architecture Related Articles
 <br>http://lethain.com/tags/architecture/
-* Developing Service Oriented Architectures (2014)
-* Overview of Single vs. Multi Server Architecture (2009)
-* Building a Software Deployment Pipeline (2014)
+<br>Developing Service Oriented Architectures (2014)
+<br>Overview of Single vs. Multi Server Architecture (2009)
+<br>Building a Software Deployment Pipeline (2014)
 
 1. Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
