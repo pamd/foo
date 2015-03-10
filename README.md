@@ -13,9 +13,6 @@
 
 # Evernotes
 
-7. Introduction to Architecting Systems for Scale
-<br>http://lethain.com/introduction-to-architecting-systems-for-scale/
-
 8. Transactions Across Datacenters
 <br>http://snarfed.org/transactions_across_datacenters_io.html
 
