@@ -1,5 +1,8 @@
 # History
 
+* Transactions Across Datacenters
+<br>http://snarfed.org/transactions_across_datacenters_io.html
+
 * NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
 
 * Database Scalability: http://horicky.blogspot.com/2008/03/database-scalability.html
