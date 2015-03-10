@@ -13,9 +13,6 @@
 
 # Evernotes
 
-8. Transactions Across Datacenters
-<br>http://snarfed.org/transactions_across_datacenters_io.html
-
 9. The CAP FAQ: 
 <br>https://github.com/henryr/cap-faq 
 
