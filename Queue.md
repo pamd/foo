@@ -32,6 +32,9 @@
 
 # Slides:
 
+1. Lessons learned while building infrastructure software at google (Jeff Dean, 9/10/2013)
+<br>http://www.slideshare.net/leokmax/google-jeff-dean-lessons-learned-while-building-infrastructure-software-at-google (48 slides)
+
 1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
