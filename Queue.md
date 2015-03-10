@@ -2,15 +2,15 @@
 
 5. Building Software Systems At Google and Lessons Learned (Jeff Dean at Stanford EE380, 11/10/2010)
 <br>https://www.youtube.com/watch?v=modXC5IWTJI (82 min)
-<br>https://doubleclix.wordpress.com/2010/11/11/google-a-study-in-scalability-and-a-little-systems-horse-sense/
 <br>http://www.slideshare.net/parallellabs/building-software-systems-at-google-and-lessons-learned (103 slides)
-
-4. Building Software at Google Scale (Google@NYC, 2012, 70 min)
-<br>https://www.youtube.com/watch?v=2qv3fcXW1mg
+<br>https://doubleclix.wordpress.com/2010/11/11/google-a-study-in-scalability-and-a-little-systems-horse-sense/ (Review)
 
 3. Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 <br>http://videolectures.net/wsdm09_dean_cblirs/
+
+4. Building Software at Google Scale (Google@NYC, 2012, 70 min)
+<br>https://www.youtube.com/watch?v=2qv3fcXW1mg
 
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
