@@ -49,6 +49,21 @@
 2. Ricky Ho: BigTable Model with Cassandra and HBase (2010)
 <br>http://horicky.blogspot.com/2010/10/bigtable-model-with-cassandra-and-hbase.html
 
+3. Ricky Ho: MongoDb Architecture (2012)
+<br>http://horicky.blogspot.com/2012/04/mongodb-architecture.html
+
+4. Ricky Ho: Designing algorithms for Map Reduce
+<br>http://horicky.blogspot.com/2010/08/designing-algorithmis-for-map-reduce.html
+
+5. Ricky Ho: CouchDB Implementation
+<br>http://horicky.blogspot.com/2008/10/couchdb-implementation.html
+
+6. Will Larson: Architecture Related Articles
+<br>http://lethain.com/tags/architecture/
+* Developing Service Oriented Architectures (2014)
+* Overview of Single vs. Multi Server Architecture (2009)
+* Building a Software Deployment Pipeline (2014)
+
 1. Berkeley: When do redundant requests reduce latency?
 <br>http://www.eecs.berkeley.edu/~nihar/publications/redundant_requests.pdf (paper)
 <br>http://dimacs.rutgers.edu/Workshops/Green/Slides/lee.pdf (slides)
