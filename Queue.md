@@ -5,6 +5,9 @@
 <br>http://www.slideshare.net/parallellabs/building-software-systems-at-google-and-lessons-learned (103 slides)
 <br>https://doubleclix.wordpress.com/2010/11/11/google-a-study-in-scalability-and-a-little-systems-horse-sense/ (Review)
 
+1. Jeff Dean homepage (including some of his talk slides)
+<br>http://research.google.com/pubs/jeff.html
+
 3. Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 <br>http://videolectures.net/wsdm09_dean_cblirs/
