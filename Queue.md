@@ -9,6 +9,10 @@
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 <br>http://videolectures.net/wsdm09_dean_cblirs/
 
+4. Jeff Dean Talks List on Youtube
+<br>https://www.youtube.com/watch?v=NXCIItzkn3E&list=PL7C61C2D90854C895
+<br>https://www.youtube.com/watch?v=qsan-GQaeyk&index=3&list=PL7C61C2D90854C895 (underneath the covers, 60 min)
+
 4. Building Software at Google Scale (Google@NYC, 2012, 70 min)
 <br>https://www.youtube.com/watch?v=2qv3fcXW1mg
 
