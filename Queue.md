@@ -1,16 +1,26 @@
 # Videos:
 
+1. Lessons learned while building infrastructure software at google (Jeff Dean, 9/10/2013)
+<br>https://conf-slac.stanford.edu/xldb-2013/conference-program
+<br>https://www.youtube.com/watch?v=gCGvneeHbPQ&list=PLE1UFlsTj5AFUrQT38gvi4a0qY_gYqEz6 (18 min)
+<br>https://conf-slac.stanford.edu/xldb-2013/sites/conf-slac.stanford.edu.xldb-2013/files/JDean.pdf (48 slides)
+<br>Review: https://doubleclix.wordpress.com/2013/09/16/jeff-dean-lessons-learned-while-building-infrastructure-software-at-google/
+<br>Slides: http://www.slideshare.net/leokmax/google-jeff-dean-lessons-learned-while-building-infrastructure-software-at-google (48 slides)
+
+3. Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
+<br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
+<br>http://videolectures.net/wsdm09_dean_cblirs/
+
 5. Building Software Systems At Google and Lessons Learned (Jeff Dean at Stanford EE380, 11/10/2010)
 <br>https://www.youtube.com/watch?v=modXC5IWTJI (82 min)
 <br>http://www.slideshare.net/parallellabs/building-software-systems-at-google-and-lessons-learned (103 slides)
 <br>https://doubleclix.wordpress.com/2010/11/11/google-a-study-in-scalability-and-a-little-systems-horse-sense/ (Review)
 
+1. Slides: Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
+
 1. Jeff Dean homepage (including some of his talk slides)
 <br>http://research.google.com/pubs/jeff.html
-
-3. Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
-<br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
-<br>http://videolectures.net/wsdm09_dean_cblirs/
 
 4. Jeff Dean Talks List on Youtube
 <br>https://www.youtube.com/watch?v=NXCIItzkn3E&list=PL7C61C2D90854C895
@@ -36,14 +46,6 @@
 
 10. Google I/O 2012 - SQL vs NoSQL: Battle of the Backends
 <br>https://www.youtube.com/watch?v=rRoy6I4gKWU (43 min)
-
-# Slides:
-
-1. Lessons learned while building infrastructure software at google (Jeff Dean, 9/10/2013)
-<br>http://www.slideshare.net/leokmax/google-jeff-dean-lessons-learned-while-building-infrastructure-software-at-google (48 slides)
-
-1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean)
-<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
 2. The NoSQL Ecosystem (69 slides, by the author of "NoSQL Ecosystem" chapter)
 <br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem 
