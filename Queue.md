@@ -1,4 +1,6 @@
 # Presentations
+1. Large-Scale Data and Computation: Challenges and Opportunities (Stanford 2013)
+http://infolab.stanford.edu/infoseminar/archive/WinterY2013/dean.pdf (124 slides)
 
 3. Challenges in Building Large-Scale Information Retrieval Systems (Jeff Dean, WSDM 2009)
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
