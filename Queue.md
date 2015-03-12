@@ -1,25 +1,18 @@
 # Presentations
 
-3. Challenges in Building Large-Scale Information <b>Retrieval</b> Systems (Jeff Dean, 2009)
+3. Challenges in Building Large-Scale Information Retrieval Systems (Jeff Dean, WSDM 2009)
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 <br>http://videolectures.net/wsdm09_dean_cblirs/
 
-1. Lessons learned while building infrastructure software at google (Jeff Dean, 9/10/2013)
+1. Lessons learned while building infrastructure software at google (Jeff Dean, XLDB 2013)
 <br>https://conf-slac.stanford.edu/xldb-2013/conference-program
 <br>https://www.youtube.com/watch?v=gCGvneeHbPQ&list=PLE1UFlsTj5AFUrQT38gvi4a0qY_gYqEz6 (18 min)
 <br>https://conf-slac.stanford.edu/xldb-2013/sites/conf-slac.stanford.edu.xldb-2013/files/JDean.pdf (48 slides)
 <br>Review: https://doubleclix.wordpress.com/2013/09/16/jeff-dean-lessons-learned-while-building-infrastructure-software-at-google/
-<br>Slides: http://www.slideshare.net/leokmax/google-jeff-dean-lessons-learned-while-building-infrastructure-software-at-google (48 slides)
 
 1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean, Stanford CS295, 2007)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
-1. Jeff Dean homepage (including some of his talk slides)
-<br>http://research.google.com/pubs/jeff.html
-
-4. Jeff Dean Talks List on Youtube
-<br>https://www.youtube.com/watch?v=NXCIItzkn3E&list=PL7C61C2D90854C895
-<br>https://www.youtube.com/watch?v=qsan-GQaeyk&index=3&list=PL7C61C2D90854C895 (underneath the covers, 60 min)
 
 4. Building Software at Google Scale (Google@NYC, 2012, 70 min)
 <br>https://www.youtube.com/watch?v=2qv3fcXW1mg
