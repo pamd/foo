@@ -2,6 +2,9 @@
 1. Large-Scale Data and Computation: Challenges and Opportunities (Stanford 2013)
 http://infolab.stanford.edu/infoseminar/archive/WinterY2013/dean.pdf (124 slides)
 
+2. Living with Big Data: Challenges and Opportunities (MIT 2012)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/MIT_BigData_Sep2012.pdf (132 slides)
+
 3. Challenges in Building Large-Scale Information Retrieval Systems (Jeff Dean, WSDM 2009)
 <br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
 <br>http://videolectures.net/wsdm09_dean_cblirs/
