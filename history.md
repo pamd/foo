@@ -1,7 +1,21 @@
 # History
 
-* Jeff Dean homepage (including some of his talk slides)
-<br>http://research.google.com/pubs/jeff.html
+* Large-Scale Data and Computation: Challenges and Opportunities (Stanford 2013)
+http://infolab.stanford.edu/infoseminar/archive/WinterY2013/dean.pdf (124 slides)
+
+* Living with Big Data: Challenges and Opportunities (MIT, September 2012)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/MIT_BigData_Sep2012.pdf (132 slides)
+<br>http://bigdata.csail.mit.edu/node/45 (review)
+
+* Challenges in Building Large-Scale Information Retrieval Systems (Jeff Dean, WSDM 2009)
+<br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
+<br>http://videolectures.net/wsdm09_dean_cblirs/
+
+* Lessons learned while building infrastructure software at google (Jeff Dean, XLDB 2013)
+<br>https://conf-slac.stanford.edu/xldb-2013/conference-program
+<br>https://www.youtube.com/watch?v=gCGvneeHbPQ&list=PLE1UFlsTj5AFUrQT38gvi4a0qY_gYqEz6 (18 min)
+<br>https://conf-slac.stanford.edu/xldb-2013/sites/conf-slac.stanford.edu.xldb-2013/files/JDean.pdf (48 slides)
+<br>Review: https://doubleclix.wordpress.com/2013/09/16/jeff-dean-lessons-learned-while-building-infrastructure-software-at-google/
 
 * Jeff Dean Talks List on Youtube
 <br>https://www.youtube.com/watch?v=NXCIItzkn3E&list=PL7C61C2D90854C895
