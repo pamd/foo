@@ -1,5 +1,11 @@
 # Misc
 
+1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean, Stanford CS295, 2007)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
+
+4. Building Software at Google Scale (Google@NYC, 2012, 70 min)
+<br>https://www.youtube.com/watch?v=2qv3fcXW1mg
+
 3. Trending Topics
 <br>(1) American Scientist: The Britney Spears Problem
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
