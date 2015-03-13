@@ -42,8 +42,9 @@ https://www.youtube.com/watch?v=335cOmciP3s (2014, Chat with Jeff Dean and Eric 
 3. Jeff Dean homepage (including some of his talk slides)
 <br>http://research.google.com/pubs/jeff.html
 
-1. Jeff Dean Talks (Geeking with Greg)
-<br>http://glinden.blogspot.com/search?q=jeff+dean
+1. Jeff Dean Talks
+<br>http://glinden.blogspot.com/search?q=jeff+dean (Geeking with Greg)
+<br>https://www.youtube.com/watch?v=335cOmciP3s&list=PLmxxrdVVXruYJ6SZaE8RwUHspZZ2WMqE8 (video collection)
 
 2. Ricky Ho: BigTable Model with Cassandra and HBase (2010)
 <br>http://horicky.blogspot.com/2010/10/bigtable-model-with-cassandra-and-hbase.html
