@@ -1,20 +1,5 @@
 # Presentations
-1. Large-Scale Data and Computation: Challenges and Opportunities (Stanford 2013)
-http://infolab.stanford.edu/infoseminar/archive/WinterY2013/dean.pdf (124 slides)
 
-2. Living with Big Data: Challenges and Opportunities (MIT, September 2012)
-<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/MIT_BigData_Sep2012.pdf (132 slides)
-<br>http://bigdata.csail.mit.edu/node/45 (review)
-
-3. Challenges in Building Large-Scale Information Retrieval Systems (Jeff Dean, WSDM 2009)
-<br>http://research.google.com/people/jeff/WSDM2009-keynote.html (65 min, 77 slides)
-<br>http://videolectures.net/wsdm09_dean_cblirs/
-
-1. Lessons learned while building infrastructure software at google (Jeff Dean, XLDB 2013)
-<br>https://conf-slac.stanford.edu/xldb-2013/conference-program
-<br>https://www.youtube.com/watch?v=gCGvneeHbPQ&list=PLE1UFlsTj5AFUrQT38gvi4a0qY_gYqEz6 (18 min)
-<br>https://conf-slac.stanford.edu/xldb-2013/sites/conf-slac.stanford.edu.xldb-2013/files/JDean.pdf (48 slides)
-<br>Review: https://doubleclix.wordpress.com/2013/09/16/jeff-dean-lessons-learned-while-building-infrastructure-software-at-google/
 
 1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean, Stanford CS295, 2007)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
@@ -46,11 +31,19 @@ http://infolab.stanford.edu/infoseminar/archive/WinterY2013/dean.pdf (124 slides
 
 # Future
 
-1. Jeff Dean Talks (Geeking with Greg)
-<br>http://glinden.blogspot.com/search?q=jeff+dean
+1. Rutgers CS417: Distributed Systems 
+<br>http://www.cs.rutgers.edu/~pxk/417/notes/index.html
+<br>http://www.cs.rutgers.edu/~pxk/417/notes/content/24-google_cluster-slides.pdf
+<br>http://www.cs.rutgers.edu/~pxk/417/notes/content/32-building-systems.pdf
 
 2. University of Washington CSE 490H: http://courses.cs.washington.edu/courses/cse490h/
 <br>Autumn 2010: http://courses.cs.washington.edu/courses/cse490h/11wi/ (covered Megastore in Week #7)
+
+3. Jeff Dean homepage (including some of his talk slides)
+<br>http://research.google.com/pubs/jeff.html
+
+1. Jeff Dean Talks (Geeking with Greg)
+<br>http://glinden.blogspot.com/search?q=jeff+dean
 
 2. Ricky Ho: BigTable Model with Cassandra and HBase (2010)
 <br>http://horicky.blogspot.com/2010/10/bigtable-model-with-cassandra-and-hbase.html
