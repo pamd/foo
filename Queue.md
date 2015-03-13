@@ -1,12 +1,12 @@
 # Presentations
 
 
-1. Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean, Stanford CS295, 2007)
-<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
+1. Google Data Centers: A Behind the Scenes Look at Infrastructure and Innovations (Green Grid Forum 2013)
+https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
 
-
-4. Building Software at Google Scale (Google@NYC, 2012, 70 min)
-<br>https://www.youtube.com/watch?v=2qv3fcXW1mg
+2. Talks by Urs Hölzle (Google)
+https://www.youtube.com/results?search_query=urs+h%C3%B6lzle+
+https://www.youtube.com/watch?v=335cOmciP3s (2014, Chat with Jeff Dean and Eric Brewer)
 
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
