@@ -41,8 +41,6 @@ https://www.youtube.com/watch?v=335cOmciP3s (2014, Chat with Jeff Dean and Eric 
 
 1. Rutgers CS417: Distributed Systems 
 <br>http://www.cs.rutgers.edu/~pxk/417/notes/index.html
-<br>http://www.cs.rutgers.edu/~pxk/417/notes/content/24-google_cluster-slides.pdf
-<br>http://www.cs.rutgers.edu/~pxk/417/notes/content/32-building-systems.pdf
 
 2. University of Washington CSE 490H: http://courses.cs.washington.edu/courses/cse490h/
 <br>Autumn 2010: http://courses.cs.washington.edu/courses/cse490h/11wi/ (covered Megastore in Week #7)
