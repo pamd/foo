@@ -1,5 +1,13 @@
 # Presentations
 
+1. Google Technology RoundTable:Search Infrastructure & Quality
+<br>https://www.youtube.com/watch?v=4SGRKPpIMwc&list=PL7C61C2D90854C895&index=4 (29 min)
+
+2. Google Technology RoundTable: Map Reduce
+<br>https://www.youtube.com/watch?v=NXCIItzkn3E (25 min)
+
+3. Taming Latency Variability and Scaling Deep Learning (Jeff Dean, 10/16/2013)
+<br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
 
 1. Google Data Centers: A Behind the Scenes Look at Infrastructure and Innovations (Green Grid Forum 2013)
 https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
