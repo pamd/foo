@@ -1,5 +1,11 @@
 # History
 
+* Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean, Stanford CS295, 2007)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
+
+* Building Software at Google Scale (Google@NYC, 2012, 70 min)
+<br>https://www.youtube.com/watch?v=2qv3fcXW1mg
+
 * Large-Scale Data and Computation: Challenges and Opportunities (Stanford 2013)
 http://infolab.stanford.edu/infoseminar/archive/WinterY2013/dean.pdf (124 slides)
 
