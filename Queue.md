@@ -1,5 +1,8 @@
 # Presentations
 
+1. Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
+<br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
+
 1. Google Data Centers: A Behind the Scenes Look at Infrastructure and Innovations (Green Grid Forum 2013)
 https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
 
