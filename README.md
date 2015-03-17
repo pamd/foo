@@ -1,7 +1,5 @@
 # Misc
 
-
-
 3. Trending Topics
 <br>(1) American Scientist: The Britney Spears Problem
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
@@ -15,8 +13,6 @@
 
 # Evernotes
 
-9. The CAP FAQ: 
-<br>https://github.com/henryr/cap-faq 
 
 10. Consistent Hashing
 <br>http://www.tom-e-white.com/2007/11/consistent-hashing.html
