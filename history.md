@@ -1,5 +1,8 @@
 # History
 
+* The CAP FAQ: 
+<br>https://github.com/henryr/cap-faq 
+
 * Software Engineering Advice from Building Large-Scale Distributed Systems (Jeff Dean, Stanford CS295, 2007)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/people/jeff/stanford-295-talk.pdf (33 slides)
 
