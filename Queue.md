@@ -82,6 +82,7 @@ https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
 <HR>
 
 1. Blog: http://www.fgdsb.com/ (algorithms)
+2. Blog: http://n00tc0d3r.blogspot.com/
 2. Ricky Ho Blog (Pragmatic Programming Techniques): http://horicky.blogspot.com/
 2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
