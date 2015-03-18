@@ -7,8 +7,7 @@
 https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
 
 2. Talks by Urs Hölzle (Google)
-https://www.youtube.com/results?search_query=urs+h%C3%B6lzle+
-https://www.youtube.com/watch?v=335cOmciP3s (2014, Chat with Jeff Dean and Eric Brewer)
+<br>https://www.youtube.com/results?search_query=urs+h%C3%B6lzle+
 
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
