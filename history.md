@@ -1,5 +1,8 @@
 # History
 
+* Chat with Jeff Dean and Eric Brewer
+<br>https://www.youtube.com/watch?v=335cOmciP3s (2014, )
+
 * The CAP FAQ: 
 <br>https://github.com/henryr/cap-faq 
 
