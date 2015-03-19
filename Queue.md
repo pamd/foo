@@ -6,6 +6,9 @@
 1. Google Data Centers: A Behind the Scenes Look at Infrastructure and Innovations (Green Grid Forum 2013)
 https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
 
+3. Google Cloud Platform Live: Keynote from Urs Hölzle
+https://www.youtube.com/watch?v=qokEYBNWA_0 (82 min)
+
 2. Talks by Urs Hölzle (Google)
 <br>https://www.youtube.com/results?search_query=urs+h%C3%B6lzle+
 
