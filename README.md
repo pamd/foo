@@ -4,11 +4,8 @@
 <br>(1) American Scientist: The Britney Spears Problem
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>(2) http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
-
-3. Implement tinyurl（以及distribute across multiple servers) 
-<br>http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html 
-<br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
-<br>http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
+<br>(3) Early detection of Twitter trends explained
+<br>https://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/
 
 
 # Evernotes
@@ -71,23 +68,11 @@
 <br>(2) Recommender Systems
 <br>http://ijcai13.org/files/tutorial_slides/td3.pdf (144 slides)
 
-11. Design a tinyurl system
-<br>(1) System Design for Big Data-tinyurl
-<br>http://n00tc0d3r.blogspot.com/
-<br>(2) URL Shortener API
-<br>https://developers.google.com/url-shortener/?csw=1
-
 12. Design a garbage collection system: Baby's First Garbage Collector
 <br>http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/
 
 13. Design and Implementation of a High-Performance Distributed Web Crawler
 <br>http://cis.poly.edu/suel/papers/crawl.pdf (12 pages)
-
-14. Design a trending topic system
-<br>(1) Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm
-<br>http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
-<br>(2) Early detection of Twitter trends explained
-<br>https://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/
 
 15. Introduction to Memcached
 <br>http://www.slideshare.net/oemebamo/introduction-to-memcached (77 slides)
