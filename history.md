@@ -1,5 +1,11 @@
 # History
 
+* Implement tinyurl（以及distribute across multiple servers) 
+<br>http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html 
+<br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
+<br>http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
+<br>https://developers.google.com/url-shortener/?csw=1 (API)
+
 * Chat with Jeff Dean and Eric Brewer
 <br>https://www.youtube.com/watch?v=335cOmciP3s (2014, )
 
