@@ -1,6 +1,6 @@
 # History
 
-* Ricky Ho: NoSQL Patterns (11/15/2009, printed out)
+* Ricky Ho: NoSQL Patterns (11/15/2009)
 <br>http://horicky.blogspot.com/2009/11/nosql-patterns.html
 
 * Consistent Hashing
