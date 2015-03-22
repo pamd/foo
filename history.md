@@ -6,7 +6,7 @@
 * Consistent Hashing
 <br>http://www.tom-e-white.com/2007/11/consistent-hashing.html 
 <br>http://www.tomkleinpeter.com/2008/03/17/programmers-toolbox-part-3-consistent-hashing/
-<br>MIT: Web Caching with Consistent Hashing: http://www8.org/w8-papers/2a-webserver/caching/paper2.html
+<br>Web Caching with Consistent Hashing (MIT): http://www8.org/w8-papers/2a-webserver/caching/paper2.html
 <br>Chord: https://github.com/sit/dht/wiki
 
 * Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm
