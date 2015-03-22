@@ -11,9 +11,6 @@
 # Evernotes
 
 
-10. Consistent Hashing
-<br>http://www.tom-e-white.com/2007/11/consistent-hashing.html
-
 12. Scalability, Availability & Stability Patterns (slideshare, 196 slides)
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
 
