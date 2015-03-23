@@ -1,20 +1,9 @@
 # Misc
 
-3. Trending Topics
-<br>(1) American Scientist: The Britney Spears Problem
-<br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
-<br>(2) http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
-<br>(3) Early detection of Twitter trends explained
-<br>https://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/
-
-
-# Evernotes
-
-
-12. Scalability, Availability & Stability Patterns (slideshare, 196 slides)
-<br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
 
 <HR>
+
+# Evernotes
 
 2. Google document system
 <br>(1) google-mobwrite
