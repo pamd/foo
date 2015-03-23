@@ -17,12 +17,6 @@
 <br>(2) snowflake
 <br>https://github.com/twitter/snowflake/
 
-5. Design a function to return the top k requests during past time interval
-<br>(1) Efficient Computation of Frequent and Top-k Elements in Data Streams
-<br>https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf (pdf, 21 pages)
-<br>(2) An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows
-<br>http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf (pdf, 12 pages)
-
 6. Design an online multiplayer card game:
 <br>(1) How to Create an Asynchronous Multiplayer Game
 <br>http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
