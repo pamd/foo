@@ -53,8 +53,6 @@
 13. Design and Implementation of a High-Performance Distributed Web Crawler
 <br>http://cis.poly.edu/suel/papers/crawl.pdf (12 pages)
 
-15. Introduction to Memcached
-<br>http://www.slideshare.net/oemebamo/introduction-to-memcached (77 slides)
 
 # H_InTech
 
