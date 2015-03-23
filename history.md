@@ -12,16 +12,16 @@
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
 
 * Consistent Hashing
-<br>http://www.tom-e-white.com/2007/11/consistent-hashing.html 
-<br>http://www.tomkleinpeter.com/2008/03/17/programmers-toolbox-part-3-consistent-hashing/
-<br>Web Caching with Consistent Hashing (MIT): http://www8.org/w8-papers/2a-webserver/caching/paper2.html
-<br>Chord: https://github.com/sit/dht/wiki
+<br>(1) http://www.tom-e-white.com/2007/11/consistent-hashing.html 
+<br>(2) http://www.tomkleinpeter.com/2008/03/17/programmers-toolbox-part-3-consistent-hashing/
+<br>(3) Web Caching with Consistent Hashing (MIT): http://www8.org/w8-papers/2a-webserver/caching/paper2.html
+<br>(4) Chord: https://github.com/sit/dht/wiki
 
 * Implement tinyurl（以及distribute across multiple servers) 
-<br>http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html 
-<br>http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
-<br>http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site 
-<br>https://developers.google.com/url-shortener/?csw=1 (API)
+<br>(1) http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html 
+<br>(2) http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener 
+<br>(3) http://stackoverflow.com/questions/3376163/what-are-the-things-you-will-need-to-consider-while-designing-tinyurl-site
+<br>(4) https://developers.google.com/url-shortener/?csw=1 (API)
 
 
 
