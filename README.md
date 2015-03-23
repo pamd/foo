@@ -10,6 +10,7 @@
 <br>https://code.google.com/p/google-mobwrite/
 <br>(2) Differential Synchronization.
 <br>https://neil.fraser.name/writing/sync/
+<br>https://www.youtube.com/watch?v=S2Hp_1jqpY8 (54 min)
 
 3. Random ID generation system
 <br>(1) Announcing Snowflake
