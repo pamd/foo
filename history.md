@@ -5,7 +5,9 @@
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
 <br>(2) Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm
 <br>http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/
-<br>(3) Early detection of Twitter trends explained
+<br>(3) Understanding the Parallelism of a Storm Topology
+<br>http://www.michael-noll.com/blog/2012/10/16/understanding-the-parallelism-of-a-storm-topology/
+<br>(4) Early detection of Twitter trends explained
 <br>https://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/
 
 * Scalability, Availability & Stability Patterns (slideshare, 196 slides)
