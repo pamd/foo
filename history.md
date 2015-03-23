@@ -10,13 +10,6 @@
 * Scalability, Availability & Stability Patterns (slideshare, 196 slides)
 <br>http://www.slideshare.net/jboner/scalability-availability-stability-patterns
 
-* Ricky Ho: NoSQL Patterns (11/15/2009)
-<br>http://horicky.blogspot.com/2009/11/nosql-patterns.html
-<br>Slideshare: Design Patterns for Distributed Non-Relational Databases (06/11/2009)
-<br>http://www.slideshare.net/guestdfd1ec/design-patterns-for-distributed-nonrelational-databases (48 slides)
-<br>Data Presentations Cassandra Sigmod (2008)
-<br>http://www.slideshare.net/jhammerb/data-presentations-cassandra-sigmod (20 slides)
-
 * Consistent Hashing
 <br>http://www.tom-e-white.com/2007/11/consistent-hashing.html 
 <br>http://www.tomkleinpeter.com/2008/03/17/programmers-toolbox-part-3-consistent-hashing/
