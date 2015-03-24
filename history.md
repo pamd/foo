@@ -1,5 +1,12 @@
 # History
 
+* Google document system
+<br>(1) google-mobwrite
+<br>https://code.google.com/p/google-mobwrite/
+<br>(2) Differential Synchronization.
+<br>https://neil.fraser.name/writing/sync/
+<br>https://www.youtube.com/watch?v=S2Hp_1jqpY8 (54 min)
+
 * Trending Topics
 <br>(1) American Scientist: The Britney Spears Problem
 <br>http://www.americanscientist.org/issues/pub/the-britney-spears-problem/1 
