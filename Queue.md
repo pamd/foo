@@ -7,9 +7,8 @@
 https://www.youtube.com/watch?v=pghac0H0x_U (60 min)
 
 3. Google Cloud Platform Live: Keynote from Urs Hölzle
-https://www.youtube.com/watch?v=qokEYBNWA_0 (82 min)
-
-2. Talks by Urs Hölzle (Google)
+<br>https://www.youtube.com/watch?v=qokEYBNWA_0 (82 min)
+<br>Talks by Urs Hölzle (Google)
 <br>https://www.youtube.com/results?search_query=urs+h%C3%B6lzle+
 
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
