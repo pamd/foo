@@ -12,12 +12,6 @@
 <br>https://neil.fraser.name/writing/sync/
 <br>https://www.youtube.com/watch?v=S2Hp_1jqpY8 (54 min)
 
-3. Random ID generation system
-<br>(1) Announcing Snowflake
-<br>https://blog.twitter.com/2010/announcing-snowflake
-<br>(2) snowflake
-<br>https://github.com/twitter/snowflake/
-
 6. Design an online multiplayer card game:
 <br>(1) How to Create an Asynchronous Multiplayer Game
 <br>http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
