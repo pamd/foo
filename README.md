@@ -5,13 +5,6 @@
 
 # Evernotes
 
-2. Google document system
-<br>(1) google-mobwrite
-<br>https://code.google.com/p/google-mobwrite/
-<br>(2) Differential Synchronization.
-<br>https://neil.fraser.name/writing/sync/
-<br>https://www.youtube.com/watch?v=S2Hp_1jqpY8 (54 min)
-
 6. Design an online multiplayer card game:
 <br>(1) How to Create an Asynchronous Multiplayer Game
 <br>http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
