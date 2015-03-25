@@ -1,5 +1,9 @@
 # History
 
+
+* Google Data Centers: A Behind the Scenes Look at Infrastructure and Innovations (Green Grid Forum 2013)
+https://www.youtube.com/watch?v=pghac0H0x_U (video, 60 min)
+
 * Google document system
 <br>(1) google-mobwrite
 <br>https://code.google.com/p/google-mobwrite/
