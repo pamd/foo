@@ -1,5 +1,7 @@
 # History
 
+* Google I/O 2012 - SQL vs NoSQL: Battle of the Backends
+<br>https://www.youtube.com/watch?v=rRoy6I4gKWU (video, 43 min)
 
 * Google Data Centers: A Behind the Scenes Look at Infrastructure and Innovations (Green Grid Forum 2013)
 https://www.youtube.com/watch?v=pghac0H0x_U (video, 60 min)
