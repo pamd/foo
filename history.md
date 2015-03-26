@@ -1,5 +1,16 @@
 # History
 
+* Design an online multiplayer card game:
+<br>(1) How to Create an Asynchronous Multiplayer Game
+<br>http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
+<br>(2) Part 2: Saving the Game State to Online Database
+<br>http://www.indieflashblog.com/how-to-create-async-part2.html
+<br>(3) Part 3: Loading Games from the Database
+<br>http://www.indieflashblog.com/how-to-create-async-part3.html
+<br>(4) Part 4: Matchmaking
+<br>http://www.indieflashblog.com/how-to-create-async-part4-html.html#comment-4447
+<br>(5) Real Time Multiplayer in HTML5
+<br>http://buildnewgames.com/real-time-multiplayer/
 * Google I/O 2012 - SQL vs NoSQL: Battle of the Backends
 <br>https://www.youtube.com/watch?v=rRoy6I4gKWU (video, 43 min)
 
