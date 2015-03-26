@@ -1,5 +1,9 @@
 # History
 
+* The Anatomy of a Large-Scale Hypertextual Web Search Engine (Brin & Page)
+<br>http://infolab.stanford.edu/~backrub/google.html
+<br>http://infolab.stanford.edu/pub/papers/google.pdf (paper, 20 pages)
+
 * Design an online multiplayer card game:
 <br>(1) How to Create an Asynchronous Multiplayer Game
 <br>http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html
