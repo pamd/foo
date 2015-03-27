@@ -3,27 +3,11 @@
 
 <HR>
 
-# Evernotes
-
-
-
 8. Design a picture sharing system
 <br>(1) Flickr Architecture
 <br>http://highscalability.com/flickr-architecture
 <br>(2) Instagram Architecture
 <br>http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html
-
-9. Design a search engine
-<br>(1) How would you implement Google Search?
-<br>http://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search
-<br>(2) Implementing Search Engines
-<br>http://www.ardendertat.com/2012/01/11/implementing-search-engines/
-
-10. Design a recommendation system
-<br>(1) Hulu’s Recommendation System
-<br>http://tech.hulu.com/blog/2011/09/19/recommendation-system/
-<br>(2) Recommender Systems
-<br>http://ijcai13.org/files/tutorial_slides/td3.pdf (144 slides)
 
 12. Design a garbage collection system: Baby's First Garbage Collector
 <br>http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/
