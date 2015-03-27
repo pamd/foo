@@ -1,5 +1,8 @@
 # Presentations
 
+1. Kafka:
+<br>http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+
 1. Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
 <br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
 
