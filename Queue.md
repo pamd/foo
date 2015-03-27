@@ -6,7 +6,6 @@
 1. Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
 <br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
 
-
 3. Google Cloud Platform Live: Keynote from Urs Hölzle
 <br>https://www.youtube.com/watch?v=qokEYBNWA_0 (82 min)
 <br>Talks by Urs Hölzle (Google)
@@ -23,9 +22,6 @@
 8. Introduction To Apache Cassandra (01/17/2014)
 <br>https://www.youtube.com/watch?v=B_HTdrTgGNs (75 min)
 <br>http://www.slideshare.net/patrickmcfadin/introduction-to-cassandra-2014 (52 slides)
-
-9. Introduction to NoSQL by Martin Fowler (02/19/2013)
-<br>https://www.youtube.com/watch?v=qI_g07C_Q5I (55 min)
 
 2. The NoSQL Ecosystem (69 slides, by the author of "NoSQL Ecosystem" chapter)
 <br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem 
