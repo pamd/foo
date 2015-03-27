@@ -1,5 +1,17 @@
 # History
 
+* Design a search engine
+<br>(1) How would you implement Google Search?
+<br>http://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search
+<br>(2) Implementing Search Engines
+<br>http://www.ardendertat.com/2012/01/11/implementing-search-engines/
+
+* Design a recommendation system
+<br>(1) Hulu’s Recommendation System
+<br>http://tech.hulu.com/blog/2011/09/19/recommendation-system/
+<br>(2) Recommender Systems
+<br>http://ijcai13.org/files/tutorial_slides/td3.pdf (144 slides)
+
 * The Anatomy of a Large-Scale Hypertextual Web Search Engine (Brin & Page)
 <br>http://infolab.stanford.edu/~backrub/google.html
 <br>http://infolab.stanford.edu/pub/papers/google.pdf (paper, 20 pages)
