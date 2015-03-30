@@ -1,8 +1,3 @@
-# Misc
-
-
-
-
 
 # H_InTech
 
