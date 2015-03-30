@@ -1,19 +1,7 @@
 # Misc
 
 
-<HR>
 
-8. Design a picture sharing system
-<br>(1) Flickr Architecture
-<br>http://highscalability.com/flickr-architecture
-<br>(2) Instagram Architecture
-<br>http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html
-
-12. Design a garbage collection system: Baby's First Garbage Collector
-<br>http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/
-
-13. Design and Implementation of a High-Performance Distributed Web Crawler
-<br>http://cis.poly.edu/suel/papers/crawl.pdf (12 pages)
 
 
 # H_InTech
