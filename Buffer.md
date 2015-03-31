@@ -22,3 +22,6 @@
 * f4:
 <br>http://blog.acolyer.org/2014/12/16/f4-facebooks-warm-blob-storage-system/
 <br>http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html
+
+* Distributed systems theory for the distributed systems engineer
+<br>http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/
