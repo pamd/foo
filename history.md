@@ -1,5 +1,11 @@
 # History
 
+* TripAdvisor: 
+<br> TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data
+<br> http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html
+<br> An Epic TripAdvisor Update: Why Not Run On The Cloud? The Grand Experiment
+<br> http://highscalability.com/blog/2012/10/2/an-epic-tripadvisor-update-why-not-run-on-the-cloud-the-gran.html
+
 * Design a picture sharing system
 <br>(1) Flickr Architecture
 <br>http://highscalability.com/flickr-architecture
