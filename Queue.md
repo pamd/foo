@@ -1,5 +1,17 @@
 # Presentations
 
+1. Slides: Building a Scalable Architecture for web apps
+<br>http://www.slideshare.net/directi/building-a-scalable-architecture-for-web-apps (46 slides)
+
+2. Scalable Web Architecture and Distributed Systems
+<br>http://www.slideshare.net/soomong/aosa (48 slides)
+
+3. Scalability Web Design: Principles and Patterns
+<br>http://www.slideshare.net/ssachin7/scalability-design-principles-internal-session (44 slides)
+
+4. Apache Zookeeper
+<br>http://www.slideshare.net/scottleber/apache-zookeeper (76 slides)
+
 1. Kafka:
 <br>http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 
