@@ -1,9 +1,7 @@
 
 # H_InTech
 
-1. TripAdvisor: 
-Pay special attention to the breakdown of functional services. This is a powerful pattern. (06/27/2011)
-<br>http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html 
+
 
 14. PlentyOfFish: What a single engineer can achieve in terms of scalability.
 <br>http://highscalability.com/plentyoffish-architecture
