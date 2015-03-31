@@ -25,3 +25,7 @@
 
 * Distributed systems theory for the distributed systems engineer
 <br>http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/
+
+* A Brief Tour of FLP Impossibility
+<br>http://the-paper-trail.org/blog/a-brief-tour-of-flp-impossibility/
+
