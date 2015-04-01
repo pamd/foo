@@ -19,7 +19,7 @@
 * Cloud Dataflow and the FlumeJava paper explained
 <br>https://www.youtube.com/watch?v=4Pf3v_wLli4 (54 min)
 
-* f4:
+* FB f4:
 <br>http://blog.acolyer.org/2014/12/16/f4-facebooks-warm-blob-storage-system/
 <br>http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html
 
