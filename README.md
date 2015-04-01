@@ -16,6 +16,8 @@
 
 17. Tumblr
 <br>http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html
+<br>Tumblr.  Massively Sharded MySQL (Evan Elias)
+<br>http://assets.en.oreilly.com/1/event/74/Massively%20Sharded%20MySQL%20at%20Tumblr%20Presentation.pdf (48 slides)
 
 18. StackOverflow
 <br>http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html
