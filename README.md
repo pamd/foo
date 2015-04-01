@@ -1,8 +1,6 @@
 
 # H_InTech
 
-
-
 14. PlentyOfFish: What a single engineer can achieve in terms of scalability.
 <br>http://highscalability.com/plentyoffish-architecture
 
@@ -11,6 +9,10 @@
 
 16. ESPN: awesome and thorough example from the digital media industry.
 <br>http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html
+<br>Video #1: Architecture at Scale at ESPN (Manny Pelarinos, 07/31/2012)
+<br>http://www.infoq.com/presentations/Architecture-Scale-ESPN (43 min)
+<br>Video #2: Max Protect: Scalability and Caching at ESPN.com (Sean Comerford, 02/06/2012)
+<br>http://www.infoq.com/presentations/Max-Protect-Scalability-and-Caching-at-ESPN (60 min)
 
 17. Tumblr
 <br>http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html
