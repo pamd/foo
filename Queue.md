@@ -1,5 +1,10 @@
 # Presentations
 
+1. Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month
+<br>http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html
+<br>Video: 
+http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-distributed-systems-at-bitly (35 min)
+
 1. Slides: Building a Scalable Architecture for web apps
 <br>http://www.slideshare.net/directi/building-a-scalable-architecture-for-web-apps (46 slides)
 
