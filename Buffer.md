@@ -15,6 +15,7 @@
 <br>Lisa 13: Cluster Management at Google 
 <br>https://www.usenix.org/cluster-management-google (50 min)
 <br>https://www.usenix.org/sites/default/files/conference/protected-files/wilkes_lisa13_slides.pdf (34 slides)
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/university/relations/facultysummit2011/2011_faculty_summit_omega_wilkes.pdf (26 slides, 2011)
 
 * Dapper
 <br>Video: https://www.youtube.com/watch?v=ya9X63VPgV8 (41 min)
