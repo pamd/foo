@@ -6,7 +6,6 @@
 * Video: Large-Scale Low-Latency Storage for the Social Network - Data@Scale
 <br>https://www.youtube.com/watch?v=5RfFhMwRAic (26 min)
 
-* http://mydeviceinfo.comcast.net/
 * A Quick Guide to Structured and Unstructured Data
 <br>http://smartdatacollective.com/michelenemschoff/206391/quick-guide-structured-and-unstructured-data
 
