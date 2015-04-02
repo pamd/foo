@@ -21,6 +21,9 @@
 
 18. StackOverflow
 <br>http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html
+<br>Video: Learning from StackOverflow.com (52 min)
+<br>https://www.youtube.com/watch?v=NWHfY_lvKIQ
+
 
 19. Datashift
 <br>http://highscalability.com/blog/2011/11/29/datasift-architecture-realtime-datamining-at-120000-tweets-p.html 
