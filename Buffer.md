@@ -16,6 +16,12 @@
 <br>https://www.usenix.org/cluster-management-google (50 min)
 <br>https://www.usenix.org/sites/default/files/conference/protected-files/wilkes_lisa13_slides.pdf (34 slides)
 <br>http://static.googleusercontent.com/media/research.google.com/en/us/university/relations/facultysummit2011/2011_faculty_summit_omega_wilkes.pdf (26 slides, 2011)
+<br>Google talk on Omega: https://www.youtube.com/watch?v=0ZFMlO98Jkc (30 min)
+<br>Inside the Hacker Mind: John Wilkes on Google Omega. Cade Metz, Wired. April 2013.
+<br>http://www.wired.com/2013/04/google-john-wilkes-new-hackers
+<br>Return of the Borg: How Twitter Rebuilt Google’s Secret Weapon. Cade Metz, Wired. March 2013.
+<br>http://www.wired.com/2013/03/google-borg-twitter-mesos/all/
+
 
 * Dapper
 <br>Video: https://www.youtube.com/watch?v=ya9X63VPgV8 (41 min)
