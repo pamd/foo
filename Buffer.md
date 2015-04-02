@@ -4,6 +4,11 @@
 # B2H
 
 * http://mydeviceinfo.comcast.net/
+* A Quick Guide to Structured and Unstructured Data
+<br>http://smartdatacollective.com/michelenemschoff/206391/quick-guide-structured-and-unstructured-data
+
+* Amazon S3 vs. DynamoDB
+<br>http://stackoverflow.com/questions/18678315/amazon-s3-or-dynamodb
 
 * Omega
 <br>Video: https://www.youtube.com/watch?v=XsXlm4wmB6o (10/2013, 63 min)
