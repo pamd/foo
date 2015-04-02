@@ -12,6 +12,9 @@
 <br>https://www.youtube.com/watch?v=WbE3wAJCm3I (49 min)
 <br>Video #3: Cluster Management at Google (John Wilkes, 08/21/2014)
 <br>https://www.youtube.com/watch?v=VQAAkO5B5Hg (42 min)
+<br>Lisa 13: Cluster Management at Google 
+<br>https://www.usenix.org/cluster-management-google (50 min)
+<br>https://www.usenix.org/sites/default/files/conference/protected-files/wilkes_lisa13_slides.pdf (34 slides)
 
 * Dapper
 <br>Video: https://www.youtube.com/watch?v=ya9X63VPgV8 (41 min)
