@@ -1,3 +1,9 @@
+# Misc
+
+* Introduction To Apache Cassandra (01/17/2014)
+<br>https://www.youtube.com/watch?v=B_HTdrTgGNs (75 min)
+<br>http://www.slideshare.net/patrickmcfadin/introduction-to-cassandra-2014 (52 slides)
+ 
 # H_Tech
 
 * Datashift
