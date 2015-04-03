@@ -36,10 +36,6 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 <br>https://www.youtube.com/watch?v=QCHiNEw73AU
 <br>https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
 
-8. Introduction To Apache Cassandra (01/17/2014)
-<br>https://www.youtube.com/watch?v=B_HTdrTgGNs (75 min)
-<br>http://www.slideshare.net/patrickmcfadin/introduction-to-cassandra-2014 (52 slides)
-
 2. The NoSQL Ecosystem (69 slides, by the author of "NoSQL Ecosystem" chapter)
 <br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem 
 
