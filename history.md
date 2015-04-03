@@ -1,10 +1,50 @@
-# History
+# H_Tech
+
+* Datashift
+<br>http://highscalability.com/blog/2011/11/29/datasift-architecture-realtime-datamining-at-120000-tweets-p.html 
+
+* StackOverflow
+<br>http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html
+<br>Video: Learning from StackOverflow.com (52 min)
+<br>https://www.youtube.com/watch?v=NWHfY_lvKIQ
+
+* Tumblr
+<br>http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html
+<br>Tumblr.  Massively Sharded MySQL (Evan Elias)
+<br>http://assets.en.oreilly.com/1/event/74/Massively%20Sharded%20MySQL%20at%20Tumblr%20Presentation.pdf (48 slides)
+
+* ESPN: awesome and thorough example from the digital media industry.
+<br>http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html
+<br>Video #1: Architecture at Scale at ESPN (Manny Pelarinos, 07/31/2012)
+<br>http://www.infoq.com/presentations/Architecture-Scale-ESPN (43 min)
+<br>Video #2: Max Protect: Scalability and Caching at ESPN.com (Sean Comerford, 02/06/2012)
+<br>http://www.infoq.com/presentations/Max-Protect-Scalability-and-Caching-at-ESPN (60 min)
+
+* Salesforce: A relatively short example from Salesforce.
+<br>http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html
+
+* PlentyOfFish: What a single engineer can achieve in terms of scalability.
+<br>http://highscalability.com/plentyoffish-architecture
 
 * TripAdvisor: 
 <br> (1) TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data
 <br> http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html
 <br> (2) An Epic TripAdvisor Update: Why Not Run On The Cloud? The Grand Experiment
 <br> http://highscalability.com/blog/2012/10/2/an-epic-tripadvisor-update-why-not-run-on-the-cloud-the-gran.html
+
+* Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing
+<br>http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html
+
+* Justin.Tv's Live Video Broadcasting Architecture
+<br>http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html
+
+* Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day
+<br>http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html
+
+* What Powers Instagram: Hundreds of Instances, Dozens of Technologies
+<br>http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances
+
+# Evernotes
 
 * Design a picture sharing system
 <br>(1) Flickr Architecture
