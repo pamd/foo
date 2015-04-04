@@ -14,6 +14,9 @@
 <br>http://blog.acolyer.org/2014/12/16/f4-facebooks-warm-blob-storage-system/
 <br>http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html
 
+* FB Tao:
+<br>http://www.quora.com/What-is-the-TAO-cache-used-for-at-Facebook
+
 * Distributed systems theory for the distributed systems engineer
 <br>http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/
 
