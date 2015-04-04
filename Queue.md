@@ -23,11 +23,6 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 1. Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
 <br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
 
-3. Google Cloud Platform Live: Keynote from Urs Hölzle
-<br>https://www.youtube.com/watch?v=qokEYBNWA_0 (82 min)
-<br>Talks by Urs Hölzle (Google)
-<br>https://www.youtube.com/results?search_query=urs+h%C3%B6lzle+
-
 5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
 <br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
