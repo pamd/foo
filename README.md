@@ -4,9 +4,6 @@
 * The NoSQL Ecosystem (69 slides, by the author of "NoSQL Ecosystem" chapter)
 <br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem 
 
-* Video: Large-Scale Low-Latency Storage for the Social Network - Data@Scale
-<br>https://www.youtube.com/watch?v=5RfFhMwRAic (26 min)
-
 * A Quick Guide to Structured and Unstructured Data
 <br>http://smartdatacollective.com/michelenemschoff/206391/quick-guide-structured-and-unstructured-data
 
