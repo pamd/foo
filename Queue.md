@@ -1,38 +1,7 @@
 # Presentations
 
-1. Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month
-<br>http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html
-<br>Video: 
-http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-distributed-systems-at-bitly (35 min)
 
-1. Slides: Building a Scalable Architecture for web apps
-<br>http://www.slideshare.net/directi/building-a-scalable-architecture-for-web-apps (46 slides)
 
-2. Scalable Web Architecture and Distributed Systems
-<br>http://www.slideshare.net/soomong/aosa (48 slides)
-
-3. Scalability Web Design: Principles and Patterns
-<br>http://www.slideshare.net/ssachin7/scalability-design-principles-internal-session (44 slides)
-
-4. Apache Zookeeper
-<br>http://www.slideshare.net/scottleber/apache-zookeeper (76 slides)
-
-1. Kafka:
-<br>http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
-
-1. Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
-<br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
-
-5. Operations at Twitter: Scaling Beyond 100 Million Users (2010)
-<br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
-<br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
-
-7. Lessons of Scale at Facebook (2010, 64 min, slides not found)
-<br>https://www.youtube.com/watch?v=QCHiNEw73AU
-<br>https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
-
-2. The NoSQL Ecosystem (69 slides, by the author of "NoSQL Ecosystem" chapter)
-<br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem 
 
 # Future
 
