@@ -1,5 +1,8 @@
 # Misc
 
+* Video: Large-Scale Low-Latency Storage for the Social Network (FB)
+<br>https://www.youtube.com/watch?v=5RfFhMwRAic (26 min)
+
 * Lessons of Scale at Facebook (2010, 64 min, slides not found)
 <br>https://www.youtube.com/watch?v=QCHiNEw73AU
 <br>https://www.usenix.org/conference/webapps-10/lessons-scale-facebook
