@@ -31,9 +31,6 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 3. Scalability Web Design: Principles and Patterns
 <br>http://www.slideshare.net/ssachin7/scalability-design-principles-internal-session (44 slides)
 
-4. Apache Zookeeper
-<br>http://www.slideshare.net/scottleber/apache-zookeeper (76 slides)
-
 1. Kafka:
 <br>http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 
