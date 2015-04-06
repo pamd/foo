@@ -1,8 +1,7 @@
 # Misc
 
 * FB Mysterious Machine: End-to-end Performance Analysis of Large-scale Internet Services
-<br> Paper (15 pages) and slides (45)
-<br>https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
+<br> Paper (15 pages) and slides (45): https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
 <br>Review: http://muratbuffalo.blogspot.com/2015/03/the-mystery-machine-end-to-end.html
 
 * Operations at Twitter: Scaling Beyond 100 Million Users (2010)
