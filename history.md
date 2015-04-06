@@ -1,5 +1,10 @@
 # Misc
 
+* FB Mysterious Machine: End-to-end Performance Analysis of Large-scale Internet Services
+<br> Paper (15 pages) and slides (45)
+<br>https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
+
+
 * Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
 <br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
