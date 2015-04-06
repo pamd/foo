@@ -1,5 +1,9 @@
 # Misc
 
+* Operations at Twitter: Scaling Beyond 100 Million Users (2010)
+<br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
+<br>https://www.usenix.org/conference/lisa10/operations-twitter-scaling-beyond-100-million-users (59 slides)
+
 * Video: Large-Scale Low-Latency Storage for the Social Network (FB)
 <br>https://www.youtube.com/watch?v=5RfFhMwRAic (26 min)
 
