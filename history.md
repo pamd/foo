@@ -1,8 +1,12 @@
 # Misc
 
-* FB Mysterious Machine: End-to-end Performance Analysis of Large-scale Internet Services
-<br> Paper (15 pages) and slides (45): https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
-<br>Review: http://muratbuffalo.blogspot.com/2015/03/the-mystery-machine-end-to-end.html
+* A Quick Guide to Structured and Unstructured Data
+<br>http://smartdatacollective.com/michelenemschoff/206391/quick-guide-structured-and-unstructured-data
+
+* Amazon S3 vs. DynamoDB
+<br>http://stackoverflow.com/questions/18678315/amazon-s3-or-dynamodb
+
+
 
 * Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
