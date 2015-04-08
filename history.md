@@ -1,5 +1,8 @@
 # Misc
 
+* Slides: Megastore and Spanner
+<br>http://www.slideshare.net/payberah/megastore-and-spanner (103 slides)
+
 * A Quick Guide to Structured and Unstructured Data
 <br>http://smartdatacollective.com/michelenemschoff/206391/quick-guide-structured-and-unstructured-data
 
