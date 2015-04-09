@@ -1,5 +1,15 @@
 # Misc
 
+* FB f4:
+<br>http://blog.acolyer.org/2014/12/16/f4-facebooks-warm-blob-storage-system/
+<br>http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html
+
+* FB memcache: video (23 min), slides (28 pages)
+<br>https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala
+
+* FB Haystack: video (29 min), slides (19 pages)
+<br>https://www.usenix.org/conference/osdi10/finding-needle-haystack-facebooks-photo-storage
+
 * Slides: Megastore and Spanner
 <br>http://www.slideshare.net/payberah/megastore-and-spanner (103 slides)
 
@@ -8,8 +18,6 @@
 
 * Amazon S3 vs. DynamoDB
 <br>http://stackoverflow.com/questions/18678315/amazon-s3-or-dynamodb
-
-
 
 * Operations at Twitter: Scaling Beyond 100 Million Users (2010)
 <br>https://www.youtube.com/watch?v=z8LU0Cj6BOU (64 min)
