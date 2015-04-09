@@ -12,16 +12,6 @@
 <br>https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
 <br>Review: http://muratbuffalo.blogspot.com/2015/03/the-mystery-machine-end-to-end.html
 
-* FB f4:
-<br>http://blog.acolyer.org/2014/12/16/f4-facebooks-warm-blob-storage-system/
-<br>http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html
-
-* FB memcache: video (23 min), slides (28 pages)
-<br>https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala
-
-* FB Haystack: video (29 min), slides (19 pages)
-<br>https://www.usenix.org/conference/osdi10/finding-needle-haystack-facebooks-photo-storage
-
 * Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month
 <br>http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html
 <br>Video: 
