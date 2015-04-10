@@ -26,6 +26,7 @@
 
 * Introduction to Computer Science and Programming Using Python (MIT, closed now)
 <br>https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-0#!
+<br>Youtube: https://www.youtube.com/watch?v=bX3jvD7XFPs&list=PL8454A71E43681B63 
 
 * The Beauty and Joy of Computing, Berkeley, Part 1-4
 <br>https://www.edx.org/course/beauty-joy-computing-cs-principles-part-uc-berkeleyx-bjc-1x
