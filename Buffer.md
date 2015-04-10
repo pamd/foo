@@ -24,10 +24,10 @@
 * Introduction to Computer Science, Harvard, 10 weeks
 <br>https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
 
-* Introduction to Computer Science and Programming Using Python (MIT, closed now)
-<br>edX: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-0#!
+* <b>Introduction to Computer Science and Programming Using Python</b> (MIT)
+<br>edX: https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-0#! (NA at edX now)
 <br>Home: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm
-<br>Youtube: https://www.youtube.com/watch?v=bX3jvD7XFPs&list=PL8454A71E43681B63 
+<br>Youtube Lectures: https://www.youtube.com/watch?v=bX3jvD7XFPs&list=PL8454A71E43681B63 
 
 
 * The Beauty and Joy of Computing, Berkeley, Part 1-4
