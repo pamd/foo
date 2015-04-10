@@ -7,6 +7,9 @@
 * The NoSQL Ecosystem (69 slides, "NoSQL Ecosystem" chapter of AOSA book)
 <br>http://www.slideshare.net/yarapavan/the-nosql-ecosystem 
 
+* FB TAO
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAA&url=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Ffacebook-engineering%2Ftao-the-power-of-the-graph%2F10151525983993920&ei=4d0nVZzXA8THsAX084HwBw&usg=AFQjCNH6zNy5aSmLgRyTw2HG2JHDNKxuTA&sig2=9hEuVlcrjaFAu1gwTiD2Kw
+
 * FB Mystery Machine: End-to-end Performance Analysis of Large-scale Internet Services
 <br> Paper (15 pages) and slides (45):
 <br>https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
