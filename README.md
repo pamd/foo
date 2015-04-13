@@ -1,4 +1,9 @@
 
+# Misc
+* Youtube problems
+<br>https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
+<br>Source code: http://goo.gl/fAhQ9
+
 # Systems
 
 * Scalable Web Architecture and Distributed Systems (Chapter of AOSA book)
