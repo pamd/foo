@@ -5,6 +5,9 @@
 <br>Source code: http://goo.gl/fAhQ9
 
 # Systems
+* Scaling Pinterest
+<br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
+<br>HS: http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html
 
 * Scalable Web Architecture and Distributed Systems (Chapter of AOSA book)
 <br>http://www.slideshare.net/soomong/aosa (48 slides)
