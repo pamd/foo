@@ -55,7 +55,8 @@
 <HR>
 
 1. Blog: http://www.fgdsb.com/ (algorithms)
-2. Blog: http://n00tc0d3r.blogspot.com/
+2. Blog: http://www.shuatiblog.com/blog/archives/ (algorithms)
+2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
 2. Ricky Ho Blog (Pragmatic Programming Techniques): http://horicky.blogspot.com/
 2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
