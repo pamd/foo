@@ -4,8 +4,7 @@
 <br>https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
 <br>Source code: http://goo.gl/fAhQ9
 
-* EPI
-<br>Main: http://elementsofprogramminginterviews.com/
+* EPI: http://elementsofprogramminginterviews.com/
 <br>Code: http://elementsofprogramminginterviews.com/solutions/
 
 # Systems
