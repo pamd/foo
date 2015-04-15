@@ -7,6 +7,9 @@
 * EPI: http://elementsofprogramminginterviews.com/
 <br>Code: http://elementsofprogramminginterviews.com/solutions/
 
+* GNU Make: Variables Used by Implicit Rules (CC, CXX, CFLAGS, CXXFLAGS, etc) 
+<br>http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
+
 # Systems
 * Scaling Pinterest
 <br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
