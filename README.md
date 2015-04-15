@@ -4,6 +4,10 @@
 <br>https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
 <br>Source code: http://goo.gl/fAhQ9
 
+* EPI
+<br>Main: http://elementsofprogramminginterviews.com/
+<br>Code: http://elementsofprogramminginterviews.com/solutions/
+
 # Systems
 * Scaling Pinterest
 <br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
