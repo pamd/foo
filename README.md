@@ -2,8 +2,7 @@
 # Misc
 
 * Penn CAM: http://memory.psych.upenn.edu/
-* Youtube problems
-<br>Video: https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
+* Youtube problems: https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
 <br>Code: http://goo.gl/fAhQ9
 
 * EPI: http://elementsofprogramminginterviews.com/
