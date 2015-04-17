@@ -2,6 +2,7 @@
 # Misc
 
 * Penn CAM: http://memory.psych.upenn.edu/
+* EupathDB: http://PlasmoDB.org
 * Youtube problems: https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
 <br>Source Code: http://goo.gl/fAhQ9
 
