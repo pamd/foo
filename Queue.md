@@ -52,13 +52,6 @@
 5. Paper review: warehouse-scale computing: entering the teenage decade (2011)
 <br>http://www.umbrant.com/blog/2011/warehouse_scale_computing_summary.html
 
-<HR>
-
-1. Blog: http://www.fgdsb.com/ (algorithms)
-2. Blog: http://www.shuatiblog.com/blog/archives/ (algorithms)
-2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
-2. Ricky Ho Blog (Pragmatic Programming Techniques): http://horicky.blogspot.com/
-2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 
 <HR>
 
