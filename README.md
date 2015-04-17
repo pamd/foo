@@ -33,8 +33,7 @@
 <br>https://www.facebook.com/notes/facebook-engineering/tao-the-power-of-the-graph/10151525983993920
 
 * FB Mystery Machine: End-to-end Performance Analysis of Large-scale Internet Services
-<br> Paper (15 pages) and slides (45):
-<br>https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
+<br> Paper (15 pages) and slides (45): https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
 <br>Review: http://muratbuffalo.blogspot.com/2015/03/the-mystery-machine-end-to-end.html
 
 * Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month
