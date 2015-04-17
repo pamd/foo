@@ -10,6 +10,14 @@
 * GNU Make: Variables Used by Implicit Rules (CC, CXX, CFLAGS, CXXFLAGS, etc) 
 <br>http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
 
+# Blogs
+
+1. Blog: http://www.fgdsb.com/ (algorithms)
+2. Blog: http://www.shuatiblog.com/blog/archives/ (algorithms)
+2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
+2. Ricky Ho Blog (Pragmatic Programming Techniques): http://horicky.blogspot.com/
+2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
+
 # Systems
 * Scaling Pinterest
 <br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
