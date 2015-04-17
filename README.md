@@ -54,6 +54,10 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 * Video: Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
 <br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
 
+* Zookeeper at Youtube:
+<br>https://www.youtube.com/watch?v=2jzpkdYHwSQ (24 min, mostly audio)
+<br>Scaling Apache Zookeeper: https://www.youtube.com/watch?v=ZC0kMiKKbug (38 min, 2012)
+<br>https://www.youtube.com/watch?v=2RfBHqDWa60 (38 min, 2012)
 
 # Theory
 
