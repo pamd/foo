@@ -28,6 +28,11 @@
 <br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
 <br>HS: http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html
 
+* Whatsapp
+<br>Review: http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html
+<br>Video: https://www.youtube.com/watch?v=c12cYAUTXXs (50 min)
+<br>Slides: https://github.com/reedr/reedr/blob/master/slides/efsf2014-whatsapp-scaling.pdf (44 slides)
+
 * Scalable Web Architecture and Distributed Systems (Chapter of AOSA book)
 <br>http://www.slideshare.net/soomong/aosa (48 slides)
 
