@@ -1,0 +1,163 @@
+------------------------------------------------------------------------
+Software Engineer
+------------------------------------------------------------------------
+Generating a sorted vector from two sorted vectors [merge]
+
+Validate number [regex]
+
+Level print 二叉树 [queue]
+
+Max sum of consecutive numbers in an array [DP: S(i) = max{L[i-1], S(i-1)+L[i-1]} or sum(L[:i])]
+
+insert interval
+
+card shuffle
+
+text justification
+
+找linkedin influncer从一个matrix里面
+
+Binary tree 里找lowest common parent.
+
+Searching in sorted arrays of numbers. [binary search]
+
+给一个二叉树，返回它的镜像
+[def mirror(root):
+	root.left, root.right = root.right, root.left
+	if root.left: mirror(root.left)
+	if root.right: mirror(root.right)]
+
+Implement an thread-safe blocking queue
+
+HashMap, 它的value可以是一个element也可以是另外一个嵌套map或是空的map. 实现一个iterator来遍历这个map里面的所有element.
+
+Given two words, find a short path to change "head" to "tail", and each time only one character is changed and all the words are in the given dictionary. [word ladder; dijkstra shortest path in the graph]
+
+memcpy: 源区域和目标区域可能有重叠
+
+BST insertion and deletion
+
+BST iterator
+
+Implement two functions: H() and O(), 这两个函数会被多线程调用。当一个线程调用H或O时, 如果当前已经有至少两个线程call H和一个线程call O。那么让两个call H和一个call O的线程返回(产生一个水分子), 其他的都block.
+
+Given a social graph, find if there is a path between two persons with at most 2 steps (3rd level connection), how to handle it in distributed way (large graph stored at a large number of nodes, minimize cross-communication)
+
+(Design) A restful server with 4GB, given a request such as: http://seq=4?len=60?xxxxdata, the system will store the binary data with that sequence number. Given a request: http://startseq=3?maxLen=100, the system returns all data objects with sequence >= 3 with total data length less equal than 100.
+Multiple clients calling simultaneous; What data structure, concurrency, locking, etc..
+
+Blocking queue: A Queue that additionally supports operations that wait for the queue to become non-empty when retrieving an element, and wait for space to become available in the queue when storing an element.
+
+Example: input: ((1, 3, 5),(4, 7, 3),((2, 3), 4)) --> 1, 3, 5, 4, 7, 3, 2, 3, 4
+
+(Design) How would you design an enhancement to the LinkedIn homepage that displays 24-hour trailing lists (5-minute, 1-hour, 1-day) of the top 5 URLs that users post onto the site? Need to describe how to handle possible high volume concurrent submissions. How to store URLs, how to compute the trailing lists, and how to clean up stale data, all in the context of a load-balanced scalable architecture.
+
+问了thread safe的一些东西, 不深
+
+2sum, and how to optimize it [hashtable; sorted, start--><--end]
+
+Search in 2D sorted array
+
+数组中那个查找那个出现概率不小于1/2的数; 延伸到找K个这样的数，不过那个面试者显然搞错了，说要求找top K个出现次数>=N/K (N是数组大小）的数，这样唯一可能性就只有K个数每个都出现N/K次
+
+Find the union and intersection of two sorted arrays.
+
+Java的东西. 内存leaking. GC之类的.
+
+找一个树的从root到最远leaf的edge数,其实就是depth - 1.
+
+问了Mutex/Semaphore
+
+Evaluate expressions in Reverse Polish order (postfix expression)
+
+两种方法写Singleton
+
+按层打印二叉树，层间加分割
+
+Search in rotated sort array [http://leetcode.com/2010/04/searching-element-in-rotated-array.html]
+
+Implement List Interface
+
+Design an enhancement to the LinkedIn homepage that displays 24-hour trailing lists (5-minute, 1-hour, 1-day) of the top 5 URLs that users post onto the site?
+
+How do you design the monitoring system for linkedin servers?
+
+Design diagnostics system for linkedin?
+
+How would you design the reporting system for linkedin servers?
+
+Design and code a system that can accept millions of events in real time and report the number of events for the last 10 minutes (sliding window). The 
+system has to account for performance and concurrency.
+
+Given a large number of records (with increasing but not necessarily consecutive sequence number), design a indexing scheme
+
+factorial digits sum。比如input为10，因为10！= 3628800，就应该返回sum的值 = 3+6+2+8
+
+------------------------------------------------------------------------
+Data Scientist
+------------------------------------------------------------------------
+Basic data mining questions, including the concepts of classification and clustering; 
+A simple DP question similar to "Climbing Stairs"
+Basic NLP questions, like named entity extraction
+Basic data mining questions, like SVM, naive Bayes; 
+A sampling question which is quite similar to Reservoir sampling
+
+SVM algorithm and kernels; describe 3 kernel functions and when to use which of them. [linear, polynomial, gaussian radial basis function]
+
+A product that you wanna build at linkedin [alumni->classify career paths] 
+
+Design recommendation engine for jobs. [collaborative filtering: what's the jobs of people with similar skills]
+
+Find out k most frequent numbers from incoming stream of numbers on the fly. [keep a hashtable?]
+
+Implement pow() function [divide and conquer]
+def pow(x,y):
+	if y == 0: return 0
+	if y == 1: return x
+	if y%2==0: x = pow(x, y//2)
+	else: x = pow(x, y//2) * x
+
+Segment a long string into a set of valid words using a dictionary. Return false if the string cannot be segmented. What is the complexity of your solution? [DP, O(n^2)]
+
+
+---------------------------------------------------------------------------
+指出了一个design的题目。
+class Msg
+{
+  long key;  // unique
+  long val;
+};
+
+class Window
+{
+  Window(int nMicrosecs);
+  addMsg(Msg m);
+  Msg getMsg(long key);
+  Double getAvg();
+};
+
+有一个stream of messgages，把最近的一些message存到Window里面，就像个sliding 
+window一样。要求design这个Window class。
+比如，Window里面存最近5分钟的message。
+addMsg（）就要添加一个mesage。
+getMsg（）就return一个message。
+getAvg（）计算window里所有message的val的平均值。
+要求要efficient。
+
+我不明白他说的5分钟什么意思，因为msg数据结构里没有时间，他说我可以自己添加。
+我又问：如果过去5分钟没有任何message进来，那么window就空了。他马上说：明白你
+的意思，不用考虑window的这种随时间的变化。我就问：那时间就无意义了，还不如就
+用一个serial number，window的size就是serial number的差值。这里他反复变化，浪
+费了很久。
+
+讨论了半天才明白他说的efficient只是指用lock锁住window而已。addMsg时读写锁，
+其他操作只加上写锁。那问题又来了，如果window锁住了，新来的message怎么办？是
+不是临时存起来？
+
+我回答的非常不好，他的很多考点我没有理解。感觉最难的是题目里有太多unclear的
+东西，仔细design一下就遇到很多东西要和他讨论，他自己也说讨论三天都讨论不完。
+估计就是考我找design weakness的能力和communication吧。
+
+
+
+

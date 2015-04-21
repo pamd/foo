@@ -1,0 +1,54 @@
+
+  Negative integer representation in C/C++
+-------------------------------------------
+
+In C and C++ (and possiblly many other programming languages), negative int
+is represented by "2's complement plus 1". That is, if we have a positive int x, 
+-x can be represented as: ~x + 1
+
+For example, suppose int has 4 bytes (32 bits), to represent -1, we know 1 is:
+00000000 00000000 00000000 00000001 
+
+Now get ~1:
+11111111 11111111 11111111 11111110
+
+Then ~1 + 1 is:
+11111111 11111111 11111111 11111111
+
+which is the binary representation of -1.
+
+For a 32-bit int, the maximum value is (1 << 31 - 1), aka 2^31 - 1
+01111111 11111111 11111111 11111111
+
+The minimum value is: -(1 << 31), aka -2^31
+10000000 00000000 00000000 00000000
+
+* In this representation, if we have x, the value of -x, when donoted as 
+an unsigned decimal value, will be: 
+
+(~0 - x) + 1
+
+Since ~0 = (1 << 32) - 1 = 2^32 - 1, the above formula can be also written as:
+2^32 - 1 - x + 1 = 2^32 - x
+                   
+aka: 
+-x = 2^32 - x
+-------------
+
+* In this representation, for any positive x, how can I prove: -x - 1 = -(x + 1)?
+##################################################################################
+-x = 2^32 - x
+
+So: -x - 1 = 2^32 - x - 1 = 2^32 - (x + 1) = -(x + 1), QED
+
+* How can I prove x + (-x) = 0?
+##################################
+Since -x = 2^32 - x, so x + (-x) = 2^32, in 32-bit system, 2^32 => 0, QED.
+
+* Note that in 32-bit system, because the int range is [-2^31, 2^31 - 1], 
+it is not symetric, aka. 2^31 overflows, but -2^31 does NOT.
+
+
+* References:
+##############
+http://www.asdlib.org/onlineArticles/elabware/Scheeline_ADC/ADC_NumRep_2Comp.html

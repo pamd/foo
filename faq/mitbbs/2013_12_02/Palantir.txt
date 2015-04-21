@@ -1,0 +1,253 @@
+Given an integer array [-3, 0, 1, 2, -5, 6, 2, 0]
+- start index i into the array
+- end index j into the array
+- i <= j
+Find: the sum of the elements between i and j, inclusive.
+Example: i = 2, j = 5
+Return: 1 + 2 + (-5) + 6 = 4
+Assumptions:
+- array does not change
+- many requests for the sum between different i's and j's.
+
+
+In the previous problem, you calculated the range sum between indices (i,j). Now given an array, find the largest range sum in the array. The array can contain negative numbers.
+
+
+
+Given a table:
+Name    Size   Color    ...
+AAA     Med    Red      ...
+BBB     Med    Red      ...
+CCC     Big    Blue     ...
+DDD     Big    Red      ...
+EEE     Small  Blue     ...
+
+Input:   String[][] table, and String[] order = {"Color", "Size", "Name"...}
+Output:
+Red
+    Med
+         AAA
+         BBB
+    Big
+         DDD
+Blue
+    Small
+         EEE
+    Big
+         CCC
+Note "order" gives the order of the output of the columns.
+
+
+
+1）warm-up: 给定一个array，如果有duplicate，返回true，否则，false
+2）改进一：如果存在duplicate元素间index的距离不超过k，返回true，否则，false
+   比如a[1]=a[3]=3, k=2,那么3-1=2 <=2, 返回true
+   比如a[1]=a[3]=3, k=1,那么3-1=2 > 1, 继续找
+被问能不能优化空间 --> 提示说只要记录k个数字就行了
+3）改进二：如果存在两个元素间index的距离不超过k，差的绝对值不超过l,返回true
+，否则， false
+   比如a[1]=2, a[3]=3, k=2,l=3, 那么3-1=2 <=2(k), 3-2 < 3(l)返回true
+   同理，如果l=0, 继续找
+   写了个O(K*N)的算法，表示认可，问能不能弄个更快的，我表示没想法，然后问了
+几个问题就完了
+
+
+Reverse a string
+
+binary tree的LCA
+
+3）10瓶药片，一瓶重量不一样，一个称，用最少次数找出那瓶异常的
+   改进：可能是1瓶不正常，可能是2瓶不正常，怎么找
+   我想了个，分成两组，没组5瓶，标上1,3,5,7,9 如果是超出部分是其中一个数字，
+证明这组一瓶不正常（两个奇数的和为偶数，所以只可能是一瓶不正常），要撑两次，
+如果大于这个数字，说明两瓶不正常，再撑一次，也要两次
+
+
+If there are two lists, and each have an identical number in them except for one unique number, how do you find the unique number?
+
+Given a set of numbers with 2 copies of every number except for one number, of which there is only one copy, how do we find the unused number. [XOR]
+
+
+Find the border length created from a conglomeration of various 2D rectangles.
+
+
+Given an array of values, design and code an algorithm that returns whether there are two duplicates within k indices of each other? k indices and within plus or minus l (value) of each other? Do all, even the latter, in O(n) running time and O(k) space.
+
+
+Given an input of a 3D matrix of ones and zeros, count the number of contiguous 1-filled regions (as separated by 0-filled regions), as well as the size of the largest one (I think; doesn't really change the problem much). I forget what these were called...
+
+
+Design an LRU Cache with O(1) complexity for all operations. [doubly-linked list + hash table (key --> node in the list)]
+
+
+Sort the letters in one word by the order they occur in another in linear time. [counting sort]
+
+
+Explain how you would implement a multi-map in Java without using any collections?
+
+-----------------------------
+We’ll represent the land as a two-dimensional array of altitudes and use the following model, based on the idea that water flows downhill: 
+If a cell’s four neighboring cells all have higher altitudes, we call this cell a sink; water collects in sinks. Otherwise, water will flow to the neighboring cell with the lowest altitude. If a cell is not a sink, you may assume it has a unique lowest neighbor and that this neighbor will be lower than the cell. 
+Cells that drain into the same sink – directly or indirectly – are said to be part of the same basin. 
+Your challenge is to partition the map into basins. In particular, given a map of elevations, your code should partition the map into basins and output the sizes of the basins, in descending order. 
+
+Assume the elevation maps are square. Input will begin with a line with one integer, S (S <= 5000), the height (and width) of the map. The next S lines will each contain a row of the map, each with S integers – the elevations of the S cells in the row. Your code should output a space-separated list of the basin sizes, in descending order. (Trailing spaces are ignored.) 
+
+A few examples are below. 
+Input: 
+3 
+1 5 2 
+2 4 7 
+3 6 9 
+Output: 
+7 2 
+The basins, labeled with A’s and B’s, are: 
+A A B 
+A A B 
+A A A
+
+Input: 
+1 
+10 
+Output: 
+1 
+There is only one basin in this case. 
+
+Input: 
+5 
+1 0 2 5 8 
+2 3 4 7 9 
+3 5 7 8 9 
+1 2 5 4 2 
+3 3 5 2 1 
+Output: 
+11 7 7 
+The basins, labeled with A’s, B’s, and C’s, are: 
+A A A A A 
+A A A A A 
+B B A C C 
+B B B C C 
+B B C C C 
+
+Input: 
+4 
+0 2 1 3 
+2 1 0 4 
+3 3 3 3 
+5 5 2 1 
+Output: 
+7 5 4 
+The basins, labeled with A’s, B’s, and C’s, are: 
+A A B B 
+A B B B 
+A B B C 
+A C C C
+
+=======================================================
+You have a set of envelopes of different widths and heights. One envelope can fit into another if and only if both the width and height of one envelope is greater than the width and height of the other envelope. What is the maximum number of envelopes can you russian doll?
+
+Implement external merge-sort given text file of numbers.
+
+ - Create a stack with fixed size. [def push(val): self.S.append(val); while len(self.S) > MAX: self.S.pop(0)]
+ - Design a persistent stack
+
+Write a minPeak function for a stack (function that returns the minimum element in the stack). [+ min helper]
+
+Given a grid of 9x9 sudoku with numbers filled in already, you have to check if it's a valid sudoku.
+
+Find the nth fib number
+
+Design a function in your favorite programming language to convert a camelCase string to all lowercase. [ord('A')=65; ord('a')=97; ch --> chr(ord(ch)+32)]
+
+What is your favorite design pattern? [depends on the context]
+
+How to compute top k numbers in an array? [quick sort]
+How to find the median of an array of numbers? [similar to top (N//2)]
+
+Which numbers in an unordered list can be represented as a sum of 3 other numbers in the list. [k sum ~ O(n^(k-1))]
+
+Write a function that finds all the different ways you can split up a word into a concatenation of two other words.
+
+Say you have an unordered list of numbers ranging from 1 to n, and one of the numbers is removed, how do you find that number? What if two numbers are removed?
+
+Implement the C function atoi
+
+Implement a hashset
+
+Implement an iterative deepening algorithm
+
+Given a list of "threads", which contain 2 variables - starting and ending times - implement a function that will return all running threads at some time t. Optimize it. (faster than O(n) ) [pre-process; segment tree]
+
+Say you have a single-column table of entries of variable size. Implement this table to also contain methods to lengthen one cell, cut a cell shorter, and to return which cell we're pointing at if given a certain distance from the beginning of the table. All methods need to be fast (assume a single-column table with many many entries).
+
+How to find the intersection of two lists? [hash one?]
+How to write a function that determines the intersection (identical elements) of two arrays. 
+
+Given an array of numbers list out all triplets that sum to 0. Do so with a running time of less than O(n^3). Given an array of numbers list out all quadruplets that sum to 0. Do so with a running time of less than O(n^4)
+
+Given a string of integers of undefined length, how would you choose an element uniformly at random using only a constant amount of space? How would you prove that your algorithm is correct? [reservoir sampling; mathematical induction]
+
+Print the nodes of a complete binary tree in level order.
+
+Do a binary tree traversal with constant memory (no stacks). [morris traversal]
+
+Implement Soduko;
+
+Find the largest possible difference in an array of integers, such that the smaller integer occurs earlier in the array. [O(n); for each element, record min that appears before it]
+
+Sort a list of numbers in which each number is at a distance k from its actual position. [greedy; start with most frequent element]
+
+What is the difference between MySql and Oracle DB. [http://docs.oracle.com/cd/E12151_01/doc.150/e12155/oracle_mysql_compared.htm]
+
+Given two arrays with length M and N. How do you merge them. What is the cost of operation?
+
+Given some binary number, how would you determine whether the 5th least significant digit is a 1 or a 0? [x & (1<<4) == 1]
+
+Given a website as a list of files. How would you pull out phone numbers from all of the files. [pattern = re.compile(r"\(?[0-9]{3}\)?\-?[0-9]{3}\-?[0-9]{4}")]
+
+
+How would you find the shortest path between two nodes in a graph? Write code in Java to do this. [Dijkstra]
+
+Binary search in an array that is increasing then decreasing
+
+Given a value in a binary search tree, write an algorithm that returns the next greatest value. The tree is assumed to contain the given value.
+
+1) Given a start node and a target node descriptor for any tree (not necessarily binary), check if the target is on the direct path or a child of a node on the direct path from the start node to the root of the tree. You have the methods getParent, getChildren, and match().
+
+2) Implement a stack with the operations push, pop, peek.
+
+Find the max difference in an array
+
+Given a list of numbers, find the median.
+
+Follow up to question 1: If inserting a 1000 numbers then finding the median a 1000 times, and you had to choose between either a logn insert algorithm or a logn median look up, which would be better? [keep a max-heap and min-heap]
+
+Given a stack of numbers, determine the minimum number in the stack at all times in O(1) [ + min helper]
+
+What classes and variables would you create for a card game in which each player has 5 cards and has a certain condition for each card he can play ? The remaining card is in an in play deck and the person hosting the game online can see all the cards 
+
+subset problem
+
+Use a stack to implement a queue [use recursion]
+
+Given a singly linked list (a list which can only be traversed in one direction), find the item that is located at 'k' items from the end. So if the list is a, b, c, d and k is 2 then the answer is 'c'. The solution should not search the list twice. [pointer & pointer + k]
+
+Find the smallest 100 numbers in an array. How to do it if the array is too large to fit in memory [ hash split into multiple files, scan all the file by keep a max-heap, pop() & push(new val) if new val < root]
+
+Model the university. [People (Students, Faculty, Staff); School; Depart; Program; Degree; Course; Association]
+
+You are given the price of a stock in a period of time. Find the days to buy and sell the stock for one time to get the most profit.
+
+Implement JQuery using some data structure. I came up with the idea of graph,trie.
+
+Given an array of integers, how will you find the first (or any) duplicate element in the array. [hash]
+
+Given a dictionary of words and another word, return all the words in the dictionary that are anagrams of the given word
+
+Know your concepts. Polymorphism, abstract/interfaces, threading and steps needed to be thread-safe, etc.
+
+You are given a pyramid; the numbers for example is 2 on the first level, 3 -1 on the second level, 4 7 8 on the third, etc. How do you calculate the maximum sub sequence of any path traversing the pyramid?
+
+Basic SQL understanding. Like what is foreign key, write query to get some numbers in table.
+
+Given an array of prices. Find the maximum single profit for any long transaction (not short).

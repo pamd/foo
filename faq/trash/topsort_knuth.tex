@@ -1,0 +1,442 @@
+\newchapter{A Structured Program to Generate All\hfil\break
+Topological Sorting Arrangements (1974)}%{with Jayme L. Szwarcfiter}
+
+\def\chaptertitle{A Structured Program for Topological Sorting (1974)}
+
+\begingroup
+
+\def\K{\mathrel{:=}}
+\def\C#1{{%\rightskip=0pt
+\advance\ind by-2\hangindent\ind em\noindent\&{comment} #1\par\advance\ind by2}}
+\def\rlab#1{#1}     % for labels that stand for sections of code: roman
+\def\lab#1{\\{#1}}  % regular labels in italic
+
+%Computer Science Dept., Stanford University, Stanford, Calif., 94305, USA
+%
+%and
+%\author{Jayme L. Szwarcfiter}
+%Universidade Federal do Rio de Janeiro, Argentina
+%
+%%\footnote
+%{Research supported in part by the National Science
+%Foundation, grant GJ 36473X, and by the Office of Naval Research, con-
+%tract NR 044-402.}
+%
+%%\footnote 
+%{Present address: Computing Laboratory, University of
+%Newcastle upon Tyne, Claremont Tower, Newcastle upon Tyne, NE1 7RU,
+%England.}
+%
+%%\footnote
+%{Research supported by the Conselho Nacional de Pesquisas, Brazil.}
+%
+%Received 26 October 1973
+%Revised version received 5 February 1974
+%
+%data structures programming languages combinatorial problems
+%
+\vskip12pt  %make bottom line closer to page number
+\noindent
+{\sl%
+[This paper by Donald~E. ^{Knuth} and Jayme~L. ^{Szwarcfiter}, originally
+published in {\sl Information Processing Letters} (April 1974), deals
+with a problem that goes beyond the simple examples discussed in Chapter~2.
+Although this problem is still ``academic'' and rather small by comparison
+with a fullblown software system, it gives insight into the decomposition
+of large tasks into comprehensible subtasks.]}
+\bigskip
+
+\noindent
+An
+%\footnote{}{\hangindent=0pt{}Research supported in part by the National
+%Science Foundation, grant GJ~36473X; by the Office of Naval Research,
+%contract NR~044-402, and by the Conselho Nacional de Pesquisas,
+%Brazil.\par}
+algorithm for topological sorting was presented by Knuth\cite{4} as an
+example of typical interaction between linked and sequential forms of
+data representation. The purpose of the present note is to extend the
+algorithm so that it generates {\em all\/} solutions of the topological
+sorting problem. The extended algorithm serves as an instructive
+example of several important general issues related to backtracking,
+procedures for changing recursion into iteration, manipulation of
+^{data structures}, and the creation of well-structured programs.
+
+Given a number \|n and a set of integer pairs $(i,j)$, where $1 \le
+i$, $j \le n$, the problem of ^{topological sorting} is to find a
+permutation $x_1x_2\ldots x_n$ of $\{1,2,\ldots,n\}$ such that \|i
+appears to the left of \|j for all pairs $(i,j)$ that have been input.
+It is convenient to denote input pairs by writing the relation
+``$i\prec j$'' and saying ``\|i precedes \|j''. The topological
+sorting problem is essentially equivalent to arranging the vertices of
+a directed graph into a straight line so that all arcs go from left to
+right. It is well known that such an arrangement is possible if and
+only if there are no ^{oriented cycles} in the graph, i.e., if and only
+if no relations of the form $$i_1\prec i_2,\quad i_2 \prec i_3,\quad
+\ldots,\quad i_k \prec i_1$$ exist in the input, for any $\|k \ge 1$.
+The problem in mathematical terms is to embed a given ^{partial order}
+into a linear (total) order.
+
+A natural way to solve this problem is to let $x_1$ be an element
+having no predecessors, then to erase all relations of the form $x_1
+\prec j$ and to let $x_2$ be an element $\ne x_1$ with no predecessors
+in the system as it now exists, then to erase all relations of the
+form $x_2 \prec j$, etc. It is not difficult to verify (cf.~[4]) that
+this method will always succeed unless there is an oriented cycle in
+the input. Moreover, in a sense it is the {\em only\/} way to proceed, since
+$x_1$ must be an element without predecessors, and $x_2$ must be
+without predecessors when all relations $x_1 \prec j$ are deleted, etc. This
+observation leads naturally to an algorithm that finds {\em all\/} solutions
+to the topological sorting problem; it is a typical example of a
+``^{backtrack}'' procedure\cite{2,3}, where at every stage we consider a
+subproblem of the form ``Find all ways to complete a given partial
+permutation $x_1x_2\ldots x_k$ to a topological sort $x_1x_2\ldots
+x_n$.'' The general method is to branch on all possible choices of
+$x_{k+1}$.
+
+A central problem in backtrack applications is to find a suitable way
+to arrange the data so that it is easy to sequence through the
+possible choices of $x_{k+1}$; in this case we need an efficient way to
+discover the set of all elements $\ne \{x_1,\ldots,x_k\}$ which have no
+predecessors other than $x_1,\ldots,x_k$, and to maintain this knowledge
+efficiently as we move from one subproblem to another. It is not
+satisfactory merely to make a brute-force search through all \|n 
+possibilities for $x_{k+1}$, since this typically makes the program on the
+order of \|n times slower than a method that avoids such searching.
+
+The following procedure, written in an \ALGOL-like language using
+^^{abstract data structures}``abstract'' data structures (cf.~^{Hoare}\cite{1}), shows how to solve the
+problem with only order \|n additional units of storage. The procedure
+is to be invoked by a main driver program of the form ``\rlab{read and
+prepare the input\/}; \\{alltopsorts}(\O{0})''.
+\smallskip
+
+\Y\P\4\&{procedure}\1\ \37$\\{alltopsorts}(\|k)$;\5
+\&{integer} \|k;\37
+\&{value} \|k;\2\6
+%\vskip2pt
+\C{This procedure will output all topological sorting
+arrangements beginning with a sequence $x_1\ldots x_k$ that has
+already been output. Let $\|R = \{1,2, \ldots ,\|n\}\BS \{x_1, \ldots
+,x_k\} $ be the set of all vertices not yet output; the procedure
+assumes that, for all $y \in R$, the current value of global variable
+\\{count}[\|y] is the number of relations $z \prec y$ for $z \in \|R$, and
+that there is a linear list \|D containing precisely those elements $y
+\in \|R$ such that $\\{count}[\|y] = 0$.  The execution of this
+procedure may cause temporary changes to the contents of \|D and the
+\\{count} array, but both will be restored to their entry values upon
+exit;}\6\Y
+\&{begin}\1\37
+\&{integer} \|q, \37\\{base}; \6
+\&{if} \|D not empty \1\&{then}\6
+\&{begin}\1\37
+\\{base}${}\K{}$rightmost element of \|D;\6
+\1\&{repeat}\5
+set \|q to rightmost element of \|D and delete it from \|D;\6
+erase all relations of the form $q \prec j$;\6
+output \|q in column $k+1$;\6
+\&{if} $k = \|n - 1$ \1\&{then}\5
+\\{newline};\2\6
+\\{alltopsorts}${}(k+1){}$;\6
+retrieve all relations of the form $q \prec j$;\6
+insert \|q at the left of \|D;\6
+\4\&{until} rightmost element of \|D = \\{base};\2\6
+\4\&{end}\2\2\6
+\4\&{end}.\2\6
+%\fi
+\Q
+
+\noindent
+The operations of erasing and retrieving relations will respectively
+decrease and increase appropriate entries of the \\{count} array, and they
+will also respectively insert and delete elements at the {\em right\/} of list
+\|D.  
+
+Thus, if we suppose that \|D contains $y_1 \ldots y_r$ on entry to
+\\{alltopsorts}, for $\|r \ge 1$, the procedure will first set $\\{base}\K
+\|y_r$, then $\|q\K \|y_r$.  Then it will decrease \\{count}[\|j] by
+1 for each variable \|j such that $y_r\prec j$ was input; and if
+$z_1,\ldots,z_s$ are the values of \|j whose count drops to zero at
+this time, \|D will be changed to $y_1\ldots y_{r-1}z_1\ldots z_s$.
+After outputting $y_r$, and doing \\{alltopsorts} beginning with
+$x_1\ldots x_k y_r$, the procedure will restore each \\{count} to its initial
+condition and will change \|D to $y_r y_1\ldots y_{r-1}$.  The same process will then
+occur again with $q = y_{r-1}, y_{r-2} \ldots, y_1$, until finally all
+sortings will have been produced and \|D will again be $y_1 \ldots y_r$; then
+\\{alltopsorts} will exit. These remarks amount to a proof by
+recursion induction that the algorithm is correct, since termination
+is an obvious consequence of the fact that \|D contains at most $n-k$
+entries.
+
+Note that \|D operates as an {\em ^{output-restricted deque}\/},
+since all deletions from \|D occur at its right and all insertions
+occur at its ends. Therefore we can represent \|D as a list with one-way
+linking^^{linking, one-way~vs. two way}. (It may be of interest to note that the authors' original
+algorithm took \\{base} and \|q from the left of \|D while inserting $z_1 \ldots z_s$ 
+and \|q at the right; this made \|D an input-restricted ^{deque}, so that
+two-way linking was originally needed.  Thus, a slight perturbation of
+the algorithm removed the need for one link.) Our program below uses
+an array $\\{link}[\O{0}:n]$ to hold the pointers for \|D, which will be a
+^{circular list}; a simple variable \|D points to the leftmost element, and
+\\{link}[\|D] points to the rightmost.  
+
+The erasure and retrieval operations are not difficult but they
+require some comment. It is clear that a natural way to represent the
+input relations for this purpose is to have a list for each \|i of all
+\|j such that $i \prec j$. If there are \|m input relations in all,
+entering in random order, we can handle this as in\cite{4} by having
+integer arrays $\\{top}[1:\|n]$, $\\{suc}[1:\|m]$, $\\{next}[1:\|m]$, such
+that $\\{top}[\|i]$ is the index \|p of the first relation for \|i, and
+(if $\|p \neq 0$) $\\{suc}[\|p]$ is the corresponding \|j value and
+$\\{next}[\|p]$ is the index of the next such relation. The erasing
+operation is now easily programmed.
+
+In order to convert the ^{recursion to iteration}, we will need a ^{stack}
+for the local variables \|q and \\{base}. (It is not necessary to save
+return addresses on the stack, since control always returns to one place
+when $k > 0$ and to another when $k = 0$; furthermore it is unnecessary to
+save \|k on the stack since it is easily updated across calls.) This
+suggests that we introduce arrays $\|q[1:\|n]$ and $\\{base}[1:\|n]$.  However,
+since the \\{count} entries are zero for all items \|q on the stack, it is
+possible to save \|n locations by keeping an implicit ``\|q stack'' in the
+\\{count} array; thus, a simple variable \|t contains the value of \|q at the
+level just outside the current one, and \\{count}[\|t] holds the value on
+the next level, etc.
+
+Two more refinements will speed up the program.
+First, we can test \|D for emptiness before actually calling the procedure,
+thereby maintaining \|D as a nonempty list throughout the process; this
+is a big advantage, since empty circular lists are always very
+awkward. Second, we can realize that the procedure \\{alltopsorts} is
+called most often when $k = \|n - 1$, and it can be greatly simplified in
+that case.  
+
+Putting these observations together yields the following
+efficient machine-oriented program.
+
+\Y\P\4\&{procedure}\37
+\\{generate all topological sorting arrangements} $(\|m,\|n)$;\6
+\&{integer} $\|m, \|n$;\5
+\&{value} $\|m, \|n$;\5
+\&{comment} \|m relations on \|n elements;\6
+\4\&{begin}\37
+\&{integer array} $\\{count}, \\{top}[1:\|n]$;\6
+\&{integer array} $\\{suc}, \\{next}[1:\|m]$;\6
+\&{integer array} $\\{link}, \\{base}[0:\|n]$;\6
+\&{integer} $\|q, \|k, \|i, \|j, \|p, \|t, \|D, \\{D1}$;\6
+\0\rlab{read and prepare the input}:\6
+\&{for} $j\K 1$ \&{step} 1 \&{until} \|n \&{do}\37
+$\\{count}[\|j]\K \\{top}[\|j]\K \O{0}$;\6
+\&{for} $k\K 1$ \&{step} 1 \&{until} \|m \1\&{do}\6
+\&{begin}\1\37
+$\\{read}(i,j)$;\6
+$\\{suc}[\|k] \K \|j$;\5
+$\\{next}[\|k]\K \\{top}[\|i]$;\6
+$\\{top}[\|i]\K \|k$;\5
+$\\{count}[\|j]\K \\{count}[\|j]+1$;\6
+\4\&{end};\2\2\6
+$\\{link}[\O{0}]\K \|D \K \O{0}$;\6
+\&{for} $\|j\K 1$ \&{step} 1 \&{until} \|n \1\&{do}\6
+\&{begin}\1\37
+\&{if} $\\{count}[\|j] = \O{0}$ \1\&{then}\6
+\&{begin} $\\{link}[\|D] \K \|j$; $\|D \K \|j$ \&{end};\2\6 %%% SEMICOLON HERE? -no.
+\4\&{end};\2\2\6
+\&{if} $\|D = \O{0}$ \&{then}\37
+\&{go to} \lab{done} \&{else} $\\{link}[\|D] \K \\{link}[\O{0}]$;\6
+$\|k\K \O{0}$;\5
+$\|t\K \O{0}$;\6
+%
+\0\lab{alltopsorts}:\37
+\&{if} $\|k = \|n - 1$ \1\&{then}\5
+\&{begin}\37
+$\\{print}(\|D)$ \\{in column}: (\|n);\37
+\\{newline}\5
+\&{end}\6
+\4\&{else}\37
+\&{begin}\1\37
+%
+$\\{base}[\|k] \K \\{link}[\|D]$;\6
+\1\&{repeat} \rlab{set \|q to rightmost and delete}:\6
+$\|q\K \\{link}[\|D]$;\37
+$\\{D1} \K \\{link}[\|q]$;\6
+\0\rlab{erase relations beginning with \|q}:\6
+$\|p\K \\{top}[\|q]$;\6
+\&{while} $\|p \ne \O{0}$ \1\&{do}\6
+\&{begin}\1\37
+$\|j\K \\{suc}[\|p]$; \5
+$\\{count}[\|j]\K \\{count}[\|j]-1$;\6
+\&{if} $\\{count}[\|j] = \O{0}$ \1\&{then}\6
+\&{begin} \&{if} $\|D = \|q$ \1\&{then} $\|D\K \|j$ \&{else} $\\{link}[\|j] \K \\{D1}$;\5
+$\\{D1} \K \|j$;\6
+\4\&{end};\2\6
+$\|p\K \\{next}[\|p]$;\6
+\4\&{end};\2\2\6
+$\\{link} [\|D] \K \\{D1}$;\6
+$\\{print}(q)$ \\{in column}: $(\|k+1)$;\6
+\0\rlab{recursive call}:\6
+\&{if} $\\{D1} = \|q$ \1\&{then}\6
+\&{begin}\1\37
+\&{comment} input contains an oriented cycle, and \|D~is empty;\6
+\&{go to} \lab{done};\6
+\4\&{end};\2\2\6
+$\\{count}[\|q] \K \|t$; \5
+$\|t\K \|q$;\6
+$\|k\K \|k+1$; \5
+\&{go to} \lab{alltopsorts};\6
+\0\rlab{return when \|k positive}:\37
+$\|k\K \|k-1$;\6
+$\|q\K \|t$; \5
+$\|t\K \\{count}[\|q]$; \5
+$\\{count}[\|q] \K \O{0}$;\6
+\0\rlab{retrieve relations beginning with \|q}:\6
+$\|p\K \\{top}[\|q]$;\6
+\&{while} $\|p \ne \O{0}$ \1\&{do}\6
+\&{begin}\37
+$\|j\K \\{suc}[\|p]$; \5
+$\\{count}[\|j]\K \\{count}[\|j]+1$; \5
+$p\K \\{next}[\|p]$;\6
+\&{end};\2\6
+\0\rlab{insert \|q at left}:\37
+\&{comment} \\{link}[\|q] is still set properly;\6
+$\\{link}[\|D] \K \|q$; \5
+$\|D\K \|q$;\6
+\4\&{until}\37
+$\\{link}[\|D] = \\{base}[\|k]$;\2\6
+\4\&{end};\2\2\6
+\&{if} $\|k > \O{0}$ \&{then} \&{go to} \rlab{return when \|k positive};\6
+\4\lab{done}: \&{end}.\2\6
+\Q
+%end code
+
+
+The example input $$1\prec 3{,\quad} 2\prec 1{,\quad} 2\prec 4{,\quad} 4\prec 3{,\quad} 4\prec 5$$ will cause this program to print the five solutions
+
+\medskip
+\begingroup
+\setbox1\hbox{\ $\to$\ }
+\def\bx{\hbox to\wd1} 
+\moveright5em\vbox{
+\halign{#\ &\bx{\hfil#\hss}&\bx{\hfil#\hss}&\bx{\hfil#\hss}&\bx{\hfil#\hss}&\bx{\hfil#\hss}\cr
+2&1&4&3&5 \cr
+ & & &5&3 \cr
+ &4&5&1&3 \cr
+ & &1&3&5 \cr
+ & & &5&3 \cr}}
+\endgroup
+\medbreak
+
+\noindent
+Notice that redundant printing has been suppressed. Alternatively, 
+of course, the statement ``\\{print} (\|q) \\{in column}: $(\|k + 1)$''
+could have been replaced by ``$\\{buffer}[\|k + 1] \K \|q$'', and ``\\{newline}''
+replaced by ``$\\{printline}(\\{buffer}$)''.
+
+This program is efficient in the sense that its inner loops are
+reasonably fast, it uses only $O(m+n)$ words of memory, and it takes
+at most $O(m + n)$ units of time per output. However, there may be
+tremendous amounts of output, since the number of topological sortings
+for large \|n is often very large. For example, when there are no
+input relations at all, all $n!$ ^{permutations} are produced. (Note that
+the number of digits printed in this worst case is not $n \cdot n!$,
+but $n+n(n-1)+n(n-1)(n-2)+\cdots+n! = \lfloor n!\,e\rfloor-1$, about \|e per
+permutation on the average.)
+
+The volume of output and the running time can be reduced to 
+$O(n\cdot2^n)$, if $O(2^n)$ more memory cells are allotted by
+modifying the recursive procedure so that it ``remembers'' similar
+situations.  We can add a new global variable corresponding to the
+current value of the set $\{ x_1, \ldots, x_k\}$, and have the
+procedure \\{alltopsorts} remember which sets it has seen before, and
+where this occurred in the output. Whenever a set is repeated, the
+output can now be replaced by a simple cross-reference to the
+appropriate line. Thus, the above example would reduce to
+
+%%%Should this be \ttverbatim??
+\medskip
+\begingroup
+\setbox1\hbox{\ $\to$\ }
+\def\bx{\hbox to\wd1} 
+\moveright5em\vbox{
+\halign{#\ &\bx{\hfil#\hss}&\bx{\hfil#\hss}&\bx{\hfil#\hss}&\bx{\hfil#\hss}&\bx{\hfil#\hss}\cr
+1:&2&1&4&3&5\cr
+2:& & & &5&3\cr
+3:& &4&5&1&3\cr
+4:& & &1&${}\to{}$&\ \hfilneg see line 1 \cr}}
+\endgroup
+\medbreak
+
+\noindent
+Adding ^^{memory and recursion}memory to recursive procedures is, of course, a standard way to
+speed them up. Compare the exponential running time of
+
+\Y
+\&{integer} \&{procedure} \|F(\|n); \&{if} $n \le 1$ \&{then} \|n \&{else} $\|F(n - 1) + \|F(n - 2)$
+\Y
+
+%\Y\P\&{integer} \&{procedure} $\|F(\|n)$;\37
+%\&{if} $n \le 1$ \1\&{then} \|n\2\5
+%\&{else}\1\5
+%$F(n - 1) + F(n - 2)$ \2
+%\Q
+%\Y
+
+\noindent
+to the linear running time of
+
+%\Y
+%\&{for} $n\K \O{0}$ \&{step} 1 \&{until} \|N \&{do} $F[\|n]\K {}$\&{if} $n \le 1$ \&{then} \|n \&{else} $\|F[n-1] + \|F[n-2]$.
+%\Y
+
+\Y\P\&{for} $n\K \O{0}$ \&{step} $1$ \&{until} \|N \1\&{do}\6
+$\|F[\|n]\K {}$ \&{if} $\|n \le 1$ \&{then} \|n\5
+\&{else}\37
+$\|F[n-1] + \|F[n-2]$\2.
+\Q
+\Y
+
+Our program contains the statement ``^{\&{go to}} \rlab{return when \|k
+positive}'', which jumps {\em into\/} the \&{repeat} loop! Some people
+consider this disgraceful; but the detailed discussion in\cite{5} [\see2]
+points out that this \goto\ is not really harmful,
+because it has been obtained by straightforward modification of an
+original recursive program that was easily proved correct. The
+complete documentation of a program should include its abstract form
+and a discussion of the essentially mechanical transformations that
+led to the final optimized form. It is possible to remove this \goto, 
+but there would be no advantage in doing so. (See~[5] for
+further examples and discussion.)
+
+\newsection{References}
+
+\vskip-1.5\belowsectionskip
+\kern\parindent
+\bibref{1}:^{Ole-Johan Dahl}, ^{Edsger W. Dijkstra}, and ^{C.~A.~R. Hoare},
+ {\sl Structured programming\/}
+(London: Academic Press, 1972), 220~pp.
+
+\bibref{2}:^{Robert W. Floyd}, ``Nondeterministic algorithms,''
+ {\sl Journal of the \ACM\/}\&{14} (1967), 636--644.
+
+\bibref{3}:^{Solomon W. Golomb} and ^{Leonard D. Baumert}, ``Backtrack programming,''
+ {\sl Journal of the~\ACM\/}~\&{12} (1965), 516--524.
+
+\bibref{4}:^{Donald E. Knuth}, Fundamental algorithms: {\sl The Art of Computer
+Programming\/}~\&{1}
+(Reading, Massachusetts: Addison-Wesley, 1968), 634~pp.
+Second edition, 1973.
+
+\bibref{5}:Donald E. Knuth, ``Structured programming with \goto\ statements,''
+ {\sl Computing Surveys\/}~\&{6} (December 1974), 261--301.
+[Re\-printed with minor changes in {\sl Current Trends in Programming
+Methodology}, ^{Raymond~T. Yeh} [Ed.], \&1 (Englewood Cliffs, New Jersey:
+Prentice-Hall, 1977), 140--194;
+ {\sl Classics in Software Engineering}, Edward Nash
+ Yourdon [Ed.] (New York: Yourdon Press, 1979), 259--321.]
+
+\bibref{6}:^{William M. Waite}, ``An efficient procedure for the generation
+of closed subsets,'' {\sl Communications of the \ACM\/}~\&{10} (1967),
+ 169--171.
+
+\vfill\eject
+
+\endgroup
+

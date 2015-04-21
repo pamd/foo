@@ -1,0 +1,75 @@
+
+* Eulerian path (Eulerian trail): find a path that visits every edge in input graph 
+exactly once. Can be solved in O(E+V).
+
+UCB "Algorithms" book page 252: 
+------------------------------------
+The path can be found if and only if:
+(a) The graph is connected;
+(b) Every vertex, with the possible exception of two vertices (the starting and final
+vertices of the walk), has even degree. 
+
+* Eulerian cycle (Eulerian circuit, Eulerian tour): 
+If starting and ending vertices are identical, Eulerian path becomes Eulerian cycle 
+
+* For undirected graph, if each vertex has even degrees, each Eulerian path must be also 
+Eulerian cycle. If only two vertices have odd degrees, they must be starting and ending 
+vertices.
+
+* In undirected graph, IT IS IMPOSSIBLE that only one vertex has odd degree. 
+Proof: Each edge always connects two vertices. So adding one edge will increase the 
+sum of each vertex's degree by 2. So the sum will be always an even number, no matter 
+how many vertices an undirected graph has. 
+
+* Other proberties on Wikipedia:
+http://en.wikipedia.org/wiki/Eulerian_path
+- An undirected graph has an Eulerian trail if and only if at most two vertices 
+  have odd degree.
+- A directed graph has an Eulerian cycle if and only if every vertex has equal 
+  in_degree and out_degree.
+- A directed graph has an Eulerian trail if and only if:
+     at most one vertex has: (out_degree) - (in_degree)  = 1, 
+     at most one vertex has: (in_degree)  - (out_degree) = 1, 
+
+  every other vertex has equal in_degree and out_degree, and all of its vertices with 
+  nonzero degree belong to a single connected component of the underlying undirected graph.
+
+
+* Hierholzer's algorithm to find Eulerian cycle in undirected graph: 
+--------------------------------------------------------------------
+http://en.wikipedia.org/wiki/Eulerian_path
+(1) Choose any starting vertex v, and follow a trail of edges from that vertex 
+until returning to v. It is not possible to get stuck at any vertex other than v, 
+because the even degree of all vertices ensures that, when the trail enters another 
+vertex w, there must be an unused edge leaving w. The tour formed in this way is a 
+closed tour, but may not cover all the vertices and edges of the initial graph.
+
+(2) As long as there exists a vertex v that belongs to the current tour but that 
+has adjacent edges not part of the tour, start another trail from v, following 
+unused edges until returning to v, and join the tour formed in this way to the 
+previous tour.
+
+By using a data structure such as a doubly linked list to maintain the set of 
+unused edges incident to each vertex, to maintain the list of vertices on the 
+current tour that have unused edges, and to maintain the tour itself, the 
+individual operations of the algorithm (finding unused edges exiting each vertex, 
+finding a new starting vertex for a tour, and connecting two tours that share a 
+vertex) may be performed in constant time each, so the overall algorithm takes 
+linear time.
+
+* Eulerian cycle in directed graph: ALGS4 book page 598, Excersize 4.2.20
+--------------------------------------------------------------------------
+An Eulerian cycle is a directed cycle that contains each edge exactly once. 
+Can be solve in polynomial time.
+
+See solution in: Dropbox/coding/graph/DirectedEulerianCycle.java
+
+The is actually the implementation of Hierholzer's algorithm on directed graph.
+
+* dhu: to find Eulerian path in undirected graph that has two odd-degree vertices, 
+we can find these two vertices first, then add one edge between them. This extra edge
+makes all vertices have even degree. Then we find Eulerian cycle in this new graph, 
+the Eulerian path in original graph will be the cycle minus extra edge. 
+
+For a directed graph that has two vertices whose in-degree is not equal to out-degree, 
+we can use the same idea to find Eulerian path.

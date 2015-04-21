@@ -1,0 +1,223 @@
+------------------------------------------------------------------------
+Data Scientist
+------------------------------------------------------------------------
+A/B testing
+Given twitter user data, how would you measure engagement?
+
+Putting a number of courses into a graph and sort them according to the fact that some courses needs to be taken before other ones)
+
+Use Map/Reduce to tackle a problem (splitting a very large graph into small ones and parallelize the computation of edges according to the fast/dynamic change of data).
+
+General machine learning questions.
+How would you solve this ML problem using map-reduce? 
+
+What type of problems would you be interested in solving given a large amount twitter data. [information diffusion! diversity ego graph and content spread; meme evolution; brand competition]
+
+Given a 2-column file with user codes and counts, retrieve the top-k users based on a score that is a function of the number of times they appear on the file and these counts. 
+=== PS 1 ===
+
+1. Similar to 'Combination Sum I/II' on Leetcode.
+
+=== PS 2 ===
+
+1. Similar to 'Design/Implement LRU Cache'. Key requirements: efficient look
+-up while maintaining insertion order.
+
+2. Figure out potential concurrent issues for a code segment. Key 
+observations: use 'wait/notify' instead of 'sleep' for coordination between 
+threads.
+
+=== Onsite ===
+
+1. Given a 2D array of integers, determine if it is possible to go from one 
+cell to another cell following non-descreasing path.
+
+2. Partition integer array into 3 parts (<, =, >) in O(n) one pass in-place.
+
+3. Lunch interview with hiring manager.
+
+4. 2-Sum, 3-Sum
+
+5. Implement 'put' and 'getMedian' APIs for processing data streams.
+
+6. How to implement getGlobalUniqueId() API.
+
+------------------------------------------------------------------------
+Software Engineer
+------------------------------------------------------------------------
+How would you design a distributed ID generation system (hint Snowflake).
+
+Find left sibling of a given node in a tree
+
+Add two large integers represented as strings together.
+
+List all the possible combinations of a phone number where each number can be represented by letters.
+
+Implement isHappy() where you return false if a number whose digits squared don't add up to 1, true otherwise.
+
+Returning the k most frequent words in a string delimited by space.
+
+How to print out every sec the process with maximum load
+
+Implement the longest common substring problem. [DP]
+
+In-place Quicksort
+
+BST in-order traversals
+
+What is "segment fault"? [A segmentation fault (often shortened to segfault), bus error, or access violation is generally an attempt to access memory that the CPU cannot physically address. It occurs when the hardware notifies an OS about a memory access violation. The OS kernel will in response usually perform some corrective action, such as sending the offending process a signal, terminating it, or causing it to dump core.]
+
+How to find all the files which contain any email addresses in a server. 
+
+Print matrix diagonally
+
+Level-order traversal of an incomplete binary tree
+
+What does the 'ls' command do at system level when we type it. [Internally it will call "readdir" system call and interact with the kernel and list out the files present in the current directory. To understand better(internal process) just read about the file management in Linux by Moris J. Bach.]
+
+How is the directory and files maintained in a file system
+
+Implement memmove
+
+Traverse tree in triangle fashion
+
+Solve sudoku, and then in parallel
+
+Design a max stack using one stack. [set up max-helper storing max number index]
+
+What are the language features that are missing in your favorite language? [modifiable tuple?]
+
+Tree to a ordered doubly linked list
+
+Delete a node in a BST
+
+Given a Tuple for eg. (a, b, c), output : (*,*,*), (*,*,c), (*,b,*), (*,b,c), (a,*,*), (a,*,c), (a,b,*), (a,b,c). [Use generator]
+
+Convert infix expression into postfix. [keep a stack of operators; pop if the top has higher priority]
+
+Write code that walks thru all src code starting from a root dir. and create histogram of number of characters per line across all files. [for root, dirs, files in os.walk(dir)]
+
+Implement a hash table (in C)
+
+Given an array with all elements sorted on each individual row and column; find the K-th smallest one. [binary search]
+
+Given a number n, returns the nth fibonacci number. Running time, space complexity, iterative vs. recursive.
+
+Implement integer division without using / or %.
+
+
+Given two sorted arrays and a number k, find the k-th largest number in the union of the two arrays. Do it in place and in O(log n)
+
+Given n sets of choices: (1, 2, 3), (2, 3, 4), (4, 5); you pick one element from each set of choices; generate all possible picking. [use generator]
+
+Check if a string is a palindrome
+[def valid_ palindrome(s):
+    n = len(s)
+    if n == 0: return True
+    i = 0; j = n-1
+    while i < j:
+        while not s[i].isalpha(): i += 1
+        while not s[j].isalpha(): j -= 1
+        if s[i].lower() != s[j].lower(): return False
+        else: i += 1; j -= 1
+    return True]
+
+Find longest palindrome in a string [time~(n^2) space~O(1)]
+
+给一个巨大的文件(>10GB), 每一行都是一个数字, 怎么sort (external sort: http://en.wikipedia.org/wiki/External_sorting)
+
+有红色和蓝色球, 如果拿到红色, 那么放回;如果拿到蓝色, 再拿下一个, 根据下一个的花色来判断是否放回. Q: 拿到就剩最后一个球是红色的概率是多少?
+
+根据twitter的follow关系, 如何efficiently找到所有的connected components. 有一个很大的文件, 每行存一条follow关系的边 (hash)
+
+How to do fraud detection in Twitter? ( use external fact check service, like www.snopes.com)
+
+How to cluster tweets? (co-occurrence, users, similarity based on free words or hashtags)
+
+Some IR problems
+
+How to find popular hashtags? ( high frequency, big burst, diversity of users, high co-occurance)
+
+Print Pascal's triangle
+
+Given the inverted index of a set of tweets, how to find the shortest combination containing all queried words? i.e. query: "twitter good tool", then "twitter is a good tool" is shorter than "twitter is good, facebook is a better tool".
+
+Implement an open address hash (collision: key --> probe to the next k)
+
+Two-sum: Given an array of numbers and a number k, find if two numbers in the array add up to k. (Hashtable or two-ended probe in an sorted array)
+
+找出一个tree中所有pair of nodes with path of d. 其中tree中的node给的是个array of nodes, node 只知道自己的父亲. 要先写程序算出tree。
+
+Revert an integer, i.e. 123-->321. What if it is an negative number?
+(output = 0
+while x > 0: x, last = divmod(x, 10); output = 10*output + last)
+
+Find the shortest path from root to a leaf. (recursive, iterative, level-by-level)
+
+(Design) 一个用户在brower里打他家会发生什么, 大概是想考应该如何organize它的用户, 给了陷阱问是不是用database, 我一下子跳了进去, 说是。后来想应该用big table 和DHT。
+
+Word count among tweets (re.findall(r"^#?\w+$", text))
+
+How to improve twitter? How to compute trend? (词的频率是不够的), etc.
+
+二维网格中有一些点, 怎么找出与某个给定的点欧氏距离最近的
+
+讨论hash table和如何解决collision, 各种解决策略的优缺点.
+
+什么是僵尸进程？如何列出所有的僵尸进程？如何获得这些僵尸进程的 PID？如何把它们终止？我用 ps grep awk xargs 配合管道把这几个问题用一行命令行解决了. (Zombie process: a process that has completed execution but still has an entry in the process table. ps aux | awk '{ print $8 " " $2 }' | grep -w Z; kill -9 4104.)
+
+(JAVA) (1) difference between HashMap and TreeMap;
+(2) 实现一个TreeMap里的get(K key)方法, 自己定义树的node, 最好用java。我写了个BST的get方法, 就是简单的比较根节点然后递归左右子树那个, 他说差不多。其实当时觉得应该用红黑树, 只是实现起来太麻烦, 就没写;
+(3) 如何防止这个TreeMap里的get, insert, delete等方法多线程调用时出现数据读写出乱子？答曰用synchronized关键字。然后让直接写到第二题的code中;
+(4) 加synchronnized之后, 会有什么不好的影响。答曰会降低concurrence性能。
+
+Given continuous incoming real time stock price stream: Design data structure to support query for max, min price in the past 12 months. (Use two-ended queue)
+
+Given 1000 worker nodes, 1 coordinator node (4GB RAM) -- 10 billion numbers are distributed randomly among the worker nodes: i) Find the mean; ii) Find the median.
+
+如何查找string, 比如在一堆string中查找一个"abc", 之后又问如何查找"a??"
+
+设计一个battleship游戏
+
+假设有如下class: Account, Campain, TargetingCritierion, Logger. 前三个class包含account, campain, 和target的相关信息, 后面的logger class用来输出前三个class的信息。以下是初始code, 问在class设计上有什么可以改进的地方, 怎么改进, 怎么进一步改进, 等等
+
+Describe how to get the top k queries from a search log of terabytes of data. Memory/Disk per machine is limited but you can use multiple machines.
+
+
+
+=== PS 1 ===
+
+1. Similar to 'Combination Sum I/II' on Leetcode.
+
+=== PS 2 ===
+
+1. Similar to 'Design/Implement LRU Cache'. Key requirements: efficient look
+-up while maintaining insertion order.
+
+2. Figure out potential concurrent issues for a code segment. Key 
+observations: use 'wait/notify' instead of 'sleep' for coordination between 
+threads.
+
+=== Onsite ===
+
+1. Given a 2D array of integers, determine if it is possible to go from one 
+cell to another cell following non-descreasing path.
+
+2. Partition integer array into 3 parts (<, =, >) in O(n) one pass in-place.
+
+3. Lunch interview with hiring manager.
+
+4. 2-Sum, 3-Sum
+
+5. Implement 'put' and 'getMedian' APIs for processing data streams.
+
+6. How to implement getGlobalUniqueId() API.
+
+
+
+
+
+
+
+
+

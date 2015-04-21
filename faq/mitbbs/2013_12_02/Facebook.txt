@@ -1,0 +1,50 @@
+Here's a quick breakdown of your onsite interviews. The order in which they are scheduled can vary. You will have 4 or 5 interviews, at least one interview of each type described below (in no particular order). Keep in mind that your interview schedule will be tailored to your background and interests.
+ 
+- 60-minute PhD Research Interview. Your interviewer will likely have a PhD in a field related to your research area. He/she will want you to describe your research and what you've accomplished in your PhD in a clear, coherent way. We're interested in your cultural fit with us, your aptitude in working with others, and your ability to communicate effectively both in general terms and in your specific area of research. The last 15-20 minutes of this interview will be a whiteboard coding exercise. 
+ 
+- 45-minute whiteboard coding interviews, similar in format to your first interview. (Keep in mind that you should not solve the same problem twice in your Facebook interviews. If someone gives you a problem that you've already solved, please let him/her know.)
+ 
+- 45-minute Design interview. We will ask you a high-level system design question. This question gives us insight into how you approach a vague problem, identify tradeoffs, design a solution, and anticipate potential pitfalls. This interview generally does not involve any coding. 
+
+See below for more about interviewing at Facebook.
+This email is intended to put you in the right frame of mind so that you know what to expect in our interview process. 
+
+We are interested in your technical abilities and more broadly whether you would do well at Facebook. To that end, we have designed different interviews to elicit the qualities we value. We’ve found that how you answer programming questions is highly correlated with success at Facebook. For example, we don’t believe that traversing a binary tree is particularly difficult, but seeing you write the code to traverse a binary tree tells us a lot. Is your implementation correct, efficient, and well-structured? Are you proactive in finding bugs? Are you thorough in checking boundary conditions? We care about these qualities and evaluate them by asking you well-calibrated questions.
+
+We also may ask you a high-level system design question. This question gives us insight into how you approach a vague problem, identify tradeoffs, design a solution, and anticipate potential pitfalls. Finally, we’re also interested in your cultural fit with us, your aptitude in working with others, and your ability to communicate effectively both in general terms and in your specific area of research.
+ 
+Many of our engineers spent a day or two preparing for their interviews and found it to be useful. We recommend that you dust off any dormant coding skills by tackling some standard programming competition challenges. We wish you the best in your interviews and encourage you to ask any questions you may have.
+ 
+Here are some links that might help you prepare further.
+
+=======================================================================
+
+onsite1 
+behavior: 1)有什么跟同事意见冲突的案例，怎么解决 
+2) 以前做过的项目如果现在再做会有什么不同/改进
+3）divide and mod，但不能用/或者%，基本也是leetcode原题了
+
+onsite2
+system desgin: 因为我是kernel背景，让我用mutex,cv实现一个semephor，说先考虑
+单核，然后拓展到多核，但我只写了单核的就没时间了，不知道多核的会有什么不同，
+要求code compilable，MD三哥从一进来就没好脸色，此轮negative
+
+onsite3:
+1) 给你10g文件，1g内存，数总共有多少个不同的数，答案是用bit来记录数字，总共
+4b个interger,最多用0.5gb来记录，follow up是如果只有400m怎么办，答案是把数字
+hash一下或者说scan文件多次，每次取尾数bits不一样的数，不用code
+2) read file up to 4K, 也是老题了
+3) 求平方根，基本也是leetcode原题，但给的数是double，这样如果给的n是小于1的
+数，初始的right就得取1而不是n
+
+onsite4:
+也是kernel组的三哥，先上来问了btree跟bst的区别，btree里放多少个index怎么决定
+，答案是disk block size / 每个index的长度，如果是内存的话就用cache line size除
+还有vm的，我也不大懂，好像是说如何解决内存的fagement问题，如何把多个分开的小
+片段移到一起，用到了madvise这个syscall,还问为什么返回一个新的page之前要清零
+，答案是因为page上可能是别的process的内容
+code题是decode，比如说1 → 1, 2 -- > 01, 3 → 001, 4 → 0001,....，给你一个
+无限的stream，要求输出数字，应该没啥难度，follow up是如何优化，我给的答案是
+map，就是依次取char而不是bit，然后把char的值对应到string上，他说cpu还有一个
+instruction可以直接查询此个char有多少个leading zero
+

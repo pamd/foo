@@ -1,0 +1,266 @@
+2. 每个任务之间有dependency，怎么安排任务顺序，使得执行任务i的时候，所有被depend的任务已经执行过了。 [create a DAG?]
+
+8. Design a class library for writing card games.
+
+10. 他是要我用pthread实现thread pool，以及thread job management。先是define class interface，然后用pthread的mutex和semaphore实现了consumer/producer queue。这个queue允许users（producers)加入thread jobs，thread managers(consumers)拿出thread jobs，并执行。
+
+
+15. static变量用来在整个class中共享数据.基于此，各种synchronization技术， 以及busy waiting的优缺点，啥时候要用基于busy waiting的 spinlock主要是基于性能的探讨。 如果有一个应用程序运行时没有达到timing constraint， 你如何去分析问题出在哪儿， 可以用什么工具或者技术。
+
+
+17. Design a class providing lock function which provide lock only if it sees there are no possible deadlocks.
+
+23. Design free and malloc.
+
+Q1：有一组数据，很长，有ID，经纬度，时间4个变量, <timestamp, long, lat, ID>. 怎么找出两人是否有一面之缘。怎么找出所有relationship（定义是在100米范围内一起度过1小时以上). [split all records into smaller chucks according to timestamp; find pairs of IDs within 100m; ]
+Q4：怎么判断两个TB级别的文本是否雷同，是否近似. [split into smaller chucks; hash each chuck?]
+Q5：怎么用C实现SQL的join功能。只是思路（hash），没让code。
+
+
+==================================================
+
+1. 大规模系统设计的问题，比如load balancing, server communication, data 
+consistence等等，而且他会一直深入细节，让你设计一些出错处理什么之类的.
+
+3. 用Java设计一个餐馆。有厨师，服务生，客户等等类;考虑多线程
+
+4. udp和tcp的区别，什么时候用tcp，什么时候用udp。tcp是否允许接受重复packet。
+cookie是什么在进行操作，一个网站最多有几个cookie。
+
+5. 做一个search engine, 每次搜索到的url肯定会有大量重复。怎么解决? [check redirect; dynamic web page patterns; similarity between content by hashing the content block]
+
+6. 实现这个search engine, 你的设备是联在一起的100台电脑，它们可以同时工作。可能整个工作过程的某个时段这台机器得到的url set跟另一台机器得到的url set不一样，我们又不希望重复劳动。怎么办？ [hash the url assign to corresponding crawler server + or set up a central server for assignment.]
+
+7. 一个非常sparse的matrix，2^64 × 2^64, 设计一个class，内有get(int x, int y), set(int x, int y, int value)。 用什么数据结构存储它？有哪些选择，各自的get啊, set的complexity是什么。[list space ~O(2^64 * 2^64); hash table space ~O(#values), hash[x*(2^64)+y] = val.]
+
+9. 然后让我设计一个分布式文件系统，给定path name，可以读写文件。
+其中一个细节是，给定path name，怎么知道哪个node拥有这个文件。 [cluster contains the mapping (path->node): constant hashing; define the path in a way that contains the node name]
+统计distributed file system所有目录的大小; 一个目录下的文件可能放在不同的node上。[use hash table to count in each node, and then merge; keys are stored as a tree; serialize the tree;]
+
+
+11. Consider you are constructing a system for data synchronization, what problem will you face, and how you solve it? (multi-threads synchronization). [access to shared resources, using mutex and semaphore; deadlock; read-only/read-write lock.]
+
+
+12. large scale的设计题:
+He: how would you design a distributed key-value store
+Me: DHT or just using clusters
+He: details?
+Me: we have a large number of machines. first we use a hash function to
+retrieve machine ID from the key. Then we connect to the machine and use
+another hash function to retrieve the address from the key. Then fetch data
+from that address.
+
+He (seems not satisfied): how much space do you need on the master machine?
+Me: It depends. If we can use a hash function to derive the IP address of
+the machine, we don't need extra space. Otherwise, we need a table to store
+key-IP pairs which is XXX large.
+
+He: say more about how you would get the value on one machine
+Me: we have two levels of cache, then memory, then disk. We go down to lower
+levels if we can't retrieve the value on higher levels. (seems like not
+what he expected)
+
+He: how would you fetch the value on the disk? Please fill in a function
+char* getData(char *key) { ... }
+Me: don't know what he asked is different from what I answered. Ask him a
+lot of questions, but haven't got anything useful
+
+He: Think about what the file system is like
+Me: Talked about things I know about file systems. Ask him whether he would
+like me to write that function based on file system or redesign everything.
+
+He: should be based on file systems.
+Me: go from "/", keep iteratively searching for the current directory using
+the key, until we hit a file not a directory. Then open that file and read
+value and return the value.
+
+整个过程，感觉跟他预想的不一样，跟我预想的也不一样。一直觉得key-value pairs应该是用分布式的no sql的DB来实现的，没想到要去读file。另外自己对于disk读取的底层API也不了解，所以答题的时候基本凭想象来答，觉得怎样应该算是reasonable的。这可能是导致杯具的原因。
+
+DHT B+ tree
+
+
+1. 固定时间内某网站只允许访问有限次，如何让index次数尽可能的少，又不错过更新。[evenly? track historical data to find patterns?]
+
+2. Table reservation system. 并行的, 这个用semaphore或mutex tasking的算法不行么? [http://cs.lmu.edu/~ray/notes/introconcurrency]
+
+
+3. Design Patterns
+要看的paper：
+1. gogole  gfs
+2. google map reduce
+3. google bigtable
+4. facebook cassandra
+6 facebook hadoop/hdfs/hbase
+7 facebook hive
+9 amazon dynamo
+以上paper一定要熟读，并且对比设计的不同和为什么不同，起码要理解80%里面的概念，其实比想算法容易多了。 
+
+Faceboook的tech blog
+Dropbox的tech blog
+http://rdc.taobao.com/blog/cs/
+http://highscalability.com/
+
+
+
+4. 让设计一个游戏，animal game，可以参看这个链接 http://www.animalgame.com/ | 用户心里想一个动物，现在系统什么都不知道，可能只知道一种动物，tiger，然后它会问是tiger么？如果不是，那这次猜测就fail，系统就问你，请你说出一个你想的的动物和tiger的区别feature。而且告诉它你的动物是什么。这样他就学习到一个新知识。比如你想的是兔子，告诉他feature是long ear。 那么重新开始游戏，你重新想一种动物，然后系统开始发问 它会问是long ear么？ 你说不是，他会问，是tiger么？不是。那你就再提供新的feature和新的动物信息。类似一个decision tree的结构，让你设计主要的类，方法，以及这些方法的逻辑，伪码ok。[
+class DecisionNode {
+	Bool is_leaf;
+	String[] animal_names;
+	String feature;
+	DecisionNode node_yes;
+	DecisionNode node_no;
+	
+	DecisionNode DecisionNode(Bool is_leaf, String[] animal_names, String feature, DecisionNode node_yes, DecisionNode node_no);
+	
+	void add_feature(String new_feature, String new_animal_name) {
+		node_yes = DecisionNode(True, [new_animal_name], new_feature, null, null);
+		node_no = DecisionNode(False, animal_names - [new_animal_name], new_feature, null, null);
+		animal_names = null;
+		is_leaf = False;
+	}
+	
+	void ask() {
+		if (is_leaf) {
+			cout << "Is it "+animal_names[rand() % animal_names.size()]+"?";
+		} else {
+			cout << "Is it "+feature+"?";
+			Bool yes;
+			cin >> yes;
+		}
+	}
+}
+
+
+1. Design a file system
+Distributed? [GFS; master server + multiple chunk servers; replica]
+
+2. 数据结构 for spreadsheet [row[1,2,3,…] + col[a,b,c,…(base26 string) --> hashtable]
+
+3. 一个app需要用cache，怎么实现thread safe [mutex]
+
+4. social network, billions id, every id has about 100 friends roughly, what is max connections between any two ppls. write algorithm to return min connections between two ids: int min_connection(id1, id2) [connections? common friends??]
+
+You can call following functions
+expand(id) return friends list of id
+expandall(list) return friends union of all the ids in the list
+intersection(list1, list2) return intersection
+removeintersection(list1, list2)
+
+
+5. Open google.com, you type some words in the edit box to search something, it will return lots of search  results. Among these returning results (that is, website link), you may only CLICK some results that are interesting to you. The system will record the “CLICK” action. Finally, you will have the search results (i.e. url) and “CLICK” information at hand. Question: how do you find the similarity of these searching? [classification???]
+
+
+6. 如何找出最热门的话题(根据tweets)。如果一个话题一直热门，我们不想考虑怎么办 [high volume + bursty (set up a time unit)]
+
+7. Discuss design challenges of a distributed web crawler running on commercial PCs. How to utilize network bandwidth of those PCs efficiently? [multi-threading]
+
+ 
+8. Design a site similar to tinyurl.com [Each time when given a new url, save it to the database and get a ID number; hash the ID to use 62-base representation (A-Z + a-z + 0-9 = 62 chars).]
+
+
+9. large log file,含有 customer id, product id, timestamp想得到在某一天中某个custom看网页的次数 Given: 1)足够memory 2)limited memory. [counter[customer,to_date(timestamp)]; split the log file into 1000 small files based on customer_id MOD 1000 --> counter[customer,to_date(timestamp)] in each small file ---> merge the output.]
+
+10. 设计一个actor和movie的数据库的schema, 支持从movie得到它的actors和从actor得到ta出现过的moive. [mySQL, <actor, movie, timestamp> --> create two views, <actor, <movies>>, <movie, <actor>>; bigtable: each row is an actor; each column is a movie; files are grouped based on movie; timestamp]
+
+
+11. 某建筑有五十层高,打算装俩电梯,设计该电梯系统 [bank; elevator (scheduling; state); additional signal]
+
+13. 一个文件里n行m列，每行是一个record，每列一个feature，你时不时要按不同feature排序和查找。不能用数据库，文件大小内存能装下，数据结构和算法不限，语言不限，给出你最好的办法。 [hbase; 
+record[ID] = {feature_key: feature_val}
+hashtable[feature_key] = [(feature_val,ID1), …, (feature_val,ID_k) sorted according to feature_val]
+preprocessing ~ O(#features * logn)
+sort ~ O(1), search ~ O(log n)
+]
+
+16. 设计题， 有一个多台机器构成的cluster。 现在有大量公司的数据文件 （并有多个备份）。 如果设计一个算法，使得每台机器尽量均衡的使用，并且 每个公司文件的不同copy不能存在于同一台机器上。[主要的Idea就是用round-robin的方式 assign每个公司的原数据文件到一台机器 + hashtable[doc ID] = [machine IDs]; Round-robin --- assign file in circle order]
+
+19. 超大图的存储问题 [divide into small chucks; http://en.wikipedia.org/wiki/Quadtree]
+
+20. 给个Lock w/ two atomic method lock() and unlock()，请用lock实现一个文件读写的系统，要求：
+1: reader blocks writer;
+2: writer blocks reader;
+3: writer blocks writer;
+["reader preference": read_lock for changing read_count; write_lock for changing data; when read_count > 0: write_lock.acquire(True); when read_count <= 0: write_lock.release()]
+
+21。设计一个web cache server，假设存储网页数量是10个billions，打算怎么设计
+[URL-->content; hash(URL)--> server ID using DHT+constant hashing]
+
+22.你可以得到网站访问记录，每条记录有user IP, 写一个程序，要随时能算出过去5分钟内访问次数最多的1000个IP. 这个好像跟着这个rolling window 的precision 有关，所以我们暂且定为5秒钟update一次window. [use count-mean-min sketch (d rows[d hash functions] x w cols); use hash table to count IP within pass 5 minutes; use stream-summary data structure.]
+
+
+24. How to design data structures for a Facebook network and how to design an algorithm to find connection? How to optimize it if data is distributed into multiple computers? [graph partitioning? try to assign similar nodes in the same machine/cluster/region, etc. similarity is determined by interaction intensity, common friend count, shared affiliation; etc.]
+
+
+25. Design a deck class and member function to randomly select a card from those cards which haven’t been selected before. (You can assume the number of this function call will never be larger than the number of cards) For example, we have a deck of four card: 1,2,3,4. First it may select 3, then next time it should randomly select one from 1,2,4… And design a member function to reset. [
+class Deck:
+	def 
+]
+
+
+26. Google search design problem. How to distribute data and how to design backup system [gfs + big table]
+
+28. Design bit.ly url shortening web service。算法设计，后端存储，中间层cache，前端load balance，最后是web analytics。
+
+29. Design and implement an algorithm that would correct typos: for example, if an extra letter is added, what would you do?
+[Edit distance. P(c|w) ~ argmax_c P(w|c) P(c); Crowdsourcing / Pre-computed a map: [bad word]-->[suggestions]]
+
+30. Suppose there are 2 persons A and B on Facebook. A should be able to view the pictures of B only if either A is friend of B or A and B have at least one common friend. 
+1. How are you going to store the list of friends for a given user?
+2. File system vs DB [nosql database]
+3. Given list of friends of 2 users, how are you going to find common friends? [fbids are sorted by a static score.]
+4. If you are going to store the friends in DB then how will the table look like?
+5. How many servers do you need? [1 billions users x 100 friends; fbid ~ long int, 8 bytes; (2^30)*100*8byte ~ 2^40bytes = 2TB ~ 2G RAM = 512 caches]
+6. How are you going to allocate work to servers? [master --> multi cache server, fbid MOD 512 = cache server ID]
+7. How many copies of data will you need? [HDFS/Big table, 3 replica]
+8. What problems will you face if you are maintaining multiple copies of data. [synchronization; use timestamp; keep a log file on each server]
+
+31. Design structure for auto-completion
+32. 如何实现search suggestions. [Trie]
+
+33. 设计Facebook的系统支持like那个button [like fbid; fbid is universally assigned ID to all FB objects.]
+
+34. Design 股票#，time，price；
+-设计一个client side显示股票信息，给出尽可能多的user case. [timeline of stock prices; within a certain time unit; buy; sell]
+-在给出的user case里面，怎么设计客户端，使得客户段性能提高
+-怎么设计server端
+-数据如何传输
+-server端如何保存数据
+-怎么设计database table保存数据
+-不用index怎么提高数据查询速度
+-database是怎么实现数据查询的（要求从database implementation角度解释）
+
+Q0：讲讲你最得意的一个project。
+
+
+Q2：有一组以往marketing campaign的数据，包括使用的关键词集合，目录集合，还有成功率。怎么决定下次campaign使用哪些关键词。
+
+Q3：怎么找出竞争对手购买了哪些搜索关键词. [track the rank of our products in related keywords…decrease?]
+
+
+
+Q6：三个按钮对应隔壁房间的三盏灯，只能到隔壁房间一次，怎么判断哪个对应哪个。[turn A on for 10min; turn off A; turn B on; go to the room: the warm light bulb is A, the on light is B and the rest is C.]
+
+Q7：怎么用两个正方体（共12面）显示一个月的所有日期。[base-12. 1 = (1)_12, 30 = (26)_12]
+
+Q8：怎么最快的在一个大文本里面搜索字符串。[KMP?]
+
+Q9：为什么有时候K means算法不能converge？[The algorithm has converged when the assignments no longer change. Since both steps optimize the WCSS objective, and there only exists a finite number of such partitionings, the algorithm must converge to a (local) optimum. There is no guarantee that the global optimum is found using this algorithm.]
+
+
+Q10：沙滩上有两个一模一样的冰激凌店，由两兄弟经营。为了竞争顾客，他们会把店开到哪里？
+Q11：纽约有多少出租车？他们年收入大概多少？
+Q12：某公司在各种marketing channel投入资金，请问怎么计算投资回报？怎么决定最佳投资方案？
+Q14：怎么设计recommending system，怎么解决cold start 问题。
+Q15：假设你既卖toyota又卖lexus，请问应该如何定价？
+Q16：怎么解决marketing data里面selection bias问题（从impression到click到purchase，每次都只有少数人进入下一步）。
+Q17：使用decision tree的时候，假设y应该随着x递增，但是cart算法得出的结果有spike，即某处出现y随着x递减的现象。怎么解决？
+[Classification And Regression Tree (CART)]
+
+Q18：怎么判断sample是否符合预设的population 分布。[check mean, standard deviation.]
+
+Q19：假设盒子里有1000条鞋带，每次拿出两个头系起来，如果形成一个loop就拿出来，否则放回去。请问预期最后有几个环。
+
+Q20：有一个人口调查问题是家里有几口人，显然最后的结果会有重复，因为4口之家每个人都会说4。怎么解决？
+[N_k - #reports of a family with k persons; N_k/k]
+
+

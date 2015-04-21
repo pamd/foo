@@ -1,0 +1,59 @@
+
+Decision tree can be used to solve the following two problems:
+
+(1) Given n numbers, why a comparison-based sorting algorithm needs at least 
+n*logn comparisons?
+
+Answer: For n numbers, we have n! permutations. One comparison can invalidate
+one half of these permutations. So we can build a binary tree, in which each leaf 
+node corresponds to one possible sorting result. The first comparison generates two 
+child nodes for root, second comparison generates four nodes in the second level, 
+and so on. Eventually it will generate n leaf nodes. So we need at least log(n!)
+comparisons to generate n! leaf nodes. According to Sterling Approximation,
+          log(n!) = n * logn
+
+Q.E.D. 
+
+(2) Given a balance scale and n balls, one ball is either heavier or lighter 
+than the other n-1 balls. What is the lower bound of the number of weighs to 
+find the different ball?
+Anany Levitin et al, "Algorithm Puzzles", 2011
+Puzzles #10 (pages 88-89), and #142 (pages 225-227)
+
+Answer: Every time we use the scale, there will be three possible results:
+left > right, left == right, or left > right. If we use a decision tree, then
+each weigh generates three child nodes. There are totally 2*n possible states,
+so the decision tree will also have 2*n leaf nodes. To generate 2*n leaf nodes,
+we need at least log(2*n) weights (log base is 3). 
+
+As a matter of fact, not every node will generate three valid child nodes, so 
+given x weighs, the maximum number of balls among which we can identify the 
+different one is 
+
+	  (3^x - 3) / 2
+
+For example, suppose we have 3 balls A, B and C. We first put A and B on the 
+scale, the first level has three child nodes that corresponds to:
+A > B, A == B, and A < B. The next level is supposed to have 9 nodes, but some 
+of them are invalid:
+
+(1) If A > B, we now measure A and C. Because there is only one different ball, 
+so we will only have two possibilities (instead of three): 
+
+A  > C (then A is heavier than B and C)
+A == C (then B is lighter than A and C)
+
+But we will never get A < C, otherwise B < A < C, all three balls will be different.
+
+(2) If A < B, we measure A and C. Again only two valid nodes
+A == C (then B is heavier than A and C)
+A <  C (then A is lighter than B and C)
+
+But we will never get A > C.
+
+(3) If A == B, we measure A and C. We will get:
+A > C (then C is lighter than A and B)
+A < C (then C is heavier than A and B)
+
+But we will never get: A == C, otherwise all three balls will be identical.
+

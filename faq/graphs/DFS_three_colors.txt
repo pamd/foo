@@ -1,0 +1,51 @@
+What is the advantage of using three colors in DFS?
+----------------------------------------------------
+
+If we only want to use DFS to visit all nodes in a graph (no matter it is
+directed or undirected), then two colors will be good enough. 
+
+But if the graph is directed and we want to detect the cycle in the graph
+(for example, EPI Problem 13.8: Minimum Delay Schedule), we have to use 
+three colors to distinguish which node we have finished visiting (whose 
+color is set to BLACK), which node is being visited (whose color is gray).
+
+If the graph is undirected, two colors are enough to detect the cycle too.
+See EPI Problem 13.4.
+
+In topological sorting, because the graph is always directed, we put a node 
+into the stack at eactly the same time when we color it to BLACK.
+See EPI Problem 13.8: Minimum Delay Schedule
+
+http://cs.stackexchange.com/questions/9676/the-purpose-of-grey-node-in-graph-depth-first-search
+-----------------------------------------------------------------------------------------------
+"When doing a DFS, any node is in one of three states - before being visited, 
+during recursively visiting its descendants, and after all its descendants have 
+been visited (returning to its parent, i.e., wrap-up phase). The three colors 
+correspond to each of the three states. One of the reasons for mentioning colors 
+and time of visit and return is to explicitly make these distinctions for better 
+understanding.
+
+Of course, there are actual uses of these colors. Consider a directed graph G. 
+Suppose you want to check G for the existence of cycles. In an undirected graph, 
+if the node under consideration has a black or grey neighbor, it indicates a 
+cycle (and the DFS does not visit it as you mention). However, in case of a 
+directed graph, a black neighbor does not mean a cycle. For example, consider 
+a graph with 3 vertices - A, B, and C, with directed edges as A ==> B, B ==> C, 
+A ==> C. Suppose the DFS starts at A, then visits B, then C. When it has returned 
+to A, it then checks that C has already been visited and is black. But there is no 
+cycle in the graph.
+
+In a directed graph, a cycle is present if and only if a node is seen again before 
+all its descendants have been visited. In other words, if a node has a neighbor 
+which is grey, then there is a cycle (and not when the neighbor is black). A grey 
+node means we are currently exploring its descendants - and if one such descendant 
+has an edge to this grey node, then there is a cycle. So, for cycle detection in 
+directed graphs, you need to have 3 colors. There could be other examples too, 
+but you should get the idea."
+
+In this article:
+http://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+--------------------------------------------------------
+In order to detect cycle in a directed graph, two boolean arrays to keep track of
+vertexes that have been visited and the vertexes that are being visited in current
+function call. This appraoch is equivalent to using three colors. 
