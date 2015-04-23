@@ -1,5 +1,8 @@
 # Misc
 
+* FB TAO
+<br>https://www.facebook.com/notes/facebook-engineering/tao-the-power-of-the-graph/10151525983993920
+
 * FB f4:
 <br>http://blog.acolyer.org/2014/12/16/f4-facebooks-warm-blob-storage-system/
 <br>http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html
