@@ -1,4 +1,0 @@
-For more brute force approaches, check:
-
-Dropbox/coding/oj/impl_strstr.cpp
-
