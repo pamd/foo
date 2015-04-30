@@ -12,10 +12,10 @@
 
 # Blogs
 
-1. http://www.fgdsb.com/ (algorithms)
-2. https://github.com/soulmachine/leetcode (soulmachine)
-2. http://www.programcreek.com/ (Java)
-2. http://www.shuatiblog.com/blog/archives/ (algorithms)
+1. Algorithms: http://www.fgdsb.com/
+2. Soulmachine: https://github.com/soulmachine/leetcode
+2. Java: http://www.programcreek.com/
+2. Algorithms: http://www.shuatiblog.com/blog/archives/
 2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
 2. Ricky Ho: http://horicky.blogspot.com/
 2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
