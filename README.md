@@ -18,6 +18,7 @@
 # Blogs
 
 1. http://www.fgdsb.com/ (algorithms)
+2. https://github.com/soulmachine/leetcode (soulmachine)
 2. http://www.programcreek.com/ (Java)
 2. http://www.shuatiblog.com/blog/archives/ (algorithms)
 2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
