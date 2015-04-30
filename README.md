@@ -1,16 +1,11 @@
 
-# Misc
-
-* Penn CAM: http://memory.psych.upenn.edu/
-
-* EupathDB: http://PlasmoDB.org
-<br>https://www.bio.upenn.edu/people/david-s-roos
-
-* Youtube problems: https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
-<br>Source Code: http://goo.gl/fAhQ9
+<HR>
 
 * EPI: http://elementsofprogramminginterviews.com/
 <br>Code: http://elementsofprogramminginterviews.com/solutions/
+
+* Youtube problems: https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
+<br>Source Code: http://goo.gl/fAhQ9
 
 * GNU Make: Variables Used by Implicit Rules (CC, CXX, CFLAGS, CXXFLAGS, etc) 
 <br>http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
@@ -67,6 +62,12 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 * A Brief Tour of FLP Impossibility
 <br>http://the-paper-trail.org/blog/a-brief-tour-of-flp-impossibility/
 
+
+# Misc
+
+* Penn CAM: http://memory.psych.upenn.edu/
+* EupathDB: http://PlasmoDB.org
+<br>https://www.bio.upenn.edu/people/david-s-roos
 
 
 <HR>
