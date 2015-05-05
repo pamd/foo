@@ -1,5 +1,8 @@
 # Misc
 
+* HS: Facebook Timeline: Brought to You by Denormalization (01/23/2012)
+<br>http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html
+
 * Scaling Pinterest
 <br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
 <br>HS: http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html
