@@ -2,7 +2,8 @@
 
 * HS: Facebook Timeline: Brought to You by Denormalization (01/23/2012)
 <br>http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html
-<br>http://www.25hoursaday.com/weblog/2009/10/29/FacebookSeattleEngineeringRoadShowMikeShroepferOnEngineeringAtScaleAtFacebook.aspx (multifeed)
+* FB Multifeed
+<br>http://www.25hoursaday.com/weblog/2009/10/29/FacebookSeattleEngineeringRoadShowMikeShroepferOnEngineeringAtScaleAtFacebook.aspx
 
 * Scaling Pinterest
 <br>Video: http://www.infoq.com/presentations/Pinterest (48 min)
