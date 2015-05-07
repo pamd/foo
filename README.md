@@ -14,6 +14,7 @@
 
 1. Algorithms: http://www.fgdsb.com/
 2. Soulmachine: https://github.com/soulmachine/leetcode
+3. 结构之法,算法之道: http://blog.csdn.net/v_july_v
 2. Java: http://www.programcreek.com/
 2. Algorithms: http://www.shuatiblog.com/blog/archives/
 2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
