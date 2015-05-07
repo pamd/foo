@@ -1,5 +1,8 @@
 # Misc
 
+* Exploring the software behind FB (06/18/2010)
+<br>http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/ 
+
 * HS: Facebook Timeline: Brought to You by Denormalization (01/23/2012)
 <br>http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html
 * FB Multifeed (10/29/2009)
