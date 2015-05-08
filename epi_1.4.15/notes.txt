@@ -1,3 +1,4 @@
-14.8: interval covering problem, what if interval A's ending time
+* 14.8: interval covering problem, what if interval A's ending time
       overlaps with next interval's starting time?
 
+* furtherest points (Sedgewick)
