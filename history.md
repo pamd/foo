@@ -1,5 +1,7 @@
 # Misc
 
+* Scribe: https://github.com/facebookarchive/scribe
+
 * Exploring the software behind FB (06/18/2010)
 <br>http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/ 
 
