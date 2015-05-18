@@ -49,9 +49,6 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 * Slides: Scalability Web Design: Principles and Patterns
 <br>http://www.slideshare.net/ssachin7/scalability-design-principles-internal-session (44 slides)
 
-* Article on Kafka:
-<br>http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
-
 * Video: Taming Latency Variability and Scaling Deep Learning (Jeff Dean)
 <br>https://www.youtube.com/watch?v=S9twUcX1Zp0 (73 min)
 
