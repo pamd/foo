@@ -13,7 +13,7 @@
 1. Kafka vs. RabbitMQ
 <br>http://www.quora.com/Which-one-is-better-for-durable-messaging-with-good-query-features-RabbitMQ-or-Kafka?share=1
 
-1. ActiveMQ or RabbitMQ or ZeroMQor Kafka
+1. ActiveMQ or RabbitMQ or ZeroMQ or Kafka
 <br>http://stackoverflow.com/questions/731233/activemq-or-rabbitmq-or-zeromq-or
 
 1. <b>How does LinkedIn's recommendation system work?</b>
