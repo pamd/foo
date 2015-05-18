@@ -37,7 +37,7 @@
 1. <b>In-stream Big Data Processing (08/20/2013)</b>
 <br>https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/
 
-1. Nathan Marz: Big Data Lambda Architecture
+1. Nathan Marz: Big Data Lambda Architecture (09/05/2012)
 <br>http://www.databasetube.com/database/big-data-lambda-architecture/
 
 1. <b>Distributed Algorithms in NoSQL Databases (09/18/2012) </b>
