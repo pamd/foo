@@ -1,7 +1,7 @@
 * Apache Kafka
 <br>http://kafka.apache.org/
 
-* The Log: What every software engineer should know about real-time data's unifying abstraction
+* <b>The Log: What every software engineer should know about real-time data's unifying abstraction</b>
 <br>https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 
 * Oracle XStreams
@@ -15,7 +15,7 @@
 * ActiveMQ or RabbitMQ or ZeroMQor Kafka
 <br>http://stackoverflow.com/questions/731233/activemq-or-rabbitmq-or-zeromq-or
 
-* How does LinkedIn's recommendation system work?
+* <b>How does LinkedIn's recommendation system work?</b>
 <br>http://www.quora.com/How-does-LinkedIns-recommendation-system-work
 
 * Databus: https://github.com/linkedin/databus
