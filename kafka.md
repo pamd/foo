@@ -33,10 +33,10 @@
 
 * Kafka Design: http://kafka.apache.org/documentation.html#design
 
-* In-stream Big Data Processing (08/20/2013)
+* <b>In-stream Big Data Processing (08/20/2013)</b>
 <br>https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/
 
-* Distributed Algorithms in NoSQL Databases (09/18/2012)
+* <b>Distributed Algorithms in NoSQL Databases (09/18/2012) </b>
 https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-databases/
 
 * DataFu's Hourglass: Incremental Data Processing in Hadoop (10/03/2013)
@@ -74,4 +74,3 @@ http://www.amazon.com/Replication-Practice-Lecture-Computer-Theoretical/dp/36421
 <br>https://blog.twitter.com/2013/streaming-mapreduce-with-summingbird
 <br>https://github.com/twitter/summingbird
 
-* 
