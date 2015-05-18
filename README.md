@@ -33,8 +33,10 @@
 <br> Paper (15 pages) and slides (45): https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow
 <br>Review: http://muratbuffalo.blogspot.com/2015/03/the-mystery-machine-end-to-end.html
 
-* Let's Play with Cassandra (09/06/2010) Part 1/2/3
-<br>http://blog.octo.com/en/nosql-lets-play-with-cassandra-part-13/
+* Let's Play with Cassandra (09/06/2010)
+<br>http://blog.octo.com/en/nosql-lets-play-with-cassandra-part-13/ (Part 1 of 3)
+<br>http://blog.octo.com/en/nosql-lets-play-with-cassandra-part-23/ (Part 2 of 3)
+<br>http://blog.octo.com/en/nosql-lets-play-with-cassandra-part-33/ (Part 3 of 3)
 
 * Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month
 <br>http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html
