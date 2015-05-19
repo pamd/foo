@@ -66,7 +66,7 @@ https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-
 <br>http://arxiv.org/abs/1309.5671
 
 1. Replication: Theory and Practice (book published on April 8, 2010)
-http://www.amazon.com/Replication-Practice-Lecture-Computer-Theoretical/dp/3642112935
+<br>http://www.amazon.com/Replication-Practice-Lecture-Computer-Theoretical/dp/3642112935
 <br>Many of the chapters are online:
 <br>1: http://disi.unitn.it/~montreso/ds/papers/replication.pdf
 <br>4:?
