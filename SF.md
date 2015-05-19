@@ -13,7 +13,7 @@
 
 * Chinatown to Redwood City: 33 miles, 55 min
 
-* Chinatown to Stanford: 37 miles, 1 hour
+* Chinatown to Stanford: 37 miles, 1 hour (can pass Redwood City)
 
 * Chinatown to Sunnyvale: 50 mile, 75 min (Stanford on the way)
 
