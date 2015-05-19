@@ -1,5 +1,8 @@
 * SFO to Chinatown: 30 min
 
+* Public Transportation (cable car, etc)
+<br>http://www.streetcar.org/rider-information-map-2/
+
 * Union Square to Chinatown: 0.4 mile (9 min walk)
 
 * Chinatown to Lombard Street (九曲花街): 1.0 mile (20 min walk)
