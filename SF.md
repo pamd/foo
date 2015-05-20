@@ -14,6 +14,8 @@
 * Chinatown to Golden Gate Bridge: 7.4 mile, 22 min drive
 <br>Baker Beach
 
+* Union Square to Muir Woods National Monument: 17 miles (pass GOlden Gate Bridge)
+
 * Chinatown to Redwood City: 33 miles, 55 min
 
 * Chinatown to Stanford: 37 miles, 1 hour (can pass Redwood City)
