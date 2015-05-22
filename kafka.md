@@ -1,5 +1,7 @@
 1. Apache Kafka
 <br>http://kafka.apache.org/
+<br>http://kafka.apache.org/documentation.html#design (Doc: design)
+<br>https://cwiki.apache.org/confluence/display/KAFKA/Log+Compaction (log compaction)
 
 1. <b>The Log: What every software engineer should know about real-time data's unifying abstraction</b>
 <br>https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
@@ -32,8 +34,6 @@
 1. PDF: Building LinkedIn’s Real-time Activity Data Pipeline (13 pages)
 <br>http://sites.computer.org/debull/A12june/pipeline.pdf
 
-1. Kafka Design: http://kafka.apache.org/documentation.html#design
-
 1. <b>In-stream Big Data Processing (08/20/2013)</b>
 <br>https://highlyscalable.wordpress.com/2013/08/20/in-stream-big-data-processing/
 
@@ -46,9 +46,6 @@ https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-
 
 1. DataFu's Hourglass: Incremental Data Processing in Hadoop (10/03/2013)
 <br>http://engineering.linkedin.com/datafu/datafus-hourglass-incremental-data-processing-hadoop
-
-1. Kafka log compaction
-<br>https://cwiki.apache.org/confluence/display/KAFKA/Log+Compaction
 
 1. Rich Hickey: Deconstructing the Database (video by Clojure creator)
 <br>https://www.youtube.com/watch?v=Cym4TZwTCNU (66 min)
