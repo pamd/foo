@@ -59,6 +59,9 @@ https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-
 1. LinkedIn's own distributed database: Espresso
 <br>http://www.slideshare.net/amywtang/espresso-20952131
 
+1. Zab paper (2011, 12 pages) 
+<br>http://web.stanford.edu/class/cs347/reading/zab.pdf
+
 1. Vive la Différence: Paxos vs. Viewstamped Replication vs. Zab (2014)
 <br>http://arxiv.org/abs/1309.5671
 
