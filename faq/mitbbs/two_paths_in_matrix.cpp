@@ -45,6 +45,8 @@ int get_two_path(const vector<vector<int> >& mat) {
 	for (int c2 = 0; c2 < col; c2++) {
 	  if (!r1 && !c1 && !r2 && !c2) // Skip the starting point
 	    continue;
+	  if (r1 + c1 != r2 + c2)
+	    continue;
 
 	  // IMPORTANT: must extend the two paths concurrently,
 	  // otherwise each element may be included more than once!
