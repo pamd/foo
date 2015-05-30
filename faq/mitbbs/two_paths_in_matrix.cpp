@@ -8,6 +8,23 @@
  *
  * The DP idea is copied from:
  * http://blog.sina.com.cn/s/blog_b9285de20101ijil.html
+ * This DP algorithm will take O(n^4) time and space. But because in the 4-d table
+ * DP[r1][c1][r2][c2], we only need to consider r1+c1 == r2 +c2, it can be converted
+ * into a 3-d table DP[sum][r1][r2], in which sum = r1+c1 = r2+c2, and the recursive
+ * formula is:
+ *   DP[sum][r1][r2] = max(DP[sum-1][r1][r2],  
+ *                         DP[sum-1][r1][r2-1]     // r2 >=1
+ *                         DP[sum-1][r1-1][r2],    // r1 >= 1
+ *                         DP[sum-1][r1-1][r2-1])  // r1 >= 1 && r2 >= 1
+ * 
+ * For a 4x4 table, here is the order of initialization:
+ *                         
+ *                3 4 5 6
+ *                2 3 4 5
+ *                1 2 3 4
+ *                0 1 2 3
+ *
+ * (The number in the table is sum in the above formula, it is also the order to set the elements in DP table.)
  *
  */
 

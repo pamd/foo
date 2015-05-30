@@ -8,6 +8,7 @@
  *
  * This problem is DIFFERENT from the cut-rod problem at the beginning 
  * of CLRS "Dynamic Programming" Chapter.
+ * It is actually Problem 15-9 "Breaking a string" on CLRS 3rd edition page 410.
  * 
  * Ref:
  * http://www.mitbbs.com/article_t/JobHunting/32540099.html

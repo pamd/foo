@@ -19,8 +19,15 @@ int main()
     v1 = a[v1];
     v2 = a[a[v2]];
   }
-
-  cout << v1 << endl;
+  // v1 here is the node where slow and fast pointers overlap, but it is not necessarily
+  // th eduplicate elements. To find the duplicate, use the same idea to find the starting
+  // point of the loop:
+  v1=a[0];
+  while (v1 != v2) {
+    v1 = a[v1];
+    v2 = a[v2];
+  }
+  cout << "Duplucate: " << v1 << endl;
 
   return 0;
 }
