@@ -27,6 +27,7 @@
  */
  
  
+
 #include<iostream>
 #include <list>
 #include <stack>
@@ -145,26 +146,47 @@ void Graph::find_bcc() {
 
 // Driver program to test above function
 int main() {
-   /*
   // Create graphs given in above diagrams
-  cout << "Articulation points in first graph:\n";
   Graph g1(5);
   g1.addEdge(1, 0);
   g1.addEdge(0, 2);
   g1.addEdge(2, 1);
   g1.addEdge(0, 3);
   g1.addEdge(3, 4);
-  g1.AP();
-  cout << endl << endl;
+  cout << "BCC in first graph:\n";
+  g1.find_bcc();
+  cout << endl;
+  // Three BCCs in first graph:
+  // #1:
+  //  2---0
+  //  1---2
+  //  0---1
+  //
+  // #2:
+  //  3---4
+  //
+  // #3:
+  //  0---3
 
-  cout << "Articulation points in second graph:\n";
+
   Graph g2(4);
   g2.addEdge(0, 1);
   g2.addEdge(1, 2);
   g2.addEdge(2, 3);
-  g2.AP();
-  cout << endl << endl;
-   */
+  cout << "BCC in second graph:\n";
+  g2.find_bcc();
+  cout << endl;
+  // Three BCCs in second graph:
+  // #1:
+  //  2---3
+  //
+  // #2:
+  //  1---2
+  //
+  // #3:
+  //  0---1
+
+
 
   Graph g3(7);
   g3.addEdge(0, 1);
@@ -178,8 +200,17 @@ int main() {
 
   cout << "BCC in third graph:\n";
   g3.find_bcc();
+  // Two BCCs if edge (1, 6) is removed:
+  // #1:
+  //  4---1
+  //  5---4
+  //  3---5
+  //  1---3
+  //
+  // #2:
+  //  2---0
+  //  1---2
+  //  0---1
 
   return 0;
 }
-
-
