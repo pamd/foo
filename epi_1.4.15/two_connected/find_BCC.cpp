@@ -5,21 +5,15 @@
  * According to this page:
  *    http://en.wikipedia.org/wiki/Biconnected_graph
  * A BCC should not have any articulation point, so an articulation point 
- * in input graph will be on multiple BCCs. That said, we can not
- * simply find bridge edges first, then remove bridges and return the 
- * remaining components as BCCs. See the figure in:
+ * in input graph will be on multiple BCCs. See the figure in:
  *    http://en.wikipedia.org/wiki/Biconnected_component
- * 
+ * An articulation point (AP) will belong to multiple BCCs.
+ *
  * The following lecture talks about finding BCCs:
  *    https://www.cs.purdue.edu/homes/ayg/CS251/slides/chap9d.pdf
  * (Locally saved as pdf/purdure_chap9d.pdf)  
  * 
- * Pseudo code on finding BCCs:
- *    http://www.ics.uci.edu/~dan/class/161/notes/8/Bicomps.html
- *
- */
-
- /* Detailed pseudo code based on:
+ * Detailed pseudo code based on:
  * -------------------------------------------------------------
  *  http://www.cs.umd.edu/class/fall2005/cmsc451/biconcomps.pdf
  * (Locally saved as: umd_biconcomps.pdf  
