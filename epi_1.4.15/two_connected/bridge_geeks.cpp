@@ -54,7 +54,7 @@ void Graph::bridge_util(int u, bool visited[], int discovery[],
   // Initialize discovery time and low value
   discovery[u] = low[u] = ++time;
 
-  // Go through all vertices aadjacent to this
+  // Go through all vertices adjacent to this
   list<int>::iterator i;
   for (i = adj[u].begin(); i != adj[u].end(); ++i) {
     int v = *i;  // v is current adjacent of u
@@ -71,7 +71,7 @@ void Graph::bridge_util(int u, bool visited[], int discovery[],
       // If the lowest vertex reachable from subtree under v is 
       // below u in DFS tree, then u-v must be a bridge
       if (discovery[u] < low[v])
-	cout << u <<" " << v << endl;
+	cout << "Bridge: " << u << "--" << v << endl;
     }
 
     // Update low value of u for parent function calls.

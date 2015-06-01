@@ -7,10 +7,10 @@
  * 
  * Other interesting references include:
  * http://www.eecs.wsu.edu/~holder/courses/CptS223/spr08/slides/graphapps.pdf
- * (very helpful on DFS and Euler Circuit, locally saved as wsu_graphapps.pdf)
+ * (very helpful on DFS and Euler Circuit, locally saved as pdf/wsu_graphapps.pdf)
  *
  * https://courses.cs.washington.edu/courses/cse421/04su/slides/artic.pdf
- * (geeksforgeeks figure copied from it, locally saved as washington_artic.pdf)
+ * (geeksforgeeks figure copied from it, locally saved as pdf/washington_artic.pdf)
  *
  * Also refer to CLRS 3rd edition Problem 22-2, pp621-622.
  *
@@ -45,10 +45,11 @@ void Graph::addEdge(int v, int w) {
  
 // Recursive function that finds articulation points using DFS traversal.
 // u --> The vertex to be visited next
-// visited[] --> keeps tract of visited vertices
-// discovery[] --> Stores discovery times of visited vertices
-// parent[] --> Stores parent vertices in DFS tree
-// ap[] --> Store articulation points
+// visited[ ] --> keeps track of visited vertices
+// discovery[ ] --> stores discovery times of visited vertices
+// parent[ ] --> stores parent vertices in DFS tree
+// ap[ ] --> stores articulation points
+// low[u] --> stores the lowest vertex ID that vertex u can possibly reach in a SIMPLE cycle
 void Graph::AP_util(int u, bool visited[], int discovery[], 
 		   int low[], int parent[], bool ap[]) {
   // A static variable is used for simplicity, 
@@ -91,17 +92,17 @@ void Graph::AP_util(int u, bool visited[], int discovery[],
       if (parent[u] != -1 && discovery[u] <= low[v])
 	ap[u] = true;
     }
-    // If v is already visited and v is not parent of u, 
+    // If v is already visited and v is not the parent of u, 
     // update low[u] for parent function calls.
     else if (v != parent[u]) {
       low[u] = min(low[u], discovery[v]);
-      // dhu: it seems that we can also use:
-      //    low[u] = min(low[u], low[v]);
-      // because initially low[x] == discovery[x],
-      // and low[x] is updated in post-order fashion.
-      // so low[x] will always be updated only after 
-      // all of its descendants have been updated.
-
+      // dhu: We can NOT change the above line into:
+      //   low[u] = min(low[u], low[v]);
+      // because low[v] could be a vertex that is reachable from v in another cycle,
+      // so low[v] is not reachable from u in a SIMPLE cycle. 
+      // In graph G3 in main(), if we remove the edge (1, 6), and run the algorithm using
+      //   low[u] = min(low[u], low[v]), the program WON't be able to detect vertex #1 as
+      // an AP, but the original implementation will find vertex #1 as AP.
     }
     // If v is already visited and v is parent of u, then
     // u->v is the same edge along which we discovered u. 
@@ -168,7 +169,14 @@ int main() {
   g3.addEdge(2, 0);
   g3.addEdge(1, 3);
   g3.addEdge(1, 4);
-  g3.addEdge(1, 6);
+ 
+  // If we remove the following edge, and set:
+  //   low[u] = min(low[u], low[v]);
+  // then the algorithm won't be able to detect vertex #1 as AP.
+  // See comments above.
+
+  //g3.addEdge(1, 6);
+
   g3.addEdge(3, 5);
   g3.addEdge(4, 5);
   g3.AP();

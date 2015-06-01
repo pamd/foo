@@ -1,3 +1,9 @@
+
+/* See ALGS4 excersize 4.1.36 (page 562): Edge connectivity. 
+ * Source code Bridge.java" can be found at ALGS4 website:
+ *    http://algs4.cs.princeton.edu/41undirected/Bridge.java.html
+ */
+
 /*************************************************************************
  *  Compilation:  javac Bridge.java
  *  Execution:    java  Bridge V E

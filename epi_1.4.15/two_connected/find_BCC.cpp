@@ -12,7 +12,7 @@
  * 
  * The following lecture talks about finding BCCs:
  *    https://www.cs.purdue.edu/homes/ayg/CS251/slides/chap9d.pdf
- * (Locally saved as purdure_chap9d.pdf)  
+ * (Locally saved as pdf/purdure_chap9d.pdf)  
  * 
  * Pseudo code on finding BCCs:
  *    http://www.ics.uci.edu/~dan/class/161/notes/8/Bicomps.html
