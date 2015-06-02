@@ -75,6 +75,8 @@ we can use the same idea to find Eulerian path.
 
 * Geeksforgeeks: Eulerian path and circuit for undirected graph
 http://www.geeksforgeeks.org/eulerian-path-and-circuit/
+(The algorithm only tells whether an undirected graph has Eulerian path or cyle,
+but it does NOT tell how to find the path or cycle.)
 
 * Geeksforgeeks: Euler Circuit in a Directed Graph
 http://www.geeksforgeeks.org/euler-circuit-directed-graph/
