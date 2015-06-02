@@ -80,6 +80,8 @@ but it does NOT tell how to find the path or cycle.)
 
 * Geeksforgeeks: Euler Circuit in a Directed Graph
 http://www.geeksforgeeks.org/euler-circuit-directed-graph/
+(The algorithm only tells whether a directed graph has Eulerian path or cyle,
+but it does NOT tell how to find the path or cycle.)
 
 * Geeksforgeeks: Fleury’s Algorithm for printing Eulerian Path or Circuit
 http://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/
