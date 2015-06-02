@@ -11,7 +11,7 @@
  *
  *  Solution copied from ALGS4 web site.
  *  This solution is actually trickier than the one given in hint.
- *  is based on Hierholzer's algorithm in 1873, see detailed description on:
+ *  It is based on Hierholzer's algorithm in 1873, see detailed description on:
  *      http://en.wikipedia.org/wiki/Euler_path#Hierholzer.27s_algorithm
  *  It is easy to tell whether Euler cycle exists in an input graph or not,
  *  BUT IT IS NOT EASY TO FIND THE CYCLE!!!
