@@ -48,4 +48,4 @@ http://www.geeksforgeeks.org/detect-cycle-in-a-graph/
 --------------------------------------------------------
 In order to detect cycle in a directed graph, two boolean arrays to keep track of
 vertexes that have been visited and the vertexes that are being visited in current
-function call. This appraoch is equivalent to using three colors. 
+function call. This approach is equivalent to using three colors. 
