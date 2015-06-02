@@ -34,7 +34,6 @@ http://en.wikipedia.org/wiki/Eulerian_path
   every other vertex has equal in_degree and out_degree, and all of its vertices with 
   nonzero degree belong to a single connected component of the underlying undirected graph.
 
-
 * Hierholzer's algorithm to find Eulerian cycle in undirected graph: 
 --------------------------------------------------------------------
 http://en.wikipedia.org/wiki/Eulerian_path
@@ -73,3 +72,13 @@ the Eulerian path in original graph will be the cycle minus extra edge.
 
 For a directed graph that has two vertices whose in-degree is not equal to out-degree, 
 we can use the same idea to find Eulerian path.
+
+* Geeksforgeeks: Eulerian path and circuit for undirected graph
+http://www.geeksforgeeks.org/eulerian-path-and-circuit/
+
+* Geeksforgeeks: Euler Circuit in a Directed Graph
+http://www.geeksforgeeks.org/euler-circuit-directed-graph/
+
+* Geeksforgeeks: Fleury’s Algorithm for printing Eulerian Path or Circuit
+http://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/
+
