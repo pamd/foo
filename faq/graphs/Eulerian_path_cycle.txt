@@ -83,6 +83,16 @@ http://www.geeksforgeeks.org/euler-circuit-directed-graph/
 (The algorithm only tells whether a directed graph has Eulerian path or cyle,
 but it does NOT tell how to find the path or cycle.)
 
-* Geeksforgeeks: Fleury’s Algorithm for printing Eulerian Path or Circuit
+* Geeksforgeeks: Fleury’s Algorithm to find Eulerian Path or Circuit in UNDIRECTED Graph (found in 1883)
 http://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/
 
+The basic idea in this algorithm is "Never burn the bridge". But the C++ implementation is pretty dumb.
+When seeing an unused edge, it always runs DFS to determine whether a certain edge is a bridge or not.
+Instead, we can pre-calculate the bridges, then make a copy of the whole graph, and delete the edges that
+have been used in the tour. See DirectedEulerianCycle.java (copied from ALGS4 website) for details. The time
+complexity will be decreased from O((V+E)^2) to O(V+E).
+
+* Extra links on Fleury's algorithm (referred by geeksforgeeks link above):
+http://www.math.ku.edu/~jmartin/courses/math105-F11/Lectures/chapter5-part2.pdf
+http://www.austincc.edu/powens/+Topics/HTML/05-6/05-6.html
+http://en.wikipedia.org/wiki/Eulerian_path#Fleury.27s_algorithm
