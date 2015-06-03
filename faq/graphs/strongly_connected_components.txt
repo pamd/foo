@@ -2,16 +2,16 @@
         Strongly Connected Components (SCC) in Directed Graph
 ----------------------------------------------------------------------
 
-* Geeksforgeeks: Kosaraju’s algorithm to find SCC
-http://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
+* Geeksforgeeks: Kosarajuâ€™s algorithm to find SCC
+http://www.geeksforgeeks.org/strongly-connected-components/
 
 This algorithm is also found on ALGS4 and UCB "Algorithms" pdf book.
 
-* Geeksforgeeks: Tarjan’s Algorithm to find SCC
-http://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
+* Geeksforgeeks: Tarjanâ€™s Algorithm to find SCC
+http://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
 
 (This algorithm is very close to algorithms used to find bridge, AP, and BCC.)
 
-* Geeksforgeeks: Connectivity in a directed graph (based on Kosaraju’s algorithm)
+* Geeksforgeeks: Connectivity in a directed graph (based on Kosarajuâ€™s algorithm)
 http://www.geeksforgeeks.org/connectivity-in-a-directed-graph/
 
