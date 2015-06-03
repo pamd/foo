@@ -4,8 +4,13 @@
 
 * Geeksforgeeks: Kosaraju’s algorithm to find SCC
 http://www.geeksforgeeks.org/strongly-connected-components/
+(This algorithm is also found on ALGS4 and UCB "Algorithms" pdf book.)
 
-This algorithm is also found on ALGS4 and UCB "Algorithms" pdf book.
+* See this page on why the last node after topological sorting may not be a sink node:
+http://www.personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/GraphAlgor/strongComponent.htm
+
+In the first figure, one of the nodes in C2 has lowest post-order traversal value, but it is NOT
+a sink node. So do a DFS on it will give incorrect SCC!
 
 * Geeksforgeeks: Tarjan’s Algorithm to find SCC
 http://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
