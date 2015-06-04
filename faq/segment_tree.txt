@@ -1,0 +1,13 @@
+
+* Segment Tree (Set 1: Sum of given range)
+http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+
+* Segment Tree (Set 2: Range Minimum Query)
+http://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
+
+* Binary Indexed Tree (Fenwick tree)
+http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+
+* Interval Tree
+http://www.geeksforgeeks.org/interval-tree/
+
