@@ -10,6 +10,7 @@ http://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
 
 * Binary Indexed Tree (Fenwick tree)
 http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+https://theoryofprogramming.wordpress.com/2014/12/24/binary-indexed-tree-or-fenwick-tree/
 
 * Interval Tree
 http://www.geeksforgeeks.org/interval-tree/
