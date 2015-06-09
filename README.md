@@ -21,6 +21,8 @@
 2. Ricky Ho: http://horicky.blogspot.com/
 2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
 2. B. Green Book Source Code: https://github.com/ProgrammingProblems/Volume1
+2. Steven Skiena: Algorithm Design (with slides and videos)
+<br>http://www.algorist.com/
 
 # Systems
 
