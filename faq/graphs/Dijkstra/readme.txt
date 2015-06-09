@@ -6,7 +6,7 @@ https://www.cs.princeton.edu/~rs/AlgsDS07/15ShortestPaths.pdf (slide #30)
 2. A* search algorithm on Wikipedia:
 http://en.wikipedia.org/wiki/A*_search_algorithm
 
-3. Efficient Point-to-Point Shortest Path Algorithms (Princeton 2006) 
+3. Efficient Point-to-Point Shortest Path Algorithms (Princeton 2006), Slides #12-13 
 http://www.cs.princeton.edu/courses/archive/spr06/cos423/Handouts/EPP%20shortest%20path%20algorithms.pdf
 (Saved as EPP_shortest_pat3h.pdf)
 
