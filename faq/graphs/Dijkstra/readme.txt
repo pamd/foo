@@ -9,9 +9,9 @@ http://en.wikipedia.org/wiki/A*_search_algorithm
 3. Amit's A* Pages (detailed explanation on Dijkstra and A*):
 http://theory.stanford.edu/~amitp/GameProgramming/index.html
 
-3. Efficient Point-to-Point Shortest Path Algorithms (Princeton 2006), Slides #12-13 
+4. Efficient Point-to-Point Shortest Path Algorithms (Princeton 2006), Slides #12-13 
 http://www.cs.princeton.edu/courses/archive/spr06/cos423/Handouts/EPP%20shortest%20path%20algorithms.pdf
 (Saved as EPP_shortest_pat3h.pdf)
 
-4. A_star.cpp: a simple A* example
+5. A_star.cpp: a simple A* example
 Based on B. Green "Programming Problems" Volume 1.
