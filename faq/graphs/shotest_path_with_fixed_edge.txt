@@ -1,0 +1,13 @@
+
+1. Shortest path with a fixed number of edges
+http://stackoverflow.com/questions/1690347/shortest-path-with-a-fixed-number-of-edges
+http://cs.stackexchange.com/questions/11503/shortest-path-with-exactly-k-edges
+
+If it is simple path (no edges will be used more than once), then it may be NP hard (like Hamiltonian path).
+If edges or vertexes can be used more than once, it can be solved by dynamic programming. (See 2nd link above).
+When doing DP, we do NOT need to maintain the pripority queue. Just doing BFS k times will be good enough.
+
+2. UCB "Algorithms" book page 186 (Chapter 6: Dynamic Programming)
+http://www.cs.berkeley.edu/~vazirani/algorithms/chap6.pdf
+Given a graph G with lengths on the edges, along with two nodes s and t and an integer k,
+and we want to find the shortest path from s to t that uses at most k edges.
