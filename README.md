@@ -74,6 +74,13 @@ http://devslovebacon.com/conferences/bacon-2014/talks/lessons-learned-building-d
 * EupathDB: http://PlasmoDB.org
 <br>https://www.bio.upenn.edu/people/david-s-roos
 
+# Books:
+* UCB Algorithms:
+<br>http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf
+
+* Skiena: Algorithm Design Manual
+<br>http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf
+
 
 <HR>
 
