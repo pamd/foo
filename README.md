@@ -20,6 +20,7 @@
 2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
 2. Ricky Ho: http://horicky.blogspot.com/
 2. Top engineering blogs: http://www.quora.com/What-are-the-top-startup-engineering-blogs 
+2. B. Green Book Source Code: https://github.com/ProgrammingProblems/Volume1
 
 # Systems
 
