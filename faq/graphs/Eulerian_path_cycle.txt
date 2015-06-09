@@ -73,6 +73,10 @@ the Eulerian path in original graph will be the cycle minus extra edge.
 For a directed graph that has two vertices whose in-degree is not equal to out-degree, 
 we can use the same idea to find Eulerian path.
 
+* Euler tour is Problem 22-3 on CLRS 3rd edition, page 623.
+Solution is available on Instruction Manual v2, pages 22-22 to 22-26.
+The idea is same as the one on ALGS4.
+
 * Geeksforgeeks: Eulerian path and circuit for undirected graph
 http://www.geeksforgeeks.org/eulerian-path-and-circuit/
 (The algorithm only tells whether an undirected graph has Eulerian path or cyle,

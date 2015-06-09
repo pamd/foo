@@ -1,4 +1,9 @@
-Bellman-Ford algorithm can be used to detect negative cycles in a graph.
+
+* Bellman-Ford algorithm is used to find the shortest path from a given source node.
+
+* On ALGS4 book, it is implemented by a queue. See pages 672-675.
+
+* Bellman-Ford algorithm can be used to detect negative cycles in a graph.
 
 For undirected graph, we can pick up any vertex as source and vertex. 
 

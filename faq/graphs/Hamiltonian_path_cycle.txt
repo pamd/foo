@@ -6,7 +6,7 @@ See Java code in: ~/Dropbox/coding/graph/9_hamiltonian_path.cpp
 * Hamiltonian cycle (Rudrata cycle): a path that visits every vertex exactly once.
 NP hard problem. See UCB "Algorithms" page 252-3.
 
-* "Hamiltoninan cycle" and "Hamiltonian cycle" are equivalent problems.
+* "Hamiltonian path" and "Hamiltonian cycle" are equivalent problems.
 See the reduction on UCB "Algorithms" page 262-3. 
 
 * As a special case, Hamiltonian cycle in DAG can be found in linear time.

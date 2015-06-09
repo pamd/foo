@@ -1,0 +1,15 @@
+
+* Ford-Fulkerson algorithm is used to solve max flow problem. It can be implementation in
+many different ways. 
+
+* ALGS4 pages 897-901 implemented this algorithm using Shortest-augmenting-path method.
+Proposition G (on page 900) shows why the number of augmenting paths needed in this method
+is at most (V*E/2), thus the total time complexity is O(V * (E^2)).
+
+* ALGS4 Page 901 discussed implementation using maximum-capacity-augmenting-path method briefly.
+
+* ALGS4 pages 906-907 discusses how to convert Maximum Bipartite Matching Problem into max flow,
+and on page 907, it talks about why the solution to this problem can be solved in O(V*E) time,
+which is better than the generic max flow problem.
+
+ 
