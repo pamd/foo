@@ -7,8 +7,10 @@ https://www.cs.princeton.edu/~rs/AlgsDS07/15ShortestPaths.pdf (slide #30)
 and insert it into the priority queue.
 
 (2) For edge v-w, use weight d(v, w) + Euclidean_distance(w, t) – Euclidean_distance(v, t) instead of d(v, w) only.
-In another word, 
+In another word: 
+
     priority[w] = min(priority[w], priority[v] + d(v, w) + Euclidean_distance(w, t) – Euclidean_distance(v, t));
+
 Here Euclidean_distance(v, t) should be substracted because the priority[v] already includes Euclidean_distance(v, t).
 When the priority of s is set to Euclidean_distance(s, t), the priority of each node x in the queue is actually
 the sum of the shortest actual path from s to x and Euclidean_distance(x, t). In A* algorithm's terms, the shortest 
