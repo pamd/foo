@@ -6,8 +6,9 @@ https://www.cs.princeton.edu/~rs/AlgsDS07/15ShortestPaths.pdf (slide #30)
 2. A* search algorithm on Wikipedia:
 http://en.wikipedia.org/wiki/A*_search_algorithm
 
-3. Amit's A* Pages (detailed explanation on Dijkstra and A*):
+3. Amit's A* Pages (everythong you want to know about Dijkstra and A*):
 http://theory.stanford.edu/~amitp/GameProgramming/index.html
+http://www.redblobgames.com/pathfinding/a-star/introduction.html (with animations)
 
 4. Efficient Point-to-Point Shortest Path Algorithms (Princeton 2006), Slides #12-13 
 http://www.cs.princeton.edu/courses/archive/spr06/cos423/Handouts/EPP%20shortest%20path%20algorithms.pdf
