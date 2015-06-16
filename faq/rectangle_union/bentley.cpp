@@ -127,7 +127,7 @@ struct Segment
                 // so we don't need to update curr_node.contribution; we are done with curr_node.
              }
 //
-//     Otherwise, we need to check the contribution values of curr_node's left and right children,
+//     Otherwise, we need to check the contribution values of curr_node's left and right children (if they exist),
 //     if (left_child.contribution + right_child.contribution == curr_node.end - curr_node.start),
 //     then we don't need to update curr_node.contribution either, we are done with curr_node.
 //
