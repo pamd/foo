@@ -20,7 +20,7 @@ The algorithm can also be adapted to answer similar questions, such as the
 total perimeter length of the union or the maximum number of rectangles that 
 overlap at any point."
 
-* Jon L. Bentley: "Algorithms for Klee’s rectangle problems"
+* Jon L. Bentley: "Algorithms for Kleeâ€™s rectangle problems"
 Unpublished notes, Computer Science Department, Carnegie Mellon University, 1977
 dhu: FIRST publication that solves the problem in O(nlogn), but never found online.
 
@@ -80,3 +80,27 @@ dhu: Referred to by Wikipedia "Segment tree".
 Springer-Verlag, 1985
 Written by: Franco P. Preparata and Michael Ian Shamos
 Referred to by Wikipedia Klee's measure problem" and "Interval tree".
+
+------------------------------------------------------------------------------------
+
+* Segment Tree (Set 1: Sum of given range)
+http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+https://www.youtube.com/watch?v=ZBHKZF5w4YU (Video: 27 min)
+
+* More detailed analysis:
+https://codelucid.wordpress.com/2015/05/27/segment-trees/
+
+* Segment Tree (Set 2: Range Minimum Query)
+http://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
+
+* ALGS4 segment tree implementation (Java)
+http://algs4.cs.princeton.edu/99misc/SegmentTree.java.html
+
+* Binary Indexed Tree (Fenwick tree)
+http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
+https://theoryofprogramming.wordpress.com/2014/12/24/binary-indexed-tree-or-fenwick-tree/
+https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/ (Topcoder tutorial)
+http://algs4.cs.princeton.edu/99misc/FenwickTree.java.html (ALGS4 implementation)
+
+* Interval Tree
+http://www.geeksforgeeks.org/interval-tree/
