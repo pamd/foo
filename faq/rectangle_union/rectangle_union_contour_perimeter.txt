@@ -1,0 +1,84 @@
+
+Question:
+---------
+Given a set of rectangles along X and Y axises, calculate the perimeter of the
+contour of the rectangle union. In other words, calculate the total length of
+the "exterior edges" in the union of rectangles. (Any edge that is in overlapped
+area should be excluded.)
+
+For example, suppose we have two rectangles ABCD and EFGH. The top left corner of ABCD
+is (1, 1), and bottom right corner is (3, 4); EFGH's top left corner is (2, 2), its bottom
+right corner is (4, 5):
+
+                  A(1,1)________ B(3,1)
+                        |      |
+                        |  E___|I__F       E: (2, 2)
+                        |   |  |  |(4,2)   I: (3, 2)
+                        |   |  |  |
+                        |__K|__|J |        K: (2, 4)
+                        D   |_____|G       J: (3, 4)
+                      (1,4) H     (4,5)
+                           (2,5)
+
+  (In this coordinate system, X is increasing from left to right, Y is increasing from up to bottom.)
+
+The perimeter of the contour will be:
+
+    AB + BI + IF + FG + GH + HK + KD + DA = 2 + 1 + 1 + 3 + 2 + 1 + 1 + 3 = 14
+
+
+Answer:
+-------
+
+This is a variant of Klee's measure problem in 2-d. Bentley's algorithm can calculate
+input rectangle union's area in O(n * log n) time using an augmented segment tree.
+
+We can use a varaint of Bentley's algorithm to solve this problem. In each node of the
+segment tree, we store the following information:
+
+  (1) start:             starting position of the segment;
+  (2) end:               ending position of the segment;
+  (3) contribution:      segment's contribution to the total distance in vertical direction;
+  (4) rect_indexes:      indexes of input rectangles whose vertical range fully covers the current segment;
+  (5) partition_counter: the number of unique partitions in vertical direction in current rectangle union.
+
+(1), (2), (3) and (4) are also available in Bentley's algorithm to calculate the union's area;
+(5) is a new field that is added specifically to solve the current problem.
+For example, in the figure above, when we start to process the left edge of ABCD (AD), the number of unique
+partitions in vertical direction is 1. The next point we process in X direction is EH, the left edge of EFGH,
+because EH intersects with AD, the number of unique partitions in rectangle union is still 1.
+
+This is the detailed procedure to calculate the perimeter of the contour:
+
+int contour_perimeter = 0;
+
+(1) When X[i] is the left edge of a rectangle, a new rectangle is being added into the union. We first update
+    contribution and partition_counter in bottom-up fashion. (This is identical to Bentley's algorithm, except
+    that now we need to update both contribution and partition_counter);
+
+    X[i]'s contribution to contour perimeter in Y direction is the increment of root node's contribution:
+
+                  contour_perimeter += root.contribution - original_root_contribution;
+
+    The total contribution to contour perimeter in X direction in the range from X[i-1] to X[i]is:
+
+                  contour_perimeter += (X[i] - X[i - 1]) * root.partion_counter * 2;
+
+    (It is by 2 because each partition has upper and lower edges in X direction.)
+
+(2) When X[i] is the right edge of a rectangle, this rectangle is exiting out of current rectangle union.
+    We first save root.partition_counter as original_root_partition_counter, then update contribution and
+    partition_counter in bottom-up fashion.
+
+    X[i]'s contribution to contour perimeter in Y direction is the decrement of root node's contribution:
+
+                  contour_perimeter += root.contribution - original_root_contribution;
+
+    The total contribution to contour perimeter in X direction in the range from X[i-1] to X[i] is:
+
+                  contour_perimeter += (X[i] - X[i - 1]) * original_root_partion_counter * 2;
+
+
+DONE.
+
+
