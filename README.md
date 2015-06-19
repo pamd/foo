@@ -24,6 +24,8 @@
 2. Steven Skiena: Algorithm Design: http://www.algorist.com/ (with slides and videos)
 
 # Systems
+* A Few Notes on Kafka and Jepsen (Jay Kreps)
+http://blog.empathybox.com/post/62279088548/a-few-notes-on-kafka-and-jepsen
 
 * Scalable Web Architecture and Distributed Systems (Chapter of AOSA book)
 <br>http://www.slideshare.net/soomong/aosa (48 slides)
