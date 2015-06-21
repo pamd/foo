@@ -10,6 +10,9 @@
 * GNU Make: Variables Used by Implicit Rules (CC, CXX, CFLAGS, CXXFLAGS, etc) 
 <br>http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
 
+* Andrew's Convex Hull algorithm:
+<br>https://en.wikibooks.org/wiki/Algorithm_Implementation/Geometry/Convex_hull/Monotone_chain
+
 # Blogs
 
 1. Algorithms: http://www.fgdsb.com/
