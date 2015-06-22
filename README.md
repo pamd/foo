@@ -13,9 +13,6 @@
 * Andrew's Convex Hull algorithm:
 <br>https://en.wikibooks.org/wiki/Algorithm_Implementation/Geometry/Convex_hull/Monotone_chain
 
-* LCA and RMQ (topcoder RMQ reference #2, PPT file, 58 slides)
-<br>http://www.math.tau.ac.il/~haimk/seminar04/LCA-seminar-modified.ppt
-
 # Blogs
 
 1. Algorithms: http://www.fgdsb.com/
