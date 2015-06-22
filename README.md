@@ -14,7 +14,7 @@
 <br>https://en.wikibooks.org/wiki/Algorithm_Implementation/Geometry/Convex_hull/Monotone_chain
 
 * LCA and RMQ (topcoder RMQ reference #2, PPT file, 58 slides)
-http://www.math.tau.ac.il/~haimk/seminar04/LCA-seminar-modified.ppt
+<br>http://www.math.tau.ac.il/~haimk/seminar04/LCA-seminar-modified.ppt
 
 # Blogs
 
