@@ -12,7 +12,7 @@ Visual C++® 2008: How to Program, Second Edition
 <br>Pub. Date: December 31, 2007
 <br>Print ISBN-10: 0-13-615157-4
 <br>1,552 pages
-- 1.10 ~ 1.20: Visual C++ and .NET glossary
+- Chapter 1: 1.10 ~ 1.20, Visual C++ and .NET glossary
 - Appendix E: Preprocessor
 - Appendix H: Visual Studio Debugger
 
