@@ -13,12 +13,12 @@ Visual C++® 2008: How to Program, Second Edition
 <br>Print ISBN-10: 0-13-615157-4
 <br>1,552 pages
 - 1.10 ~ 1.20: Visual C++ and .NET glossary
-- - Appendix E: Preprocessor
+- Appendix E: Preprocessor
 - Appendix H: Visual Studio Debugger
 
 <HR>
 
-* C++ How to Program, Ninth Edition
+C++ How to Program, Ninth Edition
 <br>By: Paul Deitel; Harvey Deitel
 <br>Publisher: Prentice Hall
 <br>Pub. Date: February 12, 2013
