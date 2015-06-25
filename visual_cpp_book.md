@@ -1,4 +1,5 @@
 Ivor Horton's Beginning Visual C++® 2010
+<br>http://www.wrox.com/WileyCDA/WroxTitle/Ivor-Horton-s-Beginning-Visual-C-2010.productCd-0470500883.html
 <br>By: Ivor Horton
 <br>Publisher: Wrox
 <br>Pub. Date: April 12, 2010
