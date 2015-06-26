@@ -16,9 +16,10 @@ Visual C++® 2008: How to Program, Second Edition
 
 <HR>
 
-C++ How to Program, 9th Edition (by: Paul Deitel; Harvey Deitel)
+<b>C++ How to Program, 9th Edition </b>(by: Paul Deitel; Harvey Deitel)
 <br>Prentice Hall; 02/12/2013; 1,080 pages
 <br>ISBN-13: 978-0-13-337871-9
+<br>23 tokens
 - Chapter 24: C++11
 - Appendix E: Preprocessor
 - Appendix H: Visual Studio Debugger
