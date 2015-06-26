@@ -16,7 +16,7 @@
 
 <HR>
 
-<b>C++ How to Program, 9th Edition </b>(by: Paul Deitel; Harvey Deitel)
+<b>C++ How to Program, 9th Edition, 2013 </b>(by: Paul Deitel; Harvey Deitel)
 <br>Prentice Hall; 02/12/2013; 1,080 pages
 <br>ISBN-13: 978-0-13-337871-9
 <br>23 tokens
