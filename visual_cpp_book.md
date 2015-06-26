@@ -1,4 +1,4 @@
-Ivor Horton's Beginning Visual C++® 2010 (by Ivor Horton)
+<b>Ivor Horton's Beginning Visual C++® 2010 </b>(by Ivor Horton)
 <br>http://www.wrox.com/WileyCDA/WroxTitle/Ivor-Horton-s-Beginning-Visual-C-2010.productCd-0470500883.html
 <br>Publisher: Wrox; 04/12/2010; 1,271 pages
 <br>ISBN: 978-0-470-50088-0
@@ -6,7 +6,7 @@ Ivor Horton's Beginning Visual C++® 2010 (by Ivor Horton)
 
 <HR>
 
-Visual C++® 2008: How to Program, Second Edition
+<b>Visual C++® 2008: How to Program, 2nd Edition </b>
 <br>By: P. J.Deitel & Associates, Inc. Deitel; H. M.Deitel & Associates, Inc. Deitel; D. T. Quirk
 <br>Publisher: Prentice Hall; 12/31/2007; 1,552 pages
 <br>ISBN-10: 0-13-615157-4
