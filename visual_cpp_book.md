@@ -2,8 +2,8 @@
 <br>http://www.wrox.com/WileyCDA/WroxTitle/Ivor-Horton-s-Beginning-Visual-C-2010.productCd-0470500883.html
 <br>Publisher: Wrox; 04/12/2010; 1,271 pages
 <br>ISBN: 978-0-470-50088-0
-<br>https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCQQFjAB&url=http%3A%2F%2Fwww.ebooksandpdfs.com%2FIvor-Hortons-Beginning-Visual-C-2013-16316.html&ei=dk-NVbmLIYex-AHyw4H4BA&usg=AFQjCNHXKWSkMua35pBMyPNML8q_aP4hiA&sig2=uQ20AIyTo2dL7ksPAAt9BQ
-
+<br>Google: "pdf <book_title>"
+<br>https://msdn.microsoft.com/en-us/library/hh145619(v=vs.88).aspx (sample chapters)
 <HR>
 
 <b>Visual C++® 2008: How to Program, 2nd Edition </b>
