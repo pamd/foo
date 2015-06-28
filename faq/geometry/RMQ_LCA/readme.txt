@@ -4,6 +4,9 @@
 * Stackoverflow discussion
 <br>http://stackoverflow.com/questions/14777743/range-minimum-query-on-o1-approach-from-tree-to-restricted-rmq
 
+* Another example (link from stackoverflow above) 
+<br>http://stones333.blogspot.com/2014/02/find-lowest-common-ancestor-lca-using.html
+
 * LCA and RMQ (topcoder RMQ reference #2, PPT file, 58 slides) 
 <br>http://www.math.tau.ac.il/~haimk/seminar04/LCA-seminar-modified.ppt
 
