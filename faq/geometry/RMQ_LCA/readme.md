@@ -18,4 +18,4 @@
 
 * Stanford CS166 slides (52 slides, wikipedia external link #3)
 <br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/00/Slides00.pdf
-Slides #16 ~ end: vey nice step-to-step introduction of different approaches to RMQ.
+<br>Slides #16 ~ end: vey nice step-to-step introduction of different approaches to RMQ.
