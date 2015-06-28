@@ -1,7 +1,7 @@
 * Topcoder Tutorial
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor
 
-* Stackoverflow discussion
+* Stackoverflow discussion on Topcoder article
 <br>http://stackoverflow.com/questions/14777743/range-minimum-query-on-o1-approach-from-tree-to-restricted-rmq
 
 * Implementation details on <O(N), O(1)> solution (link from stackoverflow above) 
