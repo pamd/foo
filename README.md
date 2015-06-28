@@ -10,7 +10,7 @@
 * GNU Make: Variables Used by Implicit Rules (CC, CXX, CFLAGS, CXXFLAGS, etc) 
 <br>http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
 
-* Stanford CS166 Spring 2014 (Data Structures)
+* Stanford CS166 (Data Structures, Spring 2014)
 <br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/
 
 # Blogs
