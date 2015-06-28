@@ -4,7 +4,7 @@
 * Stackoverflow discussion on Topcoder article
 <br>http://stackoverflow.com/questions/14777743/range-minimum-query-on-o1-approach-from-tree-to-restricted-rmq
 
-* Implementation details on <O(N), O(1)> solution (link from stackoverflow above) 
+* Implementation details on O(N) construction time and O(1) query time (link from stackoverflow above) 
 <br>http://stones333.blogspot.com/2014/02/find-lowest-common-ancestor-lca-using.html
 
 * LCA and RMQ (topcoder RMQ reference #2, PPT file, 58 slides) 
