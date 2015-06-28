@@ -17,4 +17,5 @@
 <br>http://wcipeg.com/wiki/RMQ
 
 * Stanford CS166 slides (52 slides, wikipedia external link #3)
-<br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/00/Small00.pdf
+<br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/00/Slides00.pdf
+Slides #16 ~ end: vey nice step-to-step introduction of different approaches to RMQ.
