@@ -8,17 +8,11 @@ Harry He Blog, terrible implementation.
 Stackoverflow discussions, not worth the time.
 
 * http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=lineSweep
-TopCoder Linesweep Tutorial. On O(N^2) and O(NlogN) solutions:
+TopCoder Linesweep Tutorial.
 
-"With the right data structures, this can be implemented in O(N^2) time 
-(hint: use a boolean array to store the active set rather than a balanced 
-binary tree, and pre-sort the entire set of horizontal edges). In fact the 
-inner line sweep can be replaced by some clever binary tree manipulation to 
-reduce the overall time to O(NlogN), but that is more a problem in data 
-structures than in geometry, and is left as an exercise for the reader. 
-The algorithm can also be adapted to answer similar questions, such as the 
-total perimeter length of the union or the maximum number of rectangles that 
-overlap at any point."
+* Segment Tree (Stanford CS166)
+http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/00/Extra00.pdf
+Very nice introduction, with helpful animations.
 
 * Jon L. Bentley: "Algorithms for Klee’s rectangle problems"
 Unpublished notes, Computer Science Department, Carnegie Mellon University, 1977
