@@ -93,6 +93,7 @@ http://algs4.cs.princeton.edu/99misc/SegmentTree.java.html
 * Binary Indexed Tree (Fenwick tree)
 http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
 https://theoryofprogramming.wordpress.com/2014/12/24/binary-indexed-tree-or-fenwick-tree/
+https://www.youtube.com/watch?v=CWDQJGaN1gY&feature=youtu.be (23 min)
 https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/ (Topcoder tutorial)
 http://algs4.cs.princeton.edu/99misc/FenwickTree.java.html (ALGS4 implementation)
 
