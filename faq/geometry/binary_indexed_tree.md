@@ -26,7 +26,6 @@ Details expalnation.
 * Binary Indexed Tree (Fenwick tree)
 <br>http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
 <br>https://theoryofprogramming.wordpress.com/2014/12/24/binary-indexed-tree-or-fenwick-tree/
-<br>https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/ (Topcoder tutorial)
 <br>http://algs4.cs.princeton.edu/99misc/FenwickTree.java.html (ALGS4 implementation)
 
 * Interval Tree
