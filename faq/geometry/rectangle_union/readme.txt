@@ -89,12 +89,20 @@ http://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
 
 * ALGS4 segment tree implementation (Java)
 http://algs4.cs.princeton.edu/99misc/SegmentTree.java.html
+ "The SegmentTree class is an structure for efficient search of cummulative data.
+  It performs  Range Minimum Query and Range Sum Query in O(log(n)) time.
+  It can be easily customizable to support Range Max Query, Range Multiplication Query etc.
+ 
+  Also it has been developed with "LazyPropagation" for range updates, which means when you
+  perform update operations over a range, the update process affects the least nodes as
+  possible so that the bigger the range you want to update, the less time it will consume
+  to update it. Eventually those changes will be propagated to the children and the whole array
+  will be up to date."
 
 * Binary Indexed Tree (Fenwick tree)
 http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
 https://theoryofprogramming.wordpress.com/2014/12/24/binary-indexed-tree-or-fenwick-tree/
 https://www.youtube.com/watch?v=CWDQJGaN1gY&feature=youtu.be (23 min)
-https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/ (Topcoder tutorial)
 http://algs4.cs.princeton.edu/99misc/FenwickTree.java.html (ALGS4 implementation)
 
 * Interval Tree
