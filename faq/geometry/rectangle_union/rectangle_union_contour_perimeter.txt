@@ -36,48 +36,75 @@ input rectangle union's area in O(n * log n) time using an augmented segment tre
 We can use a varaint of Bentley's algorithm to solve this problem. In each node of the
 segment tree, we store the following information:
 
-  (1) start:             starting position of the segment;
-  (2) end:               ending position of the segment;
-  (3) contribution:      segment's contribution to the total distance in vertical direction;
-  (4) rect_indexes:      indexes of input rectangles whose vertical range fully covers the current segment;
-  (5) partition_counter: the number of unique partitions in vertical direction in current rectangle union.
+  (1) int start;              // starting position of the segment;
+  (2) int end;                // ending position of the segment;
+  (3) int contribution;       // segment's contribution to the total distance in vertical direction;
+  (4) int rect_counter;       // the number of input rectangles whose vertical range fully covers the current segment;
+
+  (5) int  partition_counter; // the number of unique partitions in vertical direction in current rectangle union.
+  (6) bool include_start;     // Is starting point included by the partitions in current segment?
+  (7) bool include_end;       // Is ending   point included by the partitions in current segment?
+
+Note:
+   For (4), I am not sure whether just maintaining a counter of rectangles will be good enough,
+   or we have to keep track of the indexes of these rectangles. If it is required, just replace (4) with:
+
+          unordered_set<size_t> rect_indexes;
 
 (1), (2), (3) and (4) are also available in Bentley's algorithm to calculate the union's area;
-(5) is a new field that is added specifically to solve the current problem.
+(5), (6) and (7) are added specifically to solve the current problem.
 For example, in the figure above, when we start to process the left edge of ABCD (AD), the number of unique
 partitions in vertical direction is 1. The next point we process in X direction is EH, the left edge of EFGH,
 because EH intersects with AD, the number of unique partitions in rectangle union is still 1.
 
 This is the detailed procedure to calculate the perimeter of the contour:
 
-int contour_perimeter = 0;
+         int contour_perimeter = 0;
 
-(1) When X[i] is the left edge of a rectangle, a new rectangle is being added into the union. We first update
-    contribution and partition_counter in bottom-up fashion. (This is identical to Bentley's algorithm, except
-    that now we need to update both contribution and partition_counter);
+(A) When X[i] is the left edge of a rectangle, a new rectangle is being added into the union.
+    We first save root.partition_counter as original_partition_counter, then update (3) ~ (7) in
+    bottom-up fashion. Updating (3) and (4) is also needed in Bentley's algorithm;
 
     X[i]'s contribution to contour perimeter in Y direction is the increment of root node's contribution:
 
-                  contour_perimeter += root.contribution - original_root_contribution;
+         contour_perimeter += root.contribution - original_root_contribution;
 
     The total contribution to contour perimeter in X direction in the range from X[i-1] to X[i]is:
 
-                  contour_perimeter += (X[i] - X[i - 1]) * root.partion_counter * 2;
+         contour_perimeter += (X[i] - X[i - 1]) * original_partion_counter * 2;
 
-    (It is by 2 because each partition has upper and lower edges in X direction.)
+    "* 2" is needed because each partition has upper and lower edges in X direction.
 
-(2) When X[i] is the right edge of a rectangle, this rectangle is exiting out of current rectangle union.
-    We first save root.partition_counter as original_root_partition_counter, then update contribution and
+    When a certain node is "colored" by the new rectangle, we first update (3) and (4), then set:
+
+         curr_node.include_start = true;
+         curr_node.include_end   = true;
+         partition_counter = 1;
+
+    When going up the tree to update (3) ~ (7) of curr_node's ancestors, we need to check left and right
+    children of each ancestor node. Something like this:
+
+         if (parent_node.rect_counter == 0) {
+            if (left_child.include_end && right_child.include_start) {
+               parent_node.partition_counter = left_child.partition_counter + right_child.partition_counter - 1;
+            else {
+               parent_node.partition_counter = left_child.partition_counter + right_child.partition_counter;
+            }
+         }
+
+(B) When X[i] is the right edge of a rectangle, this rectangle is exiting out of current rectangle union.
+    We first save root.partition_counter as original_partition_counter, then update contribution and
     partition_counter in bottom-up fashion.
 
     X[i]'s contribution to contour perimeter in Y direction is the decrement of root node's contribution:
 
-                  contour_perimeter += root.contribution - original_root_contribution;
+         contour_perimeter += root.contribution - original_root_contribution;
 
     The total contribution to contour perimeter in X direction in the range from X[i-1] to X[i] is:
 
-                  contour_perimeter += (X[i] - X[i - 1]) * original_root_partion_counter * 2;
+         contour_perimeter += (X[i] - X[i - 1]) * original_partion_counter * 2;
 
+    Once again we need to update (3) ~ (7). This process is similar to the one in (A).
 
 DONE.
 
