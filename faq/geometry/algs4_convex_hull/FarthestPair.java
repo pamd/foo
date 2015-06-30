@@ -59,6 +59,7 @@ public class FarthestPair {
         int j = k;
 	// Because both i and j are always incremented, the total time complexity 
 	// of the following "for" loop with nested "while" loop is O(M).
+	//
 	// Another way to understand the following double loops is:
 	// Initially i + j = 1 + k; the maximum of (i + j) is k + M.
 	// Each iteration of "for" loop or "while" loop will increment (i+j)
@@ -73,9 +74,8 @@ public class FarthestPair {
             }
 
 	    // Now i is fixed, j is incremented
-            while ((j < M) && Point2D.area2(hull[i], hull[j+1], hull[i+1]) > 
-		   Point2D.area2(hull[i], hull[j], hull[i+1])) {
-                j++;
+            while ((j < M) && Point2D.area2(hull[i], hull[j+1], hull[i+1]) > Point2D.area2(hull[i], hull[j], hull[i+1])) {
+                ++j;
                 // StdOut.println(hull[i] + " and " + hull[j] + " are antipodal");
                 double distance = hull[i].distanceTo(hull[j]);
                 if (distance > bestDistance) {
