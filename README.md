@@ -13,8 +13,7 @@
 * Stanford CS166 (Data Structures, Spring 2014)
 <br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/
 
-* ALGS4: Scientific Computing
-<br>http://algs4.cs.princeton.edu/99scientific/
+* ALGS4 Scientific Computing: http://algs4.cs.princeton.edu/99scientific/
 <br><b>Gaussian elimination</b>: GaussianElimination.java, GaussianEliminationRectangular.java, GaussJordanElimination.java;
 <br><b>Eigenvalues</b>: Eigenvalues.java, Cholesky.java, SVD.java;
 <br><b>Fast Fourier Transform</b>: FFT.java, Complex.java. 
