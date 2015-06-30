@@ -15,9 +15,9 @@
 
 * ALGS4: Scientific Computing
 <br>http://algs4.cs.princeton.edu/99scientific/
-<br>Gaussian elimination: GaussianElimination.java, GaussianEliminationRectangular.java, GaussJordanElimination.java.
-<br>Eigenvalues: Eigenvalues.java, Cholesky.java, SVD.java.
-<br>Fast Fourier Transform: FFT.java, Complex.java. 
+<br><b>Gaussian elimination</b>: GaussianElimination.java, GaussianEliminationRectangular.java, GaussJordanElimination.java;
+<br><b>Eigenvalues</b>: Eigenvalues.java, Cholesky.java, SVD.java;
+<br><b>Fast Fourier Transform</b>: FFT.java, Complex.java. 
 
 
 # Blogs
