@@ -18,6 +18,8 @@
 <br><b>Eigenvalues</b>: Eigenvalues.java, Cholesky.java, SVD.java;
 <br><b>Fast Fourier Transform</b>: FFT.java, Complex.java. 
 
+* Inclusion of a point in polygon (using corssing number and winding number)
+<br>http://geomalgorithms.com/a03-_inclusion.html
 
 # Blogs
 
