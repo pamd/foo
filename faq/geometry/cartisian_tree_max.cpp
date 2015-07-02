@@ -92,6 +92,12 @@ TreeNode* max_tree_nlgn(const vector<int>& v, int idx_s, int idx_e) {
  * we also keep track of the node of maximum element, which will
  * be returned at the end as the root of max tree.
  *
+ * --------------------------------------------------------------------
+ * In this algorithm, nodes in the stack are always the RIGHT-MOST
+ * nodes of the current Cartesian tree.
+ * See wikipedia and Stanford CS166 slides.
+ * --------------------------------------------------------------------
+ *
  * Each element in the array will be pushed in and/or popped out 
  * at most once. So this is an O(n) solution.
  */
@@ -149,19 +155,19 @@ void max_tree_recur(const vector<int>& v, size_t& idx, TreeNode* prev, TreeNode*
 
   // If current element is less than previous element, set 
   // current element as the right child of previous element.
-  else { // if (curr->dat < prev->dat)  
+  else {
     curr->left = prev->right;
     prev->right = curr;
   }
 
-  // After processing the current element, 
-  // recursively process the elements that follows.
-  idx++;
+  // After processing the current element, increment idx by 1 to process the next element.
+  ++idx;
+
+  // First try curr as the prev for the next element:
   max_tree_recur(v, idx, curr, root);
 
-  // If we get stuck on v[idx], try prev as the parent.
-  // Since idx has been incremented by at least 1, 
-  // this function call is different from the original call.
+  // No matter whether the previous line modifies "idx" and "root" or not,
+  // we always make another function call in which "curr" is replaced by "prev".
   max_tree_recur(v, idx, prev, root);
 }
 
