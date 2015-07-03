@@ -19,3 +19,7 @@
 * Stanford CS166 slides on RMQ (wikipedia external link #3)
 <br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/00/Slides00.pdf
 <br>Slides #16 ~ 254: vey nice step-to-step introduction of different approaches to RMQ.
+
+* Stanford CS166: Cartesian Tree and RMQ
+<br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/01/Slides01.pdf
+Nice explanation on Cartesian Tree.
