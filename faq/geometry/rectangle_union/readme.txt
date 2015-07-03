@@ -1,11 +1,7 @@
 References:
 ------------
 
-* http://codercareer.blogspot.com/2011/12/no-27-area-of-rectangles.html
-Harry He Blog, terrible implementation.
 
-* http://stackoverflow.com/questions/244452/what-is-an-efficient-algorithm-to-find-area-of-overlapping-rectangles
-Stackoverflow discussions, not worth the time.
 
 * http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=lineSweep
 TopCoder Linesweep Tutorial.
@@ -77,6 +73,7 @@ Referred to by Wikipedia Klee's measure problem" and "Interval tree".
 
 ------------------------------------------------------------------------------------
 
+
 * Segment Tree (Set 1: Sum of given range)
 http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
 https://www.youtube.com/watch?v=ZBHKZF5w4YU (Video: 27 min)
@@ -105,5 +102,13 @@ https://theoryofprogramming.wordpress.com/2014/12/24/binary-indexed-tree-or-fenw
 https://www.youtube.com/watch?v=CWDQJGaN1gY&feature=youtu.be (23 min)
 http://algs4.cs.princeton.edu/99misc/FenwickTree.java.html (ALGS4 implementation)
 
-* Interval Tree
+* Interval Tree (augmented tree, same as the one on CLRS)
 http://www.geeksforgeeks.org/interval-tree/
+
+-------------------------------------------------------------------------
+
+* http://codercareer.blogspot.com/2011/12/no-27-area-of-rectangles.html
+Harry He Blog, terrible implementation.
+
+* http://stackoverflow.com/questions/244452/what-is-an-efficient-algorithm-to-find-area-of-overlapping-rectangles
+Stackoverflow discussions, not worth the time.
