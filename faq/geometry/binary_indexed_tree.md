@@ -2,6 +2,9 @@
 * Topcoder Tutorial
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/
 
+* Peter Fenwick Paper in 1994 (10 pages, printed out)
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8917&rep=rep1&type=pdf
+
 * BIT: What is the intuition behind a binary indexed tree and how was it thought about?
 <br>http://cs.stackexchange.com/questions/10538/bit-what-is-the-intuition-behind-a-binary-indexed-tree-and-how-was-it-thought-a
 <br>Detailed explanation.
