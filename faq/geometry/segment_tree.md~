@@ -1,0 +1,14 @@
+* wikipedia: segment tree
+<br>As of 07/02/2015, the first figure is misleading. See my notes on the printout.
+
+* http://wwwisg.cs.uni-magdeburg.de/ag/lehre/WS1213/GDS/slides/S4.pdf
+<br>The BEST tutorial I found online, covers segment tree and Jon Bentley's 
+approach very well. 
+
+* https://www.cs.duke.edu/courses/fall05/cps234/notes/lecture07.pdf
+<br>Tutorial from Duke. Nice summary of segment tree and interval tree.
+
+* Segment Tree (Stanford CS166)
+<br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/00/Extra00.pdf
+<br>Very nice introduction, with helpful animations.
+
