@@ -3,7 +3,7 @@
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/
 
 * Peter Fenwick Paper in 1994 (10 pages, printed out)
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8917&rep=rep1&type=pdf
+<br>http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8917&rep=rep1&type=pdf
 
 * Geeks4geeks
 <br>http://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
