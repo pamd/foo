@@ -4,6 +4,8 @@ References:
 * http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=lineSweep
 TopCoder Linesweep Tutorial.
 
+* line_sweep.pdf: good supplementary material with Topcoder tutorial.
+
 * Jon L. Bentley: "Algorithms for Klee’s rectangle problems"
 Unpublished notes, Computer Science Department, Carnegie Mellon University, 1977
 dhu: FIRST publication that solves the problem in O(nlogn), but never found online.
