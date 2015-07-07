@@ -2,7 +2,6 @@
 <br>http://www.wrox.com/WileyCDA/WroxTitle/Ivor-Horton-s-Beginning-Visual-C-2010.productCd-0470500883.html
 <br>Publisher: Wrox; 04/12/2010; 1,271 pages
 <br>ISBN: 978-0-470-50088-0
-<br>Google: "pdf <book_title>"
 <br>https://msdn.microsoft.com/en-us/library/hh145619(v=vs.88).aspx (sample chapters)
 <HR>
 
