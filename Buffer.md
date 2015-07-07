@@ -1,5 +1,8 @@
 # H2B
 
+* Codecademy: Python for beginners
+<br>http://www.codecademy.com/tracks/python
+
 # Coursera
 * Programming for Everybody (Python)
 <br>Univ. Michigan, 06/01/2015 - 08/09/2015, 10 weeks
