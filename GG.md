@@ -19,7 +19,8 @@
 <br>(4) Lisa 13: Cluster Management at Google 
 <br>https://www.usenix.org/cluster-management-google (50 min)
 <br>https://www.usenix.org/sites/default/files/conference/protected-files/wilkes_lisa13_slides.pdf (34 slides)
-<br>(5) http://static.googleusercontent.com/media/research.google.com/en/us/university/relations/facultysummit2011/2011_faculty_summit_omega_wilkes.pdf (26 slides, 2011)
+<br>(5) 2011, 26 slides:
+<br>http://static.googleusercontent.com/media/research.google.com/en/us/university/relations/facultysummit2011/2011_faculty_summit_omega_wilkes.pdf
 <br>(6) Google talk on Omega: https://www.youtube.com/watch?v=0ZFMlO98Jkc (30 min)
 <br>(7) Article: Inside the Hacker Mind: John Wilkes on Google Omega. Cade Metz, Wired. April 2013.
 <br>http://www.wired.com/2013/04/google-john-wilkes-new-hackers
