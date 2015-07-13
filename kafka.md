@@ -44,6 +44,9 @@
 1. <b>Distributed Algorithms in NoSQL Databases (09/18/2012) </b>
 https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-databases/
 
+1. <b>NoSQL Data Modeling Techniques</b> 
+<br>https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/
+
 1. DataFu's Hourglass: Incremental Data Processing in Hadoop (10/03/2013)
 <br>http://engineering.linkedin.com/datafu/datafus-hourglass-incremental-data-processing-hadoop
 
