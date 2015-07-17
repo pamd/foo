@@ -7,6 +7,8 @@
 * Mastering Apache Cassandra (2nd edition, 2015)
 <br> 22 tokens
 
+# No Starch Press
+
 * The Art of Debugging with GDB and DDD (2015)
 <br> 8 tokens
 
