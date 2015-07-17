@@ -1,7 +1,7 @@
-* C++: How to Program, 9th edition (2013)
+* C++: How to Program (9th edition, 2013)
 <br> 23 tokens
 
-* Hadoop: Definitive Guide (2015)
+* Hadoop: Definitive Guide (4th edition, 2015)
 <br> 20 tokens
 
 * Mastering Apache Cassandra (2nd edition, 2015)
