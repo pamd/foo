@@ -4,7 +4,8 @@
 <br>http://highscalability.com/blog/2015/5/18/how-mysql-is-able-to-scale-to-200-million-qps-mysql-cluster.html
 <br>http://www.clusterdb.com/mysql-cluster/mysql-cluster-7-4-new-features-webinar-replay
 
-* Scribe: https://github.com/facebookarchive/scribe
+* Facebook Scribe
+<br>https://github.com/facebookarchive/scribe
 
 * Exploring the software behind FB (06/18/2010)
 <br>http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/ 
