@@ -18,7 +18,7 @@
 1. Distributed Algorithms in NoSQL Databases (09/18/2012)
 https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-databases/
 
-1. NoSQL Data Modeling Techniques
+1. NoSQL Data Modeling Techniques (03/01/2012)
 <br>https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/
 
 1. Big Data Lambda Architecture
