@@ -3,7 +3,7 @@
 <br> 570 pages, $46
 
 * Boost C++ Application Development Cookbook (2013)
-<br> 343 pages, $45
+<br> 343 pages, $45 (22 tokens in Safari)
 
 * Introduction to the Boost C++ Libraries; Volume I - Foundations (November 1, 2010)
 <br> 310 pages, $64
