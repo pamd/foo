@@ -1,5 +1,8 @@
 # Misc
 
+* Terasort on Hadoop
+<br>http://hadoop.apache.org/docs/current/api/org/apache/hadoop/examples/terasort/package-summary.html
+
 * MySQL Cluster
 <br>http://highscalability.com/blog/2015/5/18/how-mysql-is-able-to-scale-to-200-million-qps-mysql-cluster.html
 <br>http://www.clusterdb.com/mysql-cluster/mysql-cluster-7-4-new-features-webinar-replay
