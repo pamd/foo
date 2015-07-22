@@ -15,7 +15,7 @@
 
 * CLRS (1st Edition)
 <br>
-http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/preface.htm
+http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/toc.htm
 
 * ALGS4 Scientific Computing: http://algs4.cs.princeton.edu/99scientific/
 <br><b>Gaussian elimination</b>: GaussianElimination.java, GaussianEliminationRectangular.java, GaussJordanElimination.java;
