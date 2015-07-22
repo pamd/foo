@@ -13,6 +13,10 @@
 * Stanford CS166 (Data Structures, Spring 2014)
 <br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/
 
+* CLRS (1st Edition)
+<br>
+http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/preface.htm
+
 * ALGS4 Scientific Computing: http://algs4.cs.princeton.edu/99scientific/
 <br><b>Gaussian elimination</b>: GaussianElimination.java, GaussianEliminationRectangular.java, GaussJordanElimination.java;
 <br><b>Eigenvalues</b>: Eigenvalues.java, Cholesky.java, SVD.java;
