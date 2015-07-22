@@ -14,8 +14,10 @@
 <br>http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/
 
 * CLRS (1st Edition)
-<br>
-http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/toc.htm
+<br>http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/toc.htm
+
+* Operating Systems: Three Easy Pieces (by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau)
+<br>http://pages.cs.wisc.edu/~remzi/OSTEP/
 
 * ALGS4 Scientific Computing: http://algs4.cs.princeton.edu/99scientific/
 <br><b>Gaussian elimination</b>: GaussianElimination.java, GaussianEliminationRectangular.java, GaussJordanElimination.java;
