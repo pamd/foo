@@ -3,4 +3,5 @@
 
 2. Distributed Algorithms: An Intuitive Approach (December 6, 2013)
 <br>by Wan Fokkink
-<br>http://www.amazon.com/Distributed-Algorithms-An-Intuitive-Approach
+
+
