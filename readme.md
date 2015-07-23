@@ -7,6 +7,9 @@
 * Youtube problems: https://www.youtube.com/channel/UCVFl5Mypadugb5yEJoE2Vbw
 <br>Source Code: http://goo.gl/fAhQ9
 
+* Beej's Quick Guide to GDB
+<br>http://beej.us/guide/bggdb/
+
 * GNU Make: Variables Used by Implicit Rules (CC, CXX, CFLAGS, CXXFLAGS, etc) 
 <br>http://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html
 
