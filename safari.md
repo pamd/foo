@@ -4,6 +4,11 @@
 * Hadoop: Definitive Guide (4th edition, 2015)
 <br> 20 tokens
 
+* Advanced Analytics with Spark
+<br>By: Sandy Ryza; Uri Laserson; Sean Owen; Josh Wills
+<br>O'Reilly, April 14, 2015, 200 pages
+<br> 20 tokens
+
 * Mastering Apache Cassandra (2nd edition, 2015)
 <br> 22 tokens
 
