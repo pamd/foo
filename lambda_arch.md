@@ -8,6 +8,6 @@
 * Apache Storm vs. Spark
 <br>http://www.slideshare.net/ptgoetz/apache-storm-vs-spark-streaming (39 slides)
 
-* Hadoop Summit Europe 2014: Apache Storm Architecture
+* Hadoop Summit Europe 2014: Apache Storm Architecture (113 slides, details introduction on Apache Storm)
 <br>http://www.slideshare.net/ptgoetz/storm-hadoop-summit2014
 
