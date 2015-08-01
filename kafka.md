@@ -21,10 +21,6 @@ https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-
 1. NoSQL Data Modeling Techniques (03/01/2012)
 <br>https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/
 
-1. Big Data Lambda Architecture
-<br>http://www.databasetube.com/database/big-data-lambda-architecture/ (Nathan Marz, 09/05/2012)
-<br>http://jameskinley.tumblr.com/post/37398560534/the-lambda-architecture-principles-for
-
 <HR>
 
 1. Oracle XStreams
