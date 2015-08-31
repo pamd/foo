@@ -1,6 +1,6 @@
 
 * The problems of finding articulations points (AP) and finding bridges are closely related,
-  but not exactly the same problem. For example, for this gragh:
+  but not exactly the same problem. For example, for this graph:
 
                     0---1
                      \ /

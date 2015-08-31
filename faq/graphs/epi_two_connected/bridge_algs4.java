@@ -18,7 +18,7 @@
  *  with x a descendant of v and w an ancestor of v.
  *
  *  Note: code assumes no parallel edges, e.g., two parallel edges
- *  would be (incorrectly) identified as bridges.
+ *  would be incorrectly identified as bridges.
  *
  *************************************************************************/
 
@@ -34,9 +34,11 @@ public class Bridge {
         for (int v = 0; v < G.V(); v++) low[v] = -1;
         for (int v = 0; v < G.V(); v++) pre[v] = -1;
         
-        for (int v = 0; v < G.V(); v++)
-            if (pre[v] == -1)
+        for (int v = 0; v < G.V(); v++) {
+            if (pre[v] == -1) {
                 dfs(G, v, v);
+	    }
+	}
     }
 
     public int components() { return bridges + 1; }
@@ -56,9 +58,10 @@ public class Bridge {
             }
 
             // update low number - ignore reverse of edge leading to v
-            else if (w != u)
+            else if (w != u) {
                 low[v] = Math.min(low[v], pre[w]);
-        }
+	    }
+	}
     }
 
     // test client

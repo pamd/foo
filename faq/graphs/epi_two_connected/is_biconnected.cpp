@@ -27,7 +27,7 @@
  * 
  * "How to find if a given graph is Biconnected or not?
  * A connected graph is Biconnected if it is connected and doesn't have any 
- * Articulation Point. We mainly need to check two things in a graph.
+ * Articulation Point (AP). We mainly need to check two things in a graph.
  *   1) The graph is connected.
  *   2) There is no articulation point in graph."
  *

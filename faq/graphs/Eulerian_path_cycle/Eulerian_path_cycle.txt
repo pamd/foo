@@ -31,8 +31,9 @@ http://en.wikipedia.org/wiki/Eulerian_path
      at most one vertex has: (out_degree) - (in_degree)  = 1, 
      at most one vertex has: (in_degree)  - (out_degree) = 1, 
 
-  every other vertex has equal in_degree and out_degree, and all of its vertices with 
-  nonzero degree belong to a single connected component of the underlying undirected graph.
+  every other vertex has equal in_degree and out_degree, and all vertices with 
+  nonzero degree belong to a single connected component of the underlying
+  undirected graph.
 
 * Hierholzer's algorithm to find Eulerian cycle in undirected graph: 
 --------------------------------------------------------------------
@@ -85,9 +86,10 @@ but it does NOT tell how to find the path or cycle.)
 * Geeksforgeeks: Euler Circuit in a Directed Graph
 http://www.geeksforgeeks.org/euler-circuit-directed-graph/
 (The algorithm only tells whether a directed graph has Eulerian path or cyle,
-but it does NOT tell how to find the path or cycle.)
+but it does NOT tell HOW to find the path or cycle.)
 
-* Geeksforgeeks: Fleury’s Algorithm to find Eulerian Path or Circuit in UNDIRECTED Graph (found in 1883)
+* Geeksforgeeks: Fleury’s Algorithm to find Eulerian Path or Circuit in UNDIRECTED Graph
+(invented in 1883)
 http://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/
 
 The basic idea in this algorithm is "Never burn the bridge". But the C++ implementation is pretty dumb.
