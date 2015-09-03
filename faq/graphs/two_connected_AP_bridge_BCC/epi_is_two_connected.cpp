@@ -5,15 +5,40 @@
 //
 // Note: a 2-connected graph is NOT necessarily a biconnected graph. See is_biconnected.cpp for details.
 
+#include <vector>
+#include <limits>
+#include <cassert>
+#include <iostream>
+
+using namespace std;
 
 struct GraphVertex {
-  int d, l;  // d: discovery time; l: lowest discovery time of ancestors.
+  int discovery, low;  // discovery: discovery time; low: lowest discovery time of ancestors.
   vector<GraphVertex*> edges;
 
-  GraphVertex() : d(0), l(numeric_limits<int>::max()) {
+  GraphVertex() : discovery(0), low(numeric_limits<int>::max()) {
   }
 
 };
+
+bool is_two_connected(GraphVertex* cur, GraphVertex* pre, int time) {
+  cur->discovery = ++time;
+  for (GraphVertex*& next : cur->edges) {
+    if (next != pre) {
+      if (next->discovery != 0) {  // Back edge: next has been visited before.
+        cur->low = min(cur->low, next->discovery);
+      }
+      else {  // Forward edge: next is not visited yet.
+        if (!is_two_connected(next, cur, time)) {
+          return false;
+        }
+        cur->low = min(cur->low, next->low); // Reset cur->low in post-order
+      }
+    } // end of "if (next != pre)"
+  } // end of "for"
+
+  return (pre == nullptr || cur->low < cur->discovery);
+}
 
 bool IsGraphFaultTolerant(vector<GraphVertex>* G) {
   if (!G->empty()) {
@@ -22,21 +47,25 @@ bool IsGraphFaultTolerant(vector<GraphVertex>* G) {
   return true;
 }
 
-bool is_two_connected(GraphVertex* cur, GraphVertex* pre, int time) {
-  cur->d = ++time;
-  for (GraphVertex*& next : cur->edges) {
-    if (next != pre) {
-      if (next->d != 0) {  // Back edge.
-        cur->l = min(cur->l, next->d);
-      }
-      else {  // Forward edge.
-        if (!is_two_connected(next, cur, time)) {
-          return false;
-        }
-        cur->l = min(cur->l, next->l);
-      }
-    } // end of "if (next != pre)"
-  } // end of "for"
+void TestTriangle() {
+  vector<GraphVertex> G(3);
+  G[0].edges.emplace_back(&G[1]);
+  G[0].edges.emplace_back(&G[2]);
+  G[1].edges.emplace_back(&G[0]);
+  G[1].edges.emplace_back(&G[2]);
+  G[2].edges.emplace_back(&G[0]);
+  G[2].edges.emplace_back(&G[1]);
 
-  return (pre == nullptr || cur->l < cur->d);
+  bool result = IsGraphFaultTolerant(&G);
+  assert(true == result);
+  for (int i = 0; i < 3; ++i) {
+    cout << i << ": discovery = " << G[i].discovery << ", ";
+    cout << "low = " << G[i].low << endl;
+  }
+}
+
+int main() {
+  TestTriangle();
+
+  return 0;
 }
