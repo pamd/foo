@@ -31,7 +31,7 @@
 <br>http://geomalgorithms.com/a03-_inclusion.html
 
 # Blogs
-
+1. http://www.cnblogs.com/jcliBlogger/
 1. Algorithms: http://www.fgdsb.com/
 2. Soulmachine: https://github.com/soulmachine/leetcode
 3. http://blog.csdn.net/xudli (leetcode solutions in java)
