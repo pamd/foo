@@ -19,6 +19,8 @@
 6. Interval scheduling:
 <br>http://www.cs.rit.edu/~zjb/courses/800/lec8.pdf
 
+7. permuation with duplicate
+<br>http://www.mitbbs.com/article_t/JobHunting/32603015.html
 
 
 
