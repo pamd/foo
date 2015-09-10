@@ -13,6 +13,14 @@
 4. De Bruijn sequence
 <br>https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
+5. Permutation serialization:
+<br>http://www.mitbbs.com/article_t/JobHunting/32600331.html
+
+6. Interval scheduling:
+<br>http://www.cs.rit.edu/~zjb/courses/800/lec8.pdf
+
+
+
 
 
 
