@@ -22,6 +22,8 @@
 7. permuation with duplicate
 <br>http://www.mitbbs.com/article_t/JobHunting/32603015.html
 
+8. 欠钱, 还钱
+<br>http://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
 
 
 
