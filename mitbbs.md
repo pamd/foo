@@ -25,7 +25,8 @@
 8. 欠钱, 还钱
 <br>http://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
 
-
+9. Validate BST: variant
+<br>http://www.mitbbs.com/article_t/JobHunting/32605903.html
 
 
 
