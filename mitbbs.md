@@ -28,5 +28,10 @@
 9. Validate BST: variant
 <br>http://www.mitbbs.com/article_t/JobHunting/32605903.html
 
+10. max of S.size() * T.size()
+<br>http://www.mitbbs.com/article_t/JobHunting/32606267.html
+<br>http://www.quora.com/Given-a-dictionary-of-words-how-can-we-efficiently-find-a-pair-words-s-t-they-dont-have-characters-in-common-and-sum-of-their-length-is-maximum
+
+11. 
 
 
