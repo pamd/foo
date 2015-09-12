@@ -32,6 +32,16 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32606267.html
 <br>http://www.quora.com/Given-a-dictionary-of-words-how-can-we-efficiently-find-a-pair-words-s-t-they-dont-have-characters-in-common-and-sum-of-their-length-is-maximum
 
-11. 
+11. Longest Palindromic Substring O(N) 算法
+<br>http://www.mitbbs.com/article_t/JobHunting/32559075.html
+<br>http://www.felix021.com/blog/read.php?2040
+
+12. Leaky bucket
+<br>http://www.mitbbs.com/article_t/JobHunting/32608789.html
+<br>https://en.wikipedia.org/wiki/Leaky_bucket
+
+13. 
+
+
 
 
