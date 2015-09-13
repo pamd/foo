@@ -40,7 +40,15 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32608789.html
 <br>https://en.wikipedia.org/wiki/Leaky_bucket
 
-13. 
+13. Rocket Fuel: deque without pop_front
+<br>http://www.mitbbs.com/article_t/JobHunting/32613553.html
+<br>http://get-that-job-at-google.blogspot.com/2013/02/rocketfuel-codesprint-at-iit-bombay.html
+
+14. Leetcode scramble string
+<br>http://www.mitbbs.com/article_t/JobHunting/32614461.html
+<br>http://blog.unieagle.net/2012/10/23/leetcode%E9%A2%98%E7%9B%AE%EF%BC%9Ascramble-string%EF%BC%8C%E4%B8%89%E7%BB%B4%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/
+
+15. 
 
 
 
