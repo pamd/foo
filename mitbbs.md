@@ -48,7 +48,10 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32614461.html
 <br>http://blog.unieagle.net/2012/10/23/leetcode%E9%A2%98%E7%9B%AE%EF%BC%9Ascramble-string%EF%BC%8C%E4%B8%89%E7%BB%B4%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/
 
-15. 
+15. Rocket Fuel: 求(2^i) * (3^j) 数列的前k项和（从小到大排序）对q取模的值。k很大，可以到10^15，q可以到10^9.
+<br>https://gist.github.com/anonymous/8763947
+
+16. 
 
 
 
