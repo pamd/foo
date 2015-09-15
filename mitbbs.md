@@ -51,7 +51,10 @@
 15. Rocket Fuel: 求(2^i) * (3^j) 数列的前k项和（从小到大排序）对q取模的值。k很大，可以到10^15，q可以到10^9.
 <br>https://gist.github.com/anonymous/8763947
 
-16. 
+16. 网页去重
+<br>http://blog.csdn.net/beta2/article/details/5014530
+
+17. 
 
 
 
