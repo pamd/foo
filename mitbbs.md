@@ -61,6 +61,9 @@
 <br>dp[i][j][0] = 0;                  if A[i][j]==0
 <br>四个方向道理一样,类似求解dp[i][j][0..3], 完了就可以得出最大的那个了.
 
+18. 两个数组，里面的数字都是0 to n-1, and no duplicate. 使用swap_with_zero把第二个变成第一个.
+<br>http://www.mitbbs.com/article_t/JobHunting/32620793.html
+<br>http://cs.stackexchange.com/questions/13930/rearrange-an-array-using-swap-with-0
 
 
 
