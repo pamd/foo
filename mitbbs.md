@@ -65,6 +65,7 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32620793.html
 <br>http://cs.stackexchange.com/questions/13930/rearrange-an-array-using-swap-with-0
 
-* <br>http://www.mitbbs.com/article_t/JobHunting/32622081.html
+19. Binary tree problems (Chinese)
+<br>http://blog.csdn.net/luckyxiaoqiang/article/details/7518888#topic14
 
 
