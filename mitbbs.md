@@ -68,4 +68,6 @@
 19. Binary tree problems (Chinese)
 <br>http://blog.csdn.net/luckyxiaoqiang/article/details/7518888#topic14
 
+20. Conway's gameof life: 
+<br>http://en.wikipedia.org/wiki/Conway's_Game_of_Life 
 
