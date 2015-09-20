@@ -71,3 +71,13 @@
 20. Conway's gameof life: 
 <br>http://en.wikipedia.org/wiki/Conway's_Game_of_Life 
 
+21. Minimum rectangle that covers at least k points
+<br>http://www.mitbbs.com/article_t/JobHunting/32638805.html
+<br>http://www.cccg.ca/proceedings/1996/cccg1996_0004.pdf (6 pages)
+<br>http://cisjournal.org/journalofcomputing/archive/vol3no6/vol3no6_23.pdf (4 pages, India)
+
+22. Preorder 100 (code by lcheng)
+<br>http://www.mitbbs.com/article_t/JobHunting/32643137.html
+
+23. 
+
