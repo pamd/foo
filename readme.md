@@ -36,6 +36,7 @@
 2. Soulmachine: https://github.com/soulmachine/leetcode
 3. http://blog.csdn.net/xudli (leetcode solutions in java)
 3. wlcoding: http://wlcoding.blogspot.com/
+4. Alan的算法博客: http://decomplexify.blogspot.com/
 3. Mission-peace: https://github.com/mission-peace/interview/wiki
 3. 结构之法,算法之道: http://blog.csdn.net/v_july_v
 
