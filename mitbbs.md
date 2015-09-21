@@ -19,13 +19,13 @@
 6. Interval scheduling:
 <br>http://www.cs.rit.edu/~zjb/courses/800/lec8.pdf
 
-7. permuation with duplicate
+7. permuation with duplicate (done)
 <br>http://www.mitbbs.com/article_t/JobHunting/32603015.html
 
-8. 欠钱, 还钱
+8. 欠钱, 还钱 (done)
 <br>http://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
 
-9. Validate BST: variant
+9. Validate BST: variant (done)
 <br>http://www.mitbbs.com/article_t/JobHunting/32605903.html
 
 10. max of S.size() * T.size()
@@ -40,7 +40,7 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32608789.html
 <br>https://en.wikipedia.org/wiki/Leaky_bucket
 
-13. Rocket Fuel: deque without pop_front
+13. Rocket Fuel: (#1: deque without pop_front; #3: AUto Racer)
 <br>http://www.mitbbs.com/article_t/JobHunting/32613553.html
 <br>http://get-that-job-at-google.blogspot.com/2013/02/rocketfuel-codesprint-at-iit-bombay.html
 
