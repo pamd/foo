@@ -1,0 +1,23 @@
+To found Eulerian path in a directed graph, we first check the number of incoming and outgoing edges of all vertexes.
+(1) If all vertexes have same number of incoming and outgoing edges, then Eulerian cycle exists. Use
+the algorithm in ALGS4 to find it. 
+
+(2) If only two vertexes (suppose they are A and B) have different number of incoming and outgoing edges,
+and outgoing_edges - incoming_edges = 1 in A, and incoming_edges - outgoing_edges = -1 in B, then
+the Eulerian path must start from A and ends at B. Here is the algorithm to find the path (based on the one
+to find Eulerian cycle in ALGS4):
+
+a) DFS from A, erase the edges that have been traversed, put the visited vertexes into a stack S1,
+until there is no edge to do DFS. At the end of DFS, the vertex that we visisted the last must be B. 
+
+b) Pop the vertexes in S1 into another stack S2. If the popped vertex u has any more outgoing edges, push the popped
+vertex back into S1, then do DFS from it, erase the edge, and push the visited vertex into S1.
+The ending vertex must be u, otherwise it won't satisfy the condition in (2).
+(This step is identical to ALGS4.)
+
+c) Pop vertexes out from S2. The sequence is Eulerian path.
+
+Another approach is add an extra edge from B to A, then use ALGS4 algorithm to find the Eulerian cycle, then erase
+the extra edge in the cycle, and get the Eulerian path.
+
+(3) If neither (1) nor (2) are satisfied, Eulerian cyle or path does not exist in input graph.

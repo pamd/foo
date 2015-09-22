@@ -182,5 +182,12 @@ int main() {
   g3.AP();
   cout << endl << endl;
 
+  cout << "Articulation points in 4th graph:\n";
+  Graph g4(3);
+  g4.addEdge(0, 1);
+  g4.addEdge(1, 2);
+  g3.AP();
+  cout << endl << endl;
+
   return 0;
 }
