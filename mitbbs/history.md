@@ -1,4 +1,4 @@
-1. permuation with duplicate
+1. Permuation with duplicate
 <br>http://www.mitbbs.com/article_t/JobHunting/32603015.html
 
 2. MInimize cash flow among lenders and borrowers
@@ -7,14 +7,14 @@
 3. Validate BST: variant
 <br>http://www.mitbbs.com/article_t/JobHunting/32605903.html
 
-4. Ò»¸ö¶şÎ¬Êı×é£¬ÔªËØÊÇ0»ò1£¬ÕÒ³ö×î´óµÄÓÉ1¹¹³ÉµÄ"X"ĞÎ×´ (done)
+4. ä¸€ä¸ªäºŒç»´æ•°ç»„ï¼Œå…ƒç´ æ˜¯0æˆ–1ï¼Œæ‰¾å‡ºæœ€å¤§çš„ç”±1æ„æˆçš„"X"å½¢çŠ¶ (done)
 <br>http://www.mitbbs.com/article_t/JobHunting/32620157.html
-<br>¶ÔÓÚÈÎºÎÒ»¸öµã i,j,·Ö4¸ö·½Ïò·Ö±ğ±íÊ¾ÒÔ¸ÃµãÎªÓÒÏÂ,×óÏÂ,ÓÒÉÏ,×óÉÏĞ±×ÅµÄÁ¬ĞøµÄ1µÄ¸öÊı(º¬×Ô¼º). ÄÇÃ´¸ÃµãÎªÖĞĞÄµÄ×î´óXÖĞ1µÄ¸öÊıÎªmin(4¸ö·½Ïò¼ÆÊı)*4-3.Õâ¸öÖµ´æÔÚdp¹ØÏµ,ÒÔÓÒÏÂÎªÀı:
+<br>å¯¹äºä»»ä½•ä¸€ä¸ªç‚¹ i,j,åˆ†4ä¸ªæ–¹å‘åˆ†åˆ«è¡¨ç¤ºä»¥è¯¥ç‚¹ä¸ºå³ä¸‹,å·¦ä¸‹,å³ä¸Š,å·¦ä¸Šæ–œç€çš„è¿ç»­çš„1çš„ä¸ªæ•°(å«è‡ªå·±). é‚£ä¹ˆè¯¥ç‚¹ä¸ºä¸­å¿ƒçš„æœ€å¤§Xä¸­1çš„ä¸ªæ•°ä¸ºmin(4ä¸ªæ–¹å‘è®¡æ•°)*4-3.è¿™ä¸ªå€¼å­˜åœ¨dpå…³ç³»,ä»¥å³ä¸‹ä¸ºä¾‹:
 <br>dp[i][j][0] = dp[i-1][j-1][0]+1;  if A[i][j]==1
 <br>dp[i][j][0] = 0;                  if A[i][j]==0
-<br>ËÄ¸ö·½ÏòµÀÀíÒ»Ñù,ÀàËÆÇó½âdp[i][j][0..3], ÍêÁË¾Í¿ÉÒÔµÃ³ö×î´óµÄÄÇ¸öÁË.
+<br>å››ä¸ªæ–¹å‘é“ç†ä¸€æ ·,ç±»ä¼¼æ±‚è§£dp[i][j][0..3], å®Œäº†å°±å¯ä»¥å¾—å‡ºæœ€å¤§çš„é‚£ä¸ªäº†.
 
-5. Á½¸öÊı×é£¬ÀïÃæµÄÊı×Ö¶¼ÊÇ0 to n-1, and no duplicate. Ê¹ÓÃswap_with_zero°ÑµÚ¶ş¸ö±ä³ÉµÚÒ»¸ö.
+5. ä¸¤ä¸ªæ•°ç»„ï¼Œé‡Œé¢çš„æ•°å­—éƒ½æ˜¯0 to n-1, and no duplicate. ä½¿ç”¨swap_with_zeroæŠŠç¬¬äºŒä¸ªå˜æˆç¬¬ä¸€ä¸ª.
 <br>http://www.mitbbs.com/article_t/JobHunting/32620793.html
 <br>http://cs.stackexchange.com/questions/13930/rearrange-an-array-using-swap-with-0
 
