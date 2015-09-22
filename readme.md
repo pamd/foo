@@ -40,11 +40,9 @@
 5. James Chen: https://sites.google.com/site/spaceofjameschen/home
 3. Mission-peace: https://github.com/mission-peace/interview/wiki
 3. 结构之法,算法之道: http://blog.csdn.net/v_july_v
-
 2. Program Creek (Java)
 <br>http://www.programcreek.com/
 <br>http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/ (top topics)
-
 2. Algorithms: http://www.shuatiblog.com/blog/archives/
 2. Blog: http://n00tc0d3r.blogspot.com/ (algorithms)
 2. Ricky Ho: http://horicky.blogspot.com/
@@ -54,7 +52,7 @@
 
 # Systems
 * A Few Notes on Kafka and Jepsen (Jay Kreps)
-http://blog.empathybox.com/post/62279088548/a-few-notes-on-kafka-and-jepsen
+<br>http://blog.empathybox.com/post/62279088548/a-few-notes-on-kafka-and-jepsen
 
 * Scalable Web Architecture and Distributed Systems (Chapter of AOSA book)
 <br>http://www.slideshare.net/soomong/aosa (48 slides)
