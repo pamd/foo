@@ -59,4 +59,10 @@
 <br>http://blog.lambda-startup.com/2014/03/recruitment-process-for-google-job-sre.html
 <br>http://robertheaton.com/2014/03/07/lessons-from-a-silicon-valley-job-search/
 
+24. Martin Fowler: Eradicating Non-Determinism in Tests
+<br>http://martinfowler.com/articles/nonDeterminism.html
 
+25. 树状数组(Binary Indexed Trees)
+<br>http://www.hawstein.com/posts/binary-indexed-trees.html
+
+26.
