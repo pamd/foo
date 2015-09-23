@@ -23,22 +23,48 @@ vector<string> get_operations(const string& seq) {
       positions[seq[i] - '0'] = i;
    }
 
-   deque<int> dq; // "dq" simulates the deque in this problem.
+   deque<int> dq;       // "dq" simulates the deque in this problem.
+   bool is_mono = true; // Is the positions of the values in dq monotonically increasing from back to front?
 
    // i is the number that will be pushed/popped, so it starts at 1, and ends at seq.size().
    // j keeps track of the index in seq[] that will be popped back next.
    for (int i = 1, j = 0; i <= seq.size(); ++i) {
-      if (dq.empty() || positions[dq.back()] > positions[i]) {
+      if (seq[j] - '0' == i) {
+	string action("push_back\t"); // "push_front" will work too.
+         action.push_back(seq[j]);
+	 operations.push_back(action);
+	 action("pop_back\t");       // "pop_front" will work too.
+	 action.push_back(seq[j]);
+	 operations.push_back(action);
+	 ++j;
+      }
+      else if (dq.empty() || positions[i] < positions[dq.back()]) {
          dq.push_back(i);
          string action("push_back\t");
          action.push_back('0' + i);
          operations.push_back(action);
       }
-      else {
+      // If dq is not empty AND positions[i] > positions[dq.back()], then
+      // i can be pushed on the front of dq in the following two scenarios:
+      // (1) positions[i] > positions[dq.back()] AND positions[i] > positions[dp.front()]
+      //     AND the positions of the values in dq are sorted from back to front, aka.
+      //     positions[dq.back()] is minimum and positions[dp.front()] is maximum;
+      // (2) positions[i] > positions[dq.back()] AND positions[i] < positions[dp.front()]
+      //     AND the positions of the values in dq first increasing from back side, then
+      //     position reaches a maximum, then it starts to decrease, here is an example:
+      //                   (back side) 1 3 4 2 0  (front side)
+      else if (is_mono || positions[i] < positions[dp.front()])) {	
          dq.push_front(i);
          string action("push_front\t");
          action.push_back('0' + i);
          operations.push_back(action);
+	 if (positions[i] < positions[dp.front()]) { // Not monotonically increasing any more
+	   is_mono = false;
+	 }
+      }
+      else { // positions[i] > positions[dq.back()] && is_mono == false && positions[i] > positions[dp.front()]
+	cout << "IMPOSSIBLE" << endl;
+	break;
       }
 
       // Try both pop_back() and pop_front() 
@@ -69,7 +95,7 @@ vector<string> get_operations(const string& seq) {
 
 // Test harness
 int main() {
-   string seq("12345");
+   string seq("123456");
 
    // Test 10 random permutations and print out the results
    for (int i = 0; i < 10; ++i) {
@@ -82,12 +108,12 @@ int main() {
      cout << endl;
    }
 
-  // Test all permutations
-   cout << "Test all ... ";
+   // Test all permutations
+   /*cout << "Test all ... ";
    while (next_permutation(seq.begin(), seq.end())) {
      vector<string> ret = get_operations(seq);
    }
    cout << "done" << endl;
-
+   */
    return 0;
 }

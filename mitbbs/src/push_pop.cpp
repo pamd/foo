@@ -17,8 +17,8 @@ using namespace std;
 // 在原来输入顺序里，3是在1的后面的，所以要保证pop 1在3前，只能push 3在front。
 // 那么现在 堆栈状态： 3，1
 // 基于这个原则：
-//   1) 如果当前数字的原始顺序在back的前面 =〉push_back 保证先输出
-//   2) 如果当前数字的原始顺序在front的后面 =〉push_front 保证后输出
+//   1) 如果当前数字的原始顺序在back的前面 =〉push_back 保证先输出;
+//   2) 如果当前数字的原始顺序在front的后面 =〉push_front 保证后输出;
 // 如果与两个规则抵触即， 在back和front的中间，不可能。直接返回：
 
 // "25134" works, but "25143" is impossible.
@@ -53,6 +53,11 @@ vector<string> get_operations(const string& seq) {
          operations.clear();
          break;
       }
+      // In dq, the positions of a value at the back is always less than
+      // the position of a value closer to the front. In another word,
+      // the positions of these values are sorted, with the minimum at
+      // the back side and the maximum at the front side.
+
 
       while (!dq.empty() && dq.back() == seq[j] - '0') {
          dq.pop_back();
