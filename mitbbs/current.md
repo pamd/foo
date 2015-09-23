@@ -66,4 +66,8 @@
 25. 树状数组(Binary Indexed Trees)
 <br>http://www.hawstein.com/posts/binary-indexed-trees.html
 
-26.
+26. Bad neighbors
+<br>https://gist.github.com/krisys/4089748 
+http://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tccc04_online_rd_4
+
+
