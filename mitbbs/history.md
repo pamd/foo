@@ -27,4 +27,29 @@ Then scan the racers either by ending time in incremental order, or by starting 
 If we scan ending time in incremental order, find the number of racers whose starting times are later than
 the current racer. This number will be the score that we are looking for. Each scan takes O(sqrn(n)) time.
 Thus the total time complexity is O(n * sqrn(n)), aka. O(n^1.5), which is better than O(n^2). 
+<br>求(2^i) * (3^j) 数列的前k项和（从小到大排序）对q取模的值。k很大，可以到10^15，q可以到10^9.
+<br>https://gist.github.com/anonymous/8763947 (code by DarkSteel, very confusing)
+
+7. 网页去重
+<br>http://blog.csdn.net/beta2/article/details/5014530
+
+8. Conway's gameof life: 
+<br>http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+
+9. Preorder by 100 nodes per batch (code by lcheng)
+<br>http://www.mitbbs.com/article_t/JobHunting/32643137.html
+
+10. Bad neighbors (variant: the first and last can not be taken together)
+<br>https://gist.github.com/krisys/4089748 (code is wrong, not worth the time)
+<br>http://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tccc04_online_rd_4
+
+11. Permutation serialization:
+<br>http://www.mitbbs.com/article_t/JobHunting/32600331.html
+
+12. Interval scheduling:
+<br>http://www.cs.rit.edu/~zjb/courses/800/lec8.pdf
+
+13. Maximum of S.size() * T.size()
+<br>http://www.mitbbs.com/article_t/JobHunting/32606267.html
+<br>http://www.quora.com/Given-a-dictionary-of-words-how-can-we-efficiently-find-a-pair-words-s-t-they-dont-have-characters-in-common-and-sum-of-their-length-is-maximum
 
