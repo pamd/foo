@@ -1,7 +1,7 @@
 1. Permuation with duplicate
 <br>http://www.mitbbs.com/article_t/JobHunting/32603015.html
 
-2. MInimize cash flow among lenders and borrowers
+2. Minimize cash flow among lenders and borrowers
 <br>http://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
 
 3. Validate BST: variant
@@ -53,3 +53,7 @@ Thus the total time complexity is O(n * sqrn(n)), aka. O(n^1.5), which is better
 <br>http://www.mitbbs.com/article_t/JobHunting/32606267.html
 <br>http://www.quora.com/Given-a-dictionary-of-words-how-can-we-efficiently-find-a-pair-words-s-t-they-dont-have-characters-in-common-and-sum-of-their-length-is-maximum
 
+not found: 51324
+not found: 51342
+not found: 52314
+not found: 52341
