@@ -44,6 +44,9 @@
 25. 树状数组 (Binary Indexed Trees)
 <br>http://www.hawstein.com/posts/binary-indexed-trees.html
 
+11. Frog crossing river
+<br>http://www.mitbbs.com/article_t/JobHunting/33055941.html
+<br>http://www.mitbbs.com/article_t/JobHunting/33058417.html 
 
 
 
