@@ -7,4 +7,6 @@
 * Java algorithm problems
 <br>http://www.javased.com/static/coding-interview.html
 
+* Learning Java
+<br>http://www.mitbbs.com/article_t/JobHunting/32661923.html
 
