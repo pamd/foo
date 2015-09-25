@@ -49,5 +49,8 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/33055941.html
 <br>http://www.mitbbs.com/article_t/JobHunting/33058417.html 
 
+12. Merge two quad-tree images (G phone, Nov 2013)
+<br>http://www.mitbbs.com/article_t/JobHunting/32582727.html
+
 
 
