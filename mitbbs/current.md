@@ -54,6 +54,3 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32662209.html (Apr 2014, Summary)
 <br>http://www.mitbbs.com/article_t/JobHunting/32568289.html (Nov 2013)
 <br>http://www.mitbbs.com/article_t/JobHunting/32542339.html (Sep, 2013)
-
-14. M swap to get minimum
-<br>http://www.mitbbs.com/article_t/JobHunting/32665361.html
