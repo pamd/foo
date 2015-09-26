@@ -13,6 +13,9 @@
 4. De Bruijn sequence
 <br>https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
+16. C Memory Layout
+<br>http://chortle.ccsu.edu/AssemblyTutorial/Chapter-33/ass33_2.html
+
 11. Longest Palindromic Substring O(N) 算法
 <br>http://www.mitbbs.com/article_t/JobHunting/32559075.html
 <br>http://www.felix021.com/blog/read.php?2040
@@ -63,8 +66,7 @@
 15. 一个two dimensional array, array的元素是0 或者1。问能不能找到一个矩形，矩形的4个角都是1?
 <br>http://www.mitbbs.com/article_t/JobHunting/32673693.html 
 
-16. C Memory Layout
-<br>http://chortle.ccsu.edu/AssemblyTutorial/Chapter-33/ass33_2.html
+
 
 
 
