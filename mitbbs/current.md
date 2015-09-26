@@ -13,6 +13,7 @@
 4. C++ Questions:
 <br>http://www.geeksforgeeks.org/c-plus-plus/ (Geeks4geeks)
 <br>http://www.careercup.com/page?pid=bloomberg-lp-interview-questions&topic=c-plus-plus-interview-questions (Bloomberg)
+<br>http://stackoverflow.com/questions/tagged/c%2b%2b (stackoverflow)
 
 4. De Bruijn sequence
 <br>https://en.wikipedia.org/wiki/De_Bruijn_sequence
