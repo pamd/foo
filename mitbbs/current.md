@@ -74,7 +74,7 @@
 16. Word ladder II:
 <br>http://www.mitbbs.com/article_t/JobHunting/32682961.html
 
-
-
+17. 给定一个二维矩阵，有update(x,y) 和 sum(x1,y1, x2, y2)两个方法。怎么设计使得update() and sum()比较快？
+<br>http://www.mitbbs.com/article_t/JobHunting/32689155.html (2-D binary indexed tree?)
 
 
