@@ -74,8 +74,9 @@
 16. Word ladder II:
 <br>http://www.mitbbs.com/article_t/JobHunting/32682961.html
 
-17. http://www.mitbbs.com/article_t/JobHunting/32689155.html (2-D binary indexed tree?)
-<br>给定一个二维矩阵，有update(x,y) 和 sum(x1,y1, x2, y2)两个方法。怎么设计使得update() and sum()比较快？
+17. http://www.mitbbs.com/article_t/JobHunting/32689155.html 
+<br>给定一个二维矩阵，有update(x,y) 和 sum(x1,y1, x2, y2)两个方法。怎么设计使得update() and sum()比较快?
+<br>2-D binary indexed tree?
 <br>给定一个数列, 返回一个最大的数，使得数列中大于它的数的数量也大于它，这个数不需要在数列里，写代码。(Answer: 先sort， 然后一个一个找).  然后问, 如果数列里有很多重复数字, 该怎么弄比较快？答bucket sort, 再讨论了下具体的bucket细节/数量。
-<br>Better solution: partition in quicksort. 
+<br>Better solution: partition in quicksort?
 
