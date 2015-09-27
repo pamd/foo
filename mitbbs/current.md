@@ -81,3 +81,7 @@
 
 18. Geeks4geeks: AVL tree
 <br>http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+
+19. Words whose edit distances <= k with target word (airbnb)
+<br>http://www.mitbbs.com/article_t/JobHunting/32692817.html
+<br>http://blog.faroo.com/2012/06/07/improved-edit-distance-based-spelling-correction/
