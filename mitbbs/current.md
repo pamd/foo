@@ -86,3 +86,4 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32692817.html
 <br>http://stackoverflow.com/questions/12886997/how-to-find-all-strings-at-a-given-edit-distance-from-a-given-string
 <br>http://blog.faroo.com/2012/06/07/improved-edit-distance-based-spelling-correction/
+<br>https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm (Aho-Corasick Algorithm)
