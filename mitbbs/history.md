@@ -53,7 +53,8 @@ Thus the total time complexity is O(n * sqrn(n)), aka. O(n^1.5), which is better
 <br>http://www.mitbbs.com/article_t/JobHunting/32606267.html
 <br>http://www.quora.com/Given-a-dictionary-of-words-how-can-we-efficiently-find-a-pair-words-s-t-they-dont-have-characters-in-common-and-sum-of-their-length-is-maximum
 
-not found: 51324
-not found: 51342
-not found: 52314
-not found: 52341
+12. Merge two quad-tree images (G phone, Nov 2013)
+<br>http://www.mitbbs.com/article_t/JobHunting/32582727.html
+
+15. 一个two dimensional array, array的元素是0 或者1。问能不能找到一个矩形，矩形的4个角都是1?
+<br>http://www.mitbbs.com/article_t/JobHunting/32673693.html 
