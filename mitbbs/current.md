@@ -55,9 +55,6 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/33055941.html
 <br>http://www.mitbbs.com/article_t/JobHunting/33058417.html 
 
-12. Merge two quad-tree images (G phone, Nov 2013)
-<br>http://www.mitbbs.com/article_t/JobHunting/32582727.html
-
 13. GG summary
 <br>http://www.mitbbs.com/article_t/JobHunting/32662209.html (Apr 2014, Summary)
 <br>http://www.mitbbs.com/article_t/JobHunting/32568289.html (Nov 2013)
@@ -67,9 +64,6 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32675497.html
 <br>http://jelices.blogspot.com/2013/12/leetcode-valid-number.html
 <br>http://www.mitbbs.com/article_t/JobHunting/32787241.html 
-
-15. 一个two dimensional array, array的元素是0 或者1。问能不能找到一个矩形，矩形的4个角都是1?
-<br>http://www.mitbbs.com/article_t/JobHunting/32673693.html 
 
 16. Word ladder II:
 <br>http://www.mitbbs.com/article_t/JobHunting/32682961.html
