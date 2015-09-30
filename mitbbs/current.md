@@ -84,3 +84,5 @@
 
 20. Count the number of possible triangles: O(n^2) time
 <br>http://www.geeksforgeeks.org/find-number-of-triangles-possible/
+
+21. http://www.mitbbs.com/article_t1/JobHunting/32701375_0_2.html （Google: random index of largest)
