@@ -4,7 +4,7 @@
 // it also must have a left child.
 //
 //         1             1
-//   	    / \          	/ \
+//   	  / \          	/ \
 //       2   3         2   3
 //      /
 //     4
@@ -13,9 +13,9 @@
 //
 // Will be translated into:
 //
-//    	      1            1
-//   	       /           	/
-//          2---3   	   2---3
+//    	      1             1
+//   	     /             /
+//          2---3   	  2---3
 //         /
 //        4
 //       /
@@ -33,8 +33,8 @@
 //
 // 我的解法： follow the left node all the way to the leftmost node, and transform each left node on the way.
 // 
-// longway2008
-TreeNode * convert(TreeNode * root) {
+// longway2008: recursive solution
+TreeNode* convert(TreeNode * root) {
     if (!root || !root->left) {
    	    return root;
     }
@@ -48,7 +48,7 @@ TreeNode * convert(TreeNode * root) {
 }
 
 // awbeer: an iterative version:
-TreeNode *transform(TreeNode *root){
+TreeNode* transform(TreeNode *root){
     if(root == nullptr) {
       return nullptr;
     }
