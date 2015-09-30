@@ -38,13 +38,13 @@ TreeNode* convert(TreeNode * root) {
     if (!root || !root->left) {
    	    return root;
     }
-  	TreeNode * left = root->left;
-	  TreeNode * newRoot = convert(left);
-	  left->right = root;
-	  left->left = root->right;
-	  root->left = root->right = NULL;
-
-  	return newRoot;
+    TreeNode * left = root->left;
+    TreeNode * newRoot = convert(left);
+    left->right = root;
+    left->left = root->right;
+    root->left = root->right = NULL;
+    
+    return newRoot;
 }
 
 // awbeer: an iterative version:
@@ -60,15 +60,15 @@ TreeNode* transform(TreeNode *root){
     while (cur) {
         // save the left and right child info before wiping them out.
         TreeNode *a = cur->left;
-         b2 = cur->right;
+        b2 = cur->right;
 
-         cur->left = b1;
-         cur->right = parent;
+        cur->left = b1;
+        cur->right = parent;
 
-         // move to the next step
-         b1 = b2;
-         parent = cur;
-         cur = a;
+        // move to the next step
+        b1 = b2;
+        parent = cur;
+        cur = a;
     }
     return parent;
 }
