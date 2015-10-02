@@ -58,3 +58,12 @@ Thus the total time complexity is O(n * sqrn(n)), aka. O(n^1.5), which is better
 
 15. 一个two dimensional array, array的元素是0 或者1。问能不能找到一个矩形，矩形的4个角都是1?
 <br>http://www.mitbbs.com/article_t/JobHunting/32673693.html 
+
+18. Geeks4geeks: AVL tree
+<br>http://www.geeksforgeeks.org/avl-tree-set-1-insertion/ (insertion)
+<br>http://www.geeksforgeeks.org/avl-tree-set-2-deletion/ (deletion)
+
+20. Count the number of possible triangles: O(n^2) time
+<br>http://www.geeksforgeeks.org/find-number-of-triangles-possible/
+
+
