@@ -73,16 +73,10 @@
 <br>2-D binary indexed tree?
 <br>#2: 给定一个数列, 返回一个最大的数，使得数列中大于它的数的数量也大于它，这个数不需要在数列里，写代码。(Answer: 先sort， 然后一个一个找).  然后问, 如果数列里有很多重复数字, 该怎么弄比较快？答bucket sort, 再讨论了下具体的bucket细节/数量。Better solution: partition in quicksort?
 
-18. Geeks4geeks: AVL tree
-<br>http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
-
 19. Words whose edit distances <= k with target word (airbnb)
 <br>http://www.mitbbs.com/article_t/JobHunting/32692817.html
 <br>http://stackoverflow.com/questions/12886997/how-to-find-all-strings-at-a-given-edit-distance-from-a-given-string
 <br>http://blog.faroo.com/2012/06/07/improved-edit-distance-based-spelling-correction/
 <br>https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm (Aho-Corasick Algorithm)
 
-20. Count the number of possible triangles: O(n^2) time
-<br>http://www.geeksforgeeks.org/find-number-of-triangles-possible/
 
-21. http://www.mitbbs.com/article_t1/JobHunting/32701375_0_2.html （Google: random index of largest)
