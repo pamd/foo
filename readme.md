@@ -19,6 +19,9 @@
 * CLRS (1st Edition)
 <br>http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/toc.htm
 
+* UIUC ALgorithms Notes (by Jeff Erickson)
+<br>http://jeffe.cs.illinois.edu/teaching/algorithms/
+
 * Operating Systems: Three Easy Pieces (by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau)
 <br>http://pages.cs.wisc.edu/~remzi/OSTEP/
 
