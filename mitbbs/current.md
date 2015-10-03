@@ -19,6 +19,11 @@
 <br>#1：http://blog.csdn.net/he_wolf/article/details/21770679
 <br>#2：http://blog.csdn.net/he_wolf/article/details/21857905
 
+25. 概率问题：取药
+<b>http://www.mitbbs.com/article_t/JobHunting/32705613.html
+<br>https://answers.yahoo.com/question/index?qid=20100629132618AAidfz2
+<br>http://www.feynmanlectures.info/solutions/half_pills_sol_3.pdf 
+<br>http://www.feynmanlectures.info/solutions/half_pills_sol_4.pdf 
 
 # Saved
 
