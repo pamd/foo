@@ -66,4 +66,7 @@ Thus the total time complexity is O(n * sqrn(n)), aka. O(n^1.5), which is better
 20. Count the number of possible triangles: O(n^2) time
 <br>http://www.geeksforgeeks.org/find-number-of-triangles-possible/
 
+21. Count the number of ranges in which the number of 1's >= the number of 0's.
+<br>http://www.mitbbs.com/article_t/JobHunting/32709473.html
+
 
