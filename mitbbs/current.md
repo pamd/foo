@@ -14,6 +14,11 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32706653.html 
 <br>http://articles.leetcode.com/2010/05/here-is-another-google-phone-interview.html (code is confusing)
 
+24. Two sigma online test
+<br>http://www.mitbbs.com/article_t/JobHunting/32705907.html 
+<br>#1：http://blog.csdn.net/he_wolf/article/details/21770679
+<br>#2：http://blog.csdn.net/he_wolf/article/details/21857905
+
 
 # Saved
 
