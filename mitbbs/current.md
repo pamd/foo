@@ -1,4 +1,18 @@
 # Temp
+20. 设计一个Map<Integer, Integer>，满足下面的复杂度:
+<br>add: O(1);  deletion: O(1);  lookup: O(1);  clear:O(1);  iterate: O(n)。
+<br>http://www.mitbbs.com/article_t/JobHunting/32702941.html
+<br>http://www.mitbbs.com/article_t/JobHunting/32706095.html
+
+21. Given a complete binary search tree in form of array. Write a sort function to sort the given array in O(n) time.
+<br>http://www.mitbbs.com/article_t/JobHunting/32702215.html
+
+22. FB: Implement read_line() based on read4k()
+<br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
+
+23. Given a string of lowercase characters, reorder them such that the same characters have at least distance d from each other. 
+<br>http://www.mitbbs.com/article_t/JobHunting/32706653.html 
+<br>http://articles.leetcode.com/2010/05/here-is-another-google-phone-interview.html (code is confusing)
 
 
 # Saved
@@ -82,16 +96,7 @@
 <br>http://blog.faroo.com/2012/06/07/improved-edit-distance-based-spelling-correction/
 <br>https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm (Aho-Corasick Algorithm)
 
-20. 设计一个Map<Integer, Integer>，满足下面的复杂度:
-<br>add: O(1);  deletion: O(1);  lookup: O(1);  clear:O(1);  iterate: O(n)。
-<br>http://www.mitbbs.com/article_t/JobHunting/32702941.html
-<br>http://www.mitbbs.com/article_t/JobHunting/32706095.html
 
-21. Given a complete binary search tree in form of array. Write a sort function to sort the given array in O(n) time.
-<br>http://www.mitbbs.com/article_t/JobHunting/32702215.html
-
-22. FB: Implement read_line() based on read4k()
-<br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
 
 
 
