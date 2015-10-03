@@ -106,6 +106,9 @@
 <br>http://blog.faroo.com/2012/06/07/improved-edit-distance-based-spelling-correction/
 <br>https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm (Aho-Corasick Algorithm)
 
+20. Find k missing numbers in array
+<br>http://stackoverflow.com/questions/3492302/easy-interview-question-got-harder-given-numbers-1-100-find-the-missing-numbe
+
 
 
 
