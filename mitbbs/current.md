@@ -7,7 +7,7 @@
 21. Given a complete binary search tree in form of array. Write a sort function to sort the given array in O(n) time.
 <br>http://www.mitbbs.com/article_t/JobHunting/32702215.html
 
-22. FB: Implement read_line() based on read4k()
+22. read4k
 <br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
 
 23. Given a string of lowercase characters, reorder them such that the same characters have at least distance d from each other. 
