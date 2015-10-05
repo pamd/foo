@@ -1,6 +1,5 @@
 # Temp
-20. 设计一个Map<Integer, Integer>，满足下面的复杂度:
-<br>add: O(1);  deletion: O(1);  lookup: O(1);  clear:O(1);  iterate: O(n)。
+20. 设计一个Map<Integer, Integer>，满足下面的复杂度: add: O(1);  deletion: O(1);  lookup: O(1);  clear:O(1);  iterate: O(n)。
 <br>http://www.mitbbs.com/article_t/JobHunting/32702941.html
 <br>http://www.mitbbs.com/article_t/JobHunting/32706095.html
 
