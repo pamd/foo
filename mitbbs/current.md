@@ -109,6 +109,10 @@
 20. Find k missing numbers in array
 <br>http://stackoverflow.com/questions/3492302/easy-interview-question-got-harder-given-numbers-1-100-find-the-missing-numbe
 
+21.  Zookeeper
+<br>http://www.mitbbs.com/article_t/JobHunting/32538415.html 
+<br>Video (38 min): https://www.youtube.com/watch?v=2RfBHqDWa60&list=PLZPOM6MLuuhEVj-xy1FKv1ogiZxOU6hmL&index=6
+<br>Paxos and multi-Paxos (blog in 2011): http://amberonrails.com/paxosmulti-paxos-algorithm/
 
 
 
