@@ -1,10 +1,8 @@
 # Temp
+
 20. 设计一个Map<Integer, Integer>，满足下面的复杂度: add: O(1);  deletion: O(1);  lookup: O(1);  clear:O(1);  iterate: O(n)。
 <br>http://www.mitbbs.com/article_t/JobHunting/32702941.html
 <br>http://www.mitbbs.com/article_t/JobHunting/32706095.html
-
-21. Given a complete binary search tree in form of array. Write a sort function to sort the given array in O(n) time.
-<br>http://www.mitbbs.com/article_t/JobHunting/32702215.html
 
 22. read4k
 <br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
