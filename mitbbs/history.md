@@ -1,3 +1,6 @@
+1. 树状数组 (Binary Indexed Trees)
+<br>http://www.hawstein.com/posts/binary-indexed-trees.html
+
 1. http://www.mitbbs.com/article_t/JobHunting/32689155.html 
 <br>#1: 给定一个二维矩阵，有update(x,y) 和 sum(x1,y1, x2, y2)两个方法。怎么设计使得update() and sum()比较快?
 <br>2-D binary indexed tree?
