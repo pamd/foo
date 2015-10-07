@@ -1,3 +1,6 @@
+1. read4k
+<br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
+
 1. 树状数组 (Binary Indexed Trees)
 <br>http://www.hawstein.com/posts/binary-indexed-trees.html
 
