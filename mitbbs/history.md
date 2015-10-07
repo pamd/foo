@@ -1,6 +1,10 @@
 1. read4k
 <br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
 
+2. Given a string of lowercase characters, reorder them such that the same characters have at least distance d from each other. 
+<br>http://www.mitbbs.com/article_t/JobHunting/32706653.html 
+<br>http://articles.leetcode.com/2010/05/here-is-another-google-phone-interview.html (code is confusing)
+
 1. 树状数组 (Binary Indexed Trees)
 <br>http://www.hawstein.com/posts/binary-indexed-trees.html
 
