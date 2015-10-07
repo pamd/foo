@@ -4,13 +4,6 @@
 <br>http://www.mitbbs.com/article_t/JobHunting/32702941.html
 <br>http://www.mitbbs.com/article_t/JobHunting/32706095.html
 
-22. read4k
-<br>http://www.mitbbs.com/article_t/JobHunting/32705761.html
-
-23. Given a string of lowercase characters, reorder them such that the same characters have at least distance d from each other. 
-<br>http://www.mitbbs.com/article_t/JobHunting/32706653.html 
-<br>http://articles.leetcode.com/2010/05/here-is-another-google-phone-interview.html (code is confusing)
-
 24. Two sigma online test
 <br>http://www.mitbbs.com/article_t/JobHunting/32705907.html 
 <br>#1：http://blog.csdn.net/he_wolf/article/details/21770679
