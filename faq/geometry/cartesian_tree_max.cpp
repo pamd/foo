@@ -172,14 +172,56 @@ void max_tree_recur(const vector<int>& v, size_t& idx, TreeNode* prev, TreeNode*
 }
 
 // Wrapper that calls recursive helper
-TreeNode* max_tree_recur_wrapper(const vector<int>& v) {
+TreeNode* recur1_wrapper(const vector<int>& v) {
   TreeNode* root = 0;
   size_t idx = 0;
   max_tree_recur(v, idx, 0, root); 
  
   return root;
 }
-  
+
+// Recursion #2
+bool recur2(const vector<int>& v, size_t& idx, TreeNode* prev, TreeNode*& root) {
+  if (idx == v.size()) {
+    return true;
+  }
+
+  if (prev && v[idx] > prev->dat) {
+    return false;
+  }
+
+  TreeNode* curr = new TreeNode(v[idx]);
+  // If previous element does not exist, current element will be the new root.
+  if (!prev) {
+    curr->left = root;
+    root = curr;
+  }
+  else {
+    // If current element is less than previous element, set 
+    // current element as the right child of previous element.
+    curr->left = prev->right;
+    prev->right = curr;
+  }
+
+  // After processing the current element, increment idx by 1 to process the next element.
+  ++idx;
+
+  // First try to use the currrent node as the previous node for the next element in v,
+  // if it doesn't work, we will try "prev" as the previous node for the next element in v.
+  if (recur2(v, idx, curr, root)) {
+    return true;
+  }
+  return recur2(v, idx, prev, root);
+}
+
+// Wrapper for recur2().
+TreeNode* recur2_wrapper(const vector<int>& v) {
+  TreeNode* root = 0;
+  size_t idx = 0;
+  recur2(v, idx, 0, root); 
+  return root;
+}
+
 // Test harness
 int main() {
   int a[] = { 5, 6, 2, 28, 64, 0 };
@@ -188,8 +230,9 @@ int main() {
   TreeNode* r1 = max_tree_nlgn(v, 0, v.size() - 1);
 
   //TreeNode* r2 = max_tree_stack(v);
+  //TreeNode* r2 = max_tree_recur_wrapper(v);
 
-  TreeNode* r2 = max_tree_recur_wrapper(v);
+  TreeNode* r2 = recur2_wrapper(v);
 
   if (isIdentical(r1, r2)) 
     cout << "Same" << endl;

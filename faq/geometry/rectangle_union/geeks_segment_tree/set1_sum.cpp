@@ -1,7 +1,27 @@
 // Segment tree set 1: Sum of given range
 // http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
 // Code has been revised to make it more readable.
-
+//
+// This implementation of segment tree uses an array to represent the tree.
+// In order to traverse from a parent node to child node, the following
+// parent/child index relationships mus be maintained:
+//       left_child_idx  = 2 * parent_idx + 1;
+//       right_child_idx = 2 * parent_idx + 2;
+// so the total number of elements in the array must be 2 * (ceiling(logN)) - 1,
+// and some elements in the array represent NULL node in the tree.
+//
+// Alternatiuvely, we can define a TreeNode structure to simplify the implementation:
+//
+//    struct TreeNode {
+//       int left_idx_border;
+//       int right_idx_border;
+//       int sum;
+//       TreeNode* left;
+//       TreeNode* right;
+//    };
+//
+// See: http://gargvivekcse12.blogspot.in/2015/08/segment-tree-implementation-in-c.html
+//
 #include <stdio.h>
 #include <math.h>
 
@@ -10,12 +30,13 @@ int get_mid(int start, int end) {
    return start + (end - start) / 2;
 }
 
-// Recursive function to get the sum of values in given range of the array.
+// Recursive function that gets the sum of values in given range of the array.
+// st_idx is the index of the root of the subtree that we are searching right now.
 int get_sum_recur(int* seg_tree, int arr_idx_start, int arr_idx_end,
                   int query_start, int query_end, int st_idx)
 {
    // If the range of query covers the range of seg_tree[st_idx],
-   // return the sum of this segment.
+   // return the sum of this segment, which is seg_tree[st_idx].
    if (query_start <= arr_idx_start && query_end >= arr_idx_end) {
       return seg_tree[st_idx];
    }
@@ -32,8 +53,7 @@ int get_sum_recur(int* seg_tree, int arr_idx_start, int arr_idx_end,
            get_sum_recur(seg_tree, mid_idx + 1,   arr_idx_end, query_start, query_end, 2 * st_idx + 2);
 }
 
-// Return sum of elements in range from index qs (quey start) to
-// qe (query end).  It mainly uses getSumUtil()
+// Return sum of elements in range from index quey_start to query_end.
 int get_sum(int* seg_tree, int arr_len, int query_start, int query_end) {
    // Check for erroneous input values
    if (query_start < 0 || query_end > arr_len - 1 || query_start > query_end) {
@@ -49,17 +69,17 @@ int get_sum(int* seg_tree, int arr_len, int query_start, int query_end) {
 // diff:    Value to be added to all nodes which have arr_idx in range
 void update_recur(int* seg_tree, int arr_idx_start, int arr_idx_end, int arr_idx, int diff, int st_idx)
 {
-    // Base Case: If the input index lies outside the range of this segment
+    // Base Case: If the input index is outside the range of this segment, do nothing.
    if (arr_idx < arr_idx_start || arr_idx > arr_idx_end) {
       return;
    }
 
-   // If the input index is in range of this node, update the value
-   // of the node and its children.
+   // If input index is covered by this node, update this node and its children.
    seg_tree[st_idx] = seg_tree[st_idx] + diff;
 
-   // If arr_idx_start == arr_idx_end, then seg_tree[st_idx] must be a leaf node, so we are done;
-   // Otherwise, seg_tree[st_idx] must be an internal node, so we need to update its two children.
+   // If arr_idx_start == arr_idx_end, then seg_tree[st_idx] must be a leaf node,
+   // so we are done; Otherwise, seg_tree[st_idx] must be an internal node, so we
+   // need to update its two children.
    if (arr_idx_end != arr_idx_start) {
       int mid_idx = get_mid(arr_idx_start, arr_idx_end);
       update_recur(seg_tree, arr_idx_start, mid_idx,     arr_idx, diff, 2 * st_idx + 1);
@@ -87,8 +107,8 @@ void update(int arr[], int* seg_tree, int arr_len, int arr_idx, int new_val)
     update_recur(seg_tree, 0, arr_len - 1, arr_idx, diff, 0);
 }
 
-// A recursive function that constructs Segment Tree for array[start_idx : end_idx].
-// si is index of current node in segment tree st
+// A recursive function that constructs the segment tree for array[start_idx : end_idx].
+// st_idx is the index of current node in segment tree.
 int construct_recur(int arr[], int arr_idx_start, int arr_idx_end, int* seg_tree, int st_idx)
 {
    // If there is only one element in input array's index range,
@@ -106,17 +126,17 @@ int construct_recur(int arr[], int arr_idx_start, int arr_idx_end, int* seg_tree
    return seg_tree[st_idx];
 }
 
-// Construct segment tree from the input array.
+// Construct segment tree from the input array in O(n) time.
 // This function allocates memory for segment tree and calls
-// construct_recur() to fill the allocated memory.
+// construct_recur() to construct the tree..
 int* construct(int arr[], int n)
 {
     // Allocate memory for segment tree
-    int x = (int) (ceil(log2(n)));          // Height of segment tree
-    int max_size = 2 * (int) pow(2, x) - 1; // Maximum # of nodes in segment tree
+    int x = (int) (ceil(log2(n)));          // Height of segment tree;
+    int max_size = 2 * (int) pow(2, x) - 1; // Maximum # of nodes in segment tree;
     int* seg_tree = new int[max_size];
 
-    // Fill the allocated memory
+    // Construct the segment tree.
     construct_recur(arr, 0, n - 1, seg_tree, 0);
 
     // Return the constructed segment tree
@@ -148,4 +168,3 @@ int main()
 // Output:
 // Sum of values in given range = 15
 // Updated sum of values in given range = 22
-
