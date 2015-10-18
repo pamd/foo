@@ -15,6 +15,9 @@
 <br>http://www.feynmanlectures.info/solutions/half_pills_sol_3.pdf 
 <br>http://www.feynmanlectures.info/solutions/half_pills_sol_4.pdf 
 
+26. Leaf-oriented binary search tree
+<br>http://www.ba.db-nico.de/ba_mannheim_informationstechnik_2002/2_semester/info/hierarchical_data_structures.pdf (page 12)
+
 # Saved
 
 1. FB, GG
