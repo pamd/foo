@@ -18,6 +18,9 @@
 26. Leaf-oriented binary search tree
 <br>http://www.ba.db-nico.de/ba_mannheim_informationstechnik_2002/2_semester/info/hierarchical_data_structures.pdf (page 12)
 
+27. Given n line segments, find if any two segments intersect
+<br>http://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/
+
 # Saved
 
 1. FB, GG
