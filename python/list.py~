@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+# List: [ ]
+
+names = [ "Dave", "John", "Mary" ]
+names.append("dhu") # Add "dhu" at the end
+names.insert(2, "helen") # insert "helen" between "John" and "Mary"
+names.sort() # sort list
+names.remove("Dave") # Remove all occurrences of "Dave"
+
+# names[1: ]
+# names[2:4]
+
+# Number of elements in list:
+len(names)
+# len() can be also used on string, set, tuple or dictionary
+
+names2 = {} # empty list #1
+names3 = list() #empty list #2
+
+
+

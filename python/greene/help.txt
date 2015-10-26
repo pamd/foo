@@ -1,0 +1,9 @@
+# Add a new file
+bash$ hg add foo.txt
+
+# Commit change with message
+bash$ hg commit -m "This is a test" -u jxsd
+
+# Push file to remote server (password will be asked):
+bash$ hg push
+

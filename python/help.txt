@@ -1,0 +1,15 @@
+
+# Inside python
+>>> help()
+>>> help(list)
+>>> print list.remove.__doc__
+>>> dir(list)
+>>> dir(dhu_list)
+>>> id(obj_name)  # Show variable's memory address
+
+# On Linux shell
+bash $ pydoc list
+bash $ pydoc list.remove
+
+
+
