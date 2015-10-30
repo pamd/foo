@@ -21,7 +21,7 @@
 27. Given n line segments, find if any two segments intersect
 <br>http://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/
 
-28.Uber, Airbnb, etc (10/16/2015)
+28. Uber, Airbnb, etc (10/16/2015)
 <br>http://www.mitbbs.com/article_t/JobHunting/33074761.html 
 
 # Saved
