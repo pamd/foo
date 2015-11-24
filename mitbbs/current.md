@@ -30,6 +30,9 @@
 29. A few questions
 <br>http://www.mitbbs.com/article_t/JobHunting/33082799.html
 
+30. Find minimum rectangle (edges not necessarily parallel to X or Y axis) that include all input points.
+<br>http://geomalgorithms.com/a08-_containers.html
+
 # Saved
 
 1. FB, GG
