@@ -15,10 +15,9 @@
 1. Basics of Combinatorics (7 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/basics-of-combinatorics/
 
-1. Maximum Flow: 
-<br>Part 1 (8 pages)
+1. Maximum Flow: Part 1 (8 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/maximum-flow-section-1/
-<br>Part 2 (13 pages)
+1. Maximum Flow: Part 2 (13 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/maximum-flow-section-2/
 
 1. Maximum Flow: Augmenting Path Algorithms Comparison (16 pages)
@@ -27,12 +26,11 @@
 1. A New (Push-Relabel) Approach to the Maximum Flow Problem (10 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/push-relabel-approach-to-the-maximum-flow-problem/
  
-1. Minimum Cost Flow: 
-<br>Part 1 – Key Concepts (7 pages)
+1. Minimum Cost Flow: Part 1 – Key Concepts (7 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-one-key-concepts/
-<br>Part 2: Algorithms (10 pages)
+1. Part 2: Algorithms (10 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-two-algorithms/
-<br>Part 3: Applications (6 pages)
+1. Part 3: Applications (6 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-three-applications/
 
 1. Assignment Problem and Hungarian Algorithm (14 pages)
