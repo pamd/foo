@@ -1,3 +1,15 @@
+# Mathematics topics mentioned in Indian LOP but not covered
+1. Extended Euclid’s algorithm (2013, page 110)
+2. Chinese remaindering (2013, page 110)
+3. Farey’s sequence (2013, page 110)
+4. Optimized sieve, sieve of Atkins (2013, page 110)
+5. How to solve Diophantine Equation (2013, page 110)
+6. Pollard Rho factorization (2013, page 110)
+7. Stirling numbers (2013, page 110)
+8. Inclusion-exclusion (2011 page 12; 2013, page 110)
+9. Gaussian elimination: find determinant of a matrix  (2013, page 110)
+10. Mobius function and its computation using sieve (2011, page 12)
+
 # Temp
 
 1. wikipedia: fractional cascading
