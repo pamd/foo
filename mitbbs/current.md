@@ -26,11 +26,11 @@
 1. A New (Push-Relabel) Approach to the Maximum Flow Problem (10 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/push-relabel-approach-to-the-maximum-flow-problem/
  
-1. Minimum Cost Flow: Part 1 – Key Concepts (7 pages)
+1. Minimum Cost Flow Part 1: Key Concepts (7 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-one-key-concepts/
-1. Part 2: Algorithms (10 pages)
+1. Minimum Cost Flow Part 2: Algorithms (10 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-two-algorithms/
-1. Part 3: Applications (6 pages)
+1. Minimum Cost Flow Part 3: Applications (6 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-three-applications/
 
 1. Assignment Problem and Hungarian Algorithm (14 pages)
