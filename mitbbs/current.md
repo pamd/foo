@@ -33,6 +33,7 @@
 1. Minimum Cost Flow Part 3: Applications (6 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/minimum-cost-flow-part-three-applications/
 
+<HR>
 1. Assignment Problem and Hungarian Algorithm (14 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/assignment-problem-and-hungarian-algorithm/
 
