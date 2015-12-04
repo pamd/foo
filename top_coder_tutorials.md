@@ -1,6 +1,6 @@
 # TopCoder Tutorials
 
-* [x] Binary search (9 pages)
+* [x] 1. Binary search (9 pages)
 <br>https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
 
 1. Understanding Probabilities (11 pages)
