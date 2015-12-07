@@ -1,0 +1,3 @@
+When a *.py file is executed, it does NOT check syntax in all lines first.
+Instead, it will execute line by line. If the first line is okay, it will run it. 
+If the second line has error, it will print out the error message and terminate immediately.
