@@ -19,7 +19,7 @@
 1. wikipedia: fractional cascading
 <br>https://en.wikipedia.org/wiki/Fractional_cascading
 
-2. Writing Efficient C++ and C Code Optimization (cited by Indian LOP, 2013 Lecture #1)
+2. Efficient C Code Optimization (cited by Indian LOP, 2013 Lecture #1)
 <br>http://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 
 20. 设计一个Map<Integer, Integer>，满足下面的复杂度: add: O(1);  deletion: O(1);  lookup: O(1);  clear:O(1);  iterate: O(n)。
