@@ -13,6 +13,8 @@
 10. Mobius function and its computation using sieve (2011, page 12)
 
 # Temp
+1. Recommended Books (Dec. 2015)
+<br>http://www.mitbbs.com/article_t/JobHunting/33110447.html
 
 1. wikipedia: fractional cascading
 <br>https://en.wikipedia.org/wiki/Fractional_cascading
